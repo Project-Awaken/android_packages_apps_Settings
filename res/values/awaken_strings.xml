@@ -87,6 +87,9 @@
     <string name="navbar_compact_layout_title">Compact layout</string>
     <string name="navbar_compact_layout_summary">Use a compact layout in the navigation bar</string>
 
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
