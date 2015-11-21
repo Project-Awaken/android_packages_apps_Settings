@@ -765,4 +765,15 @@
     <string name="qs_media_controls_title">Media player</string>
     <string name="qs_media_controls_summary_on">Show media player in QS\nRequires a SystemUI restart</string>
     <string name="qs_media_controls_summary_off">Show media player as a notification\nRequires a SystemUI restart</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation settings</string>
+    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
+    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
 </resources>
