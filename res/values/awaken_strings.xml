@@ -22,6 +22,9 @@
     <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
     <!-- Awaken version -->
     <string name="awaken_version">Awaken version</string>
     <string name="awaken_version_default">Unknown</string>
