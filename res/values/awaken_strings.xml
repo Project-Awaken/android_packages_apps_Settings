@@ -202,4 +202,7 @@
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
 
+    <!-- Running services toggle -->
+    <string name="background_processes_settings_title">Background processes</string>
+
 </resources>
