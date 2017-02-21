@@ -165,6 +165,11 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+     <SwitchPreference
+        android:key="pocket_judge"
+        android:title="@string/proximity_wake_title"
+        android:summary="@string/proximity_wake_summary" />
+
     <Preference
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
