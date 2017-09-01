@@ -31,6 +31,17 @@
     <string name="adb_enable_root">Rooted debugging</string>
     <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
 
+    <!-- Customization category -->
+    <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
+
+    <!-- Double Tap to Sleep Lockscreen -->
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to sleep</string>
+
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+
     <!-- 3-Button navigation settings -->
     <string name="button_settings_activity_title">3-Button Navigation Settings</string>
     <string name="navigation_bar_inverse_title">Inverse Layout</string>
