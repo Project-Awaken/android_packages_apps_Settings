@@ -137,4 +137,11 @@
 
     <!-- Density category -->
     <string name="density_category">Density options</string>
+
+    <!-- Customization category -->
+    <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
+
+    <!-- Double Tap to Sleep Lockscreen -->
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreeen to sleep</string>
 </resources>
