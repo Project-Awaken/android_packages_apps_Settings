@@ -157,4 +157,10 @@
     <string name="max_refresh_rate_title">Maximum refresh rate</string>
     <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
     <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
+    <string name="torch_power_button_gesture_lp">Long press power button</string>
 </resources>
