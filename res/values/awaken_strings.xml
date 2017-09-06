@@ -642,4 +642,8 @@
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">QS footer warnings</string>
+    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
 </resources>
