@@ -104,6 +104,7 @@
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
 
     <!-- Customization category -->
+    <string name="customization_category_title">Customization</string>
     <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
 
     <!-- Double Tap to Sleep Lockscreen -->
@@ -113,4 +114,7 @@
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
     <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
 </resources>
