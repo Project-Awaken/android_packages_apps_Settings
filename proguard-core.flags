@@ -1,0 +1,2 @@
+# AwakenSettings
+-keep class com.awaken.settings.**

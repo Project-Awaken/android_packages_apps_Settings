@@ -101,4 +101,8 @@
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
 
+    <!-- Awaken Settings -->
+    <string name="awaken_settings_title">Awaken Settings</string>
+    <string name="awaken_dashboard_summary">All our customisations are in here</string>
+
 </resources>

@@ -3406,6 +3406,35 @@
                        android:value="com.android.settings.sound.MediaControlsSettings" />
         </activity>
 
+        <!-- AwakenSettings -->
+        <activity android:name="Settings$AwakenSettingsActivity"
+            android:label="@string/awaken_settings_title"
+            android:icon="@drawable/ic_homepage_awaken"
+            android:taskAffinity="com.android.settings">
+            <intent-filter android:priority="1">
+                <action android:name="com.awaken.settings.AwakenSettings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.VOICE_LAUNCH" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="10">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.homepage" />
+            <meta-data android:name="com.android.settings.order" android:value="-105"/>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.awaken.settings.AwakenSettings" />
+            <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
+                android:value="true" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/awaken_dashboard_summary"/>
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
