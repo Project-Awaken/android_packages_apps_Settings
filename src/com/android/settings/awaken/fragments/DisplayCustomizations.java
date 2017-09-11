@@ -39,8 +39,10 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
 
     private static final String TAG = "Display Customizations";
     private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
+    private static final String KEY_BATTERY_CHARGING_LIGHT = "battery_charging_light";
 
     private SecureSettingMasterSwitchPreference mBrightnessSlider;
+    Preference mBatteryLightPref;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -55,6 +57,13 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
         boolean enabled = Settings.Secure.getInt(resolver,
                 BRIGHTNESS_SLIDER, 1) == 1;
         mBrightnessSlider.setChecked(enabled);
+
+        mBatteryLightPref = (Preference) findPreference(KEY_BATTERY_CHARGING_LIGHT);
+        if (!getResources()
+                .getBoolean(com.android.internal.R.bool.config_intrusiveBatteryLed))
+        {
+                prefSet.removePreference(mBatteryLightPref);
+        }
     }
 
     @Override
