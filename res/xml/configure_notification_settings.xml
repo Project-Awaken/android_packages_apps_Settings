@@ -181,9 +181,35 @@
             android:title="@string/notification_pulse_title"
             settings:controller="com.android.settings.notification.PulseNotificationPreferenceController"/>
 
+        <com.awaken.support.preferences.SystemSettingSwitchPreference
+            android:key="battery_light_enabled"
+            android:order="25"
+            android:title="@string/battery_light_enable"
+            android:defaultValue="true"/>
+
+        <com.awaken.support.preferences.SystemSettingSwitchPreference
+            android:key="battery_full_light_enabled"
+            android:order="26"
+            android:title="@string/battery_full_light_enabled"
+            android:defaultValue="true" />
+
+        <com.awaken.support.preferences.SystemSettingSwitchPreference
+            android:key="battery_light_allow_on_dnd"
+            android:order="27"
+            android:title="@string/battery_light_allow_on_dnd_title"
+            android:dependency="battery_light_enabled"
+            android:defaultValue="false" />
+
+        <com.awaken.support.preferences.SystemSettingSwitchPreference
+            android:key="battery_light_low_blinking"
+            android:order="28"
+            android:title="@string/battery_light_low_blinking_title"
+            android:dependency="battery_light_enabled"
+            android:defaultValue="false" />
+
         <com.android.settingslib.PrimarySwitchPreference
             android:key="notification_assistant"
-            android:order="25"
+            android:order="29"
             android:title="@string/notification_assistant_title"
             android:summary="@string/notification_assistant_summary"
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
