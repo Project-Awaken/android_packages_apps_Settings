@@ -157,6 +157,10 @@
     <string name="charging_control_limit_title">Limit</string>
     <string name="reset">Reset</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Charging sound</string>
+    <string name="charging_vibro_title">Charging vibration</string>
+
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
     <string name="bluetooth_timeout">Bluetooth timeout</string>
 
