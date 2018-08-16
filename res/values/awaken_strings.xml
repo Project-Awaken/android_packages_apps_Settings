@@ -308,6 +308,10 @@
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
 
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+
     <!-- Lockscreen media art -->
     <string name="lockscreen_media_art_category_title">Media art</string>
     <string name="keygaurd_media_art_title">Display media cover art</string>
