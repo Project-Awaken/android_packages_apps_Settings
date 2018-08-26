@@ -16,6 +16,7 @@
     <!-- Awaken version -->
     <string name="awaken_version">Awaken version</string>
     <string name="awaken_version_default">Unknown</string>
+    <string name="build_date">Build date</string>
 
     <!-- Awaken maintainer -->
     <string name="maintainer">Maintainer</string>
