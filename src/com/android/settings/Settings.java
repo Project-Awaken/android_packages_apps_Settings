@@ -256,4 +256,7 @@ public class Settings extends SettingsActivity {
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
 
     public static class FODIconPickerFragmentActivity extends SettingsActivity { /* empty */ }
+
+    // omni additions start
+    public static class SwipeToNotificationSuggestionActivity extends SettingsActivity { /* empty */ }
 }
