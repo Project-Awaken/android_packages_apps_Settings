@@ -50,7 +50,7 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
     private static final String TAG = "BatteryHeaderPreferenceController";
 
     @VisibleForTesting
-    static final String KEY_BATTERY_HEADER = "battery_header";
+    public static final String KEY_BATTERY_HEADER = "battery_header";
     private static final int BATTERY_MAX_LEVEL = 100;
 
     @VisibleForTesting
