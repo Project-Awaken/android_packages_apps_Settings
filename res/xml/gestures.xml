@@ -135,4 +135,11 @@
         android:title="@string/double_tap_sleep_gesture_title"
         android:summary="@string/double_tap_sleep_gesture_summary"
         android:defaultValue="true" />
+
+    <!-- Swap volume buttons -->
+    <com.awaken.support.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons_title"
+        android:summary="@string/swap_volume_buttons_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
