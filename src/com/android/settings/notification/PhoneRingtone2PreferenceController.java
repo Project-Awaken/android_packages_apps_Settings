@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016 The Android Open Source Project
+ * Copyright (C) 2018 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,22 +18,21 @@ package com.android.settings.notification;
 
 import android.content.Context;
 import android.media.RingtoneManager;
-
 import android.telephony.TelephonyManager;
 
 import androidx.preference.PreferenceScreen;
 
 import com.android.settings.DefaultRingtonePreference;
-import com.android.settings.R;
-
 import com.android.settings.Utils;
 
-public class PhoneRingtonePreferenceController extends RingtonePreferenceControllerBase {
+import com.android.settings.R;
 
-    private static final int SLOT_ID = 0;
-    private static final String KEY_PHONE_RINGTONE = "phone_ringtone";
+public class PhoneRingtone2PreferenceController extends RingtonePreferenceControllerBase {
 
-    public PhoneRingtonePreferenceController(Context context) {
+    private static final int SLOT_ID = 1;
+    private static final String KEY_PHONE_RINGTONE2 = "ringtone2";
+
+    public PhoneRingtone2PreferenceController(Context context) {
         super(context);
     }
 
@@ -41,24 +40,30 @@ public class PhoneRingtonePreferenceController extends RingtonePreferenceControl
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
 
-        TelephonyManager telephonyManager =
-                (TelephonyManager) mContext.getSystemService(Context.TELEPHONY_SERVICE);
-        if (telephonyManager.isMultiSimEnabled()) {
-            DefaultRingtonePreference ringtonePreference =
-                    (DefaultRingtonePreference) screen.findPreference(KEY_PHONE_RINGTONE);
-            ringtonePreference.setTitle(mContext.getString(R.string.ringtone_title));
-            ringtonePreference.setEnabled(hasCard());
+        DefaultRingtonePreference ringtonePreference =
+                (DefaultRingtonePreference) screen.findPreference(KEY_PHONE_RINGTONE2);
+        ringtonePreference.setSlotId(SLOT_ID);
+
+        if (isBuiltInEuiccSlot(SLOT_ID)){
+            ringtonePreference.setTitle(mContext.getString(R.string.ringtone_title) + " (e-SIM)");
+        }else{
+            ringtonePreference.setTitle(mContext.getString(R.string.ringtone_title) + " - " +
+                String.format(mContext.getString(R.string.sim_card_number_title), 2));
         }
+
+        ringtonePreference.setEnabled(hasCard());
     }
 
     @Override
     public String getPreferenceKey() {
-        return KEY_PHONE_RINGTONE;
+        return KEY_PHONE_RINGTONE2;
     }
 
     @Override
     public boolean isAvailable() {
-        return Utils.isVoiceCapable(mContext);
+        TelephonyManager telephonyManager =
+                (TelephonyManager) mContext.getSystemService(Context.TELEPHONY_SERVICE);
+        return Utils.isVoiceCapable(mContext) && telephonyManager.isMultiSimEnabled();
     }
 
     @Override
