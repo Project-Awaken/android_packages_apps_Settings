@@ -148,6 +148,14 @@
         android:title="@string/screen_zoom_title"
         android:fragment="com.android.settings.display.ScreenZoomSettings"/>
 
+    <Preference
+        android:key="display_cutout_force_fullscreen_settings"
+        android:icon="@drawable/ic_settings_full_screen_apps"
+        android:title="@string/display_cutout_force_fullscreen_title"
+        android:summary="@string/display_cutout_force_fullscreen_summary"
+        android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
+        settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
+
     <com.android.settings.display.DensityPreference
         android:key="density"
         android:icon="@drawable/ic_screen_zoom"
