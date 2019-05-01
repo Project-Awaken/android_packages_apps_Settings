@@ -168,12 +168,9 @@
     <PreferenceCategory
         android:title="@string/customization_category_title">
 
-	<Preference
-            android:key="systemui_tuner_statusbar"
-            android:title="@string/statusbar_items_title" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-        </Preference>
+        <Preference
+            android:key="display_customizations"
+            android:title="@string/display_customization_title"
+            android:fragment="com.android.settings.awaken.fragments.DisplayCustomizations" />
     </PreferenceCategory>
 </PreferenceScreen>
