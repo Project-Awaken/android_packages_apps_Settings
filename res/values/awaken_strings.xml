@@ -37,7 +37,10 @@
 
     <!-- Customization category -->
     <string name="customization_category_title">Customization</string>
+    <string name="display_customization_title">Display Customizations</string>
+    <string name="display_customization_summary">Adjust statusbar and quick settings</string>
     <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
+    <string name="statusbar_category_title">Statusbar Customizations</string>
 
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
     <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
