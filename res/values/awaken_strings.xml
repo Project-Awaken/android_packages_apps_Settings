@@ -139,7 +139,11 @@
     <string name="density_category">Density options</string>
 
     <!-- Customization category -->
+    <string name="customization_category_title">Customization</string>
+    <string name="display_customization_title">Display Customizations</string>
+    <string name="display_customization_summary">Adjust statusbar and quick settings</string>
     <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
+    <string name="statusbar_category_title">Statusbar Customizations</string>
 
     <!-- Double Tap to Sleep Lockscreen -->
     <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
