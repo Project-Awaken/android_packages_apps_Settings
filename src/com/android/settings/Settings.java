@@ -269,4 +269,7 @@ public class Settings extends SettingsActivity {
 
     public static class BatteryBarActivity extends SettingsActivity { /* empty */ }
 
+    // LiveDisplay
+    public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
+
 }
