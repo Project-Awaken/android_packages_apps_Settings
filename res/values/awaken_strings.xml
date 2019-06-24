@@ -170,6 +170,11 @@
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
 
+    <!-- Private DNS -->
+    <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
+    <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
+    <string name="private_dns_hostname_cloudflare" translatable="false">one.one.one.one</string>
+
     <!-- Torch Power button gestures -->
     <string name="power_button_torch_title">Quick torch</string>
     <string name="power_button_torch_summary">When the screen is off, long-pressing power button will enable torch</string>
