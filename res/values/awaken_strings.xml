@@ -521,4 +521,8 @@
     <string name="location_privacy_indicator_title">Location access indicator</string>
     <string name="location_privacy_indicator_summary_on">Show location in the privacy chip</string>
     <string name="location_privacy_indicator_summary_off">Show location in status bar icons</string>
+
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 </resources>
