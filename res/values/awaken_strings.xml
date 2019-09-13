@@ -17,4 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Build date</string>
+
+    <!-- Awaken version -->
+    <string name="awaken_version">Awaken version</string>
+    <string name="awaken_version_default">Unknown</string>
 </resources>
