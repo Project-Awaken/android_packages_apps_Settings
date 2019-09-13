@@ -66,4 +66,8 @@
 
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
     <string name="show_dev_already_awaken">No need, you have already enabled development settings.</string>
+
+    <!-- Awaken version -->
+    <string name="awaken_version">Awaken version</string>
+    <string name="awaken_version_default">Unknown</string>
 </resources>
