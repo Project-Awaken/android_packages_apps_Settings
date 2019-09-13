@@ -30,6 +30,14 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
+    <!-- Awaken version -->
+    <Preference
+        android:key="awaken_version"
+        android:title="@string/awaken_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AwakenVersionPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
