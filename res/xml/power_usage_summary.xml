@@ -63,6 +63,10 @@
         android:summary="@string/battery_percent_summary"
         android:fragment="com.android.settings.fuelgauge.StatusBarBatterySettings"/>
 
+    <com.android.settings.fuelgauge.batteryusage.PowerGaugePreference
+        android:key="battery_temp"
+        android:title="@string/battery_temp" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
         android:title="@string/battery_footer_summary"
