@@ -52,4 +52,10 @@
     <!-- Awaken maintainer -->
     <string name="maintainer">Maintainer</string>
     <string name="awaken_maintainer" translatable="false">Unofficial Maintainer</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 </resources>
