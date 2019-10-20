@@ -19,10 +19,13 @@ package com.android.settings.awaken.fragments;
 import android.app.Activity;
 import android.content.Context;
 import android.content.ContentResolver;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
@@ -33,6 +36,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.awaken.support.preferences.SecureSettingMasterSwitchPreference;
+import com.awaken.support.preferences.SystemSettingMasterSwitchPreference;
 
 public class DisplayCustomizations extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -40,8 +44,10 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     private static final String TAG = "Display Customizations";
     private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
     private static final String KEY_BATTERY_CHARGING_LIGHT = "battery_charging_light";
+    private static final String KEY_NETWORK_TRAFFIC = "network_traffic_state";
 
     private SecureSettingMasterSwitchPreference mBrightnessSlider;
+    private SystemSettingMasterSwitchPreference mNetworkTraffic;
     Preference mBatteryLightPref;
 
     @Override
@@ -66,6 +72,13 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
 				prefSet.removePreference(mBatteryLightPref);
 			}
         }
+
+        mNetworkTraffic = (SystemSettingMasterSwitchPreference)
+                findPreference(KEY_NETWORK_TRAFFIC);
+        enabled = Settings.System.getIntForUser(resolver,
+                KEY_NETWORK_TRAFFIC, 0, UserHandle.USER_CURRENT) == 1;
+        mNetworkTraffic.setChecked(enabled);
+        mNetworkTraffic.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -75,6 +88,11 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
             boolean value = (boolean) newValue;
             Settings.Secure.putInt(resolver,
                     BRIGHTNESS_SLIDER, value ? 1 : 0);
+            return true;
+        } else if (preference == mNetworkTraffic) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putIntForUser(resolver, KEY_NETWORK_TRAFFIC,
+                    value ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
         }
         return false;
