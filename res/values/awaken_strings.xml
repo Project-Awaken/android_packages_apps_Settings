@@ -446,4 +446,10 @@
     <string name="bluetooth_timeout_summary_2hours">2 hours</string>
     <string name="bluetooth_timeout_summary_4hours">4 hours</string>
     <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="statusbar_ntraffic">Network</string>
+    <string name="network_traffic_state_title">Network traffic</string>
+    <string name="network_traffic_state_summary">Show the network activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
 </resources>
