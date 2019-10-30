@@ -636,4 +636,7 @@
 
     <!-- Whether to enable the app battery usage list page feature. -->
     <bool name="config_app_battery_usage_list_enabled">false</bool>
+
+    <!-- Whether the given language capitalizes nouns -->
+    <bool name="language_capitalizes_nouns">false</bool>
 </resources>
