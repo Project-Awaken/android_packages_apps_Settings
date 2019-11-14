@@ -59,6 +59,7 @@ import com.android.settings.development.bluetooth.BluetoothQualityDialogPreferen
 import com.android.settings.development.bluetooth.BluetoothSampleRateDialogPreferenceController;
 import com.android.settings.development.qstile.DevelopmentTiles;
 import com.android.settings.development.storage.SharedDataPreferenceController;
+import com.android.settings.development.RefreshRatePreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.widget.SwitchBar;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -576,7 +577,7 @@ public class DevelopmentSettingsDashboardFragment extends RestrictedDashboardFra
                 bluetoothA2dpConfigStore, fragment));
         controllers.add(new SharedDataPreferenceController(context));
         controllers.add(new OverlaySettingsPreferenceController(context));
-
+        controllers.add(new RefreshRatePreferenceController(context));
         return controllers;
     }
 
