@@ -252,4 +252,6 @@ public class Settings extends SettingsActivity {
 
     public static class VisualizerActivity extends SettingsActivity { /* empty */ }
 
+    // Gaming mode
+    public static class GamingModeActivity extends SettingsActivity {}
 }

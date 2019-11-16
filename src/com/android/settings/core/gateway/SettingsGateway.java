@@ -165,6 +165,7 @@ import com.awaken.settings.AwakenSettings;
 import com.awaken.settings.OmniJawsSettings;
 import com.awaken.settings.Traffic;
 import com.awaken.settings.Visualizer;
+import com.awaken.settings.GamingMode;
 
 public class SettingsGateway {
 
@@ -318,7 +319,8 @@ public class SettingsGateway {
             OmniJawsSettings.class.getName(),
             Traffic.class.getName(),
             Visualizer.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            GamingMode.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -363,5 +365,6 @@ public class SettingsGateway {
             Settings.TrafficActivity.class.getName(),
             Settings.VisualizerActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
     };
 }
