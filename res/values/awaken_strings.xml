@@ -104,6 +104,7 @@
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
 
     <!-- Customization category -->
+    <string name="ambientsettings_category_title">Ambient Settings Customizations</string>
     <string name="clocksettings_category_title">Clock Customizations</string>
     <string name="customization_category_title">Customizations</string>
     <string name="display_customization_title">Display Customizations</string>
@@ -323,4 +324,8 @@
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Show data disabled icon</string>
     <string name="data_disabled_icon_summary">Display the exclamation sign next to signal bar when data is disabled</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
 </resources>
