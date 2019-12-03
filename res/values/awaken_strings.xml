@@ -18,6 +18,10 @@
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
     <string name="build_date">Build date</string>
 
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+
     <!-- Awaken version -->
     <string name="awaken_version">Awaken version</string>
     <string name="awaken_version_default">Unknown</string>
