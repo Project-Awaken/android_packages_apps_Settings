@@ -257,4 +257,8 @@
     <string name="vibration_intensity_low">Low</string>
     <string name="vibration_intensity_medium">Medium</string>
     <string name="vibration_intensity_high">High</string>
+
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
