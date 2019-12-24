@@ -119,6 +119,9 @@
     <!-- App lock -->
     <uses-permission android:name="android.permission.MANAGE_APP_LOCK" />
 
+    <uses-permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS"/>
+    <permission android:name="com.google.android.settings.routines.ROUTINES_ACTIONS" android:protectionLevel="normal|signature|system"/>
+
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -4326,6 +4329,13 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+
+        <receiver android:name="com.google.android.settings.routines.RoutinesActionBroadcastReceiver"
+                  android:permission="com.google.android.settings.routines.ROUTINES_ACTIONS" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.settings.routines.RoutinesActionBroadcastReceiver.RINGER_MODE_SILENCE_ACTION"/>
+            </intent-filter>
+        </receiver>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
