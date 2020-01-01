@@ -191,11 +191,6 @@
         android:title="@string/device_theme"
         android:summary="@string/summary_placeholder" />
 
-    <PreferenceCategory
-        android:key="theme_customization_category"
-        android:title="@string/theme_customization_category"
-        android:order="1200"> <!-- Incremented by 100 from last order (i.e. 1100) -->
-
     <com.android.settings.display.darkmode.DarkModePreference
         android:key="dark_ui_mode"
         android:title="@string/dark_ui_mode"
@@ -205,25 +200,4 @@
         settings:controller="com.android.settings.display.DarkUIPreferenceController"
         settings:keywords="@string/keywords_dark_ui_mode"/>
 
-	<ListPreference
-            android:key="android.theme.customization.custom_overlays"
-            android:title="@string/theme_customization_systemui_title"/>
-        <ListPreference
-            android:key="android.theme.customization.font"
-            android:title="@string/theme_customization_font_title"/>
-        <ListPreference
-            android:key="android.theme.customization.adaptive_icon_shape"
-            android:title="@string/theme_customization_icon_shape_title"/>
-        <ListPreference
-            android:key="android.theme.customization.icon_pack.android"
-            android:title="@string/theme_customization_icon_pack_android_title"/>
-
- 	<com.awaken.support.preferences.SystemSettingListPreference
-            android:key="theming_settings_dashboard_icons"
-            android:title="@string/theming_settings_dashboard_icons_title"
-            android:entries="@array/theming_settings_dashboard_icons_entries"
-            android:entryValues="@array/theming_settings_dashboard_icons_values"
-            android:defaultValue="0" />
-
-    </PreferenceCategory>
 </PreferenceScreen>
