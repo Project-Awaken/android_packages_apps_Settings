@@ -181,4 +181,10 @@
             android:title="@string/theme_customization_icon_shape_title"/>
     </PreferenceCategory>
 
+     <Preference
+         android:key="themes"
+         android:title="@string/themes_title"
+         android:summary="@string/themes_summary"
+         android:fragment="com.android.settings.awaken.AwakenThemes" />
+
 </PreferenceScreen>
