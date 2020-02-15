@@ -51,6 +51,7 @@
             settings:controller="com.android.settings.deviceinfo.BrandedAccountPreferenceController"/>
 
         <!-- Phone number -->
+        <!--
         <com.android.settings.deviceinfo.PhoneNumberSummaryPreference
             android:key="phone_number"
             android:order="3"
@@ -59,6 +60,7 @@
             android:selectable="false"
             settings:controller="com.android.settings.deviceinfo.PhoneNumberPreferenceController"
             settings:enableCopying="true"/>
+        -->
     </PreferenceCategory>
 
     <PreferenceCategory
