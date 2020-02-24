@@ -66,4 +66,11 @@
     <com.awaken.support.colorpicker.ColorPickerPreference
         android:key="ambient_notification_light_color"
         android:title="@string/ambient_notification_light_color_title" />
+
+    <com.awaken.support.preferences.SystemSettingListPreference
+        android:key="pulse_ambient_light_layout"
+        android:title="@string/pulse_ambient_light_layout_title"
+        android:entries="@array/pulse_ambient_light_layout_entries"
+        android:entryValues="@array/pulse_ambient_light_layout_values"
+        android:defaultValue="0" />
 </PreferenceScreen>
