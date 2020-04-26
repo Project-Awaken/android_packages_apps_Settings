@@ -44,6 +44,7 @@ public class AwakenVersionPreferenceController extends BasePreferenceController 
 
     private static final String KEY_AWAKEN_VERSION_PROP = "ro.awaken.base.version";
     private static final String ROM_RELEASETYPE_PROP = "ro.awaken.build.type";
+    private static final String ROM_CODENAME_PROP = "ro.awaken.codename";
 
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
@@ -78,8 +79,10 @@ public class AwakenVersionPreferenceController extends BasePreferenceController 
                 mContext.getString(R.string.unknown));
         String awakenReleasetype =  SystemProperties.get(ROM_RELEASETYPE_PROP,
                 this.mContext.getString(R.string.unknown));
+        String awakenCodename = SystemProperties.get(ROM_CODENAME_PROP,
+                mContext.getString(R.string.unknown));
         if (!awakenVersion.isEmpty() && !awakenReleasetype.isEmpty())
-            return awakenVersion + " | " + awakenReleasetype;
+            return awakenVersion + " | " + awakenCodename + " | " +  awakenReleasetype;
         else
             return mContext.getString(R.string.awaken_version_default);
     }
