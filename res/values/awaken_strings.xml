@@ -92,4 +92,7 @@
     <!-- Specs -->
     <string name="specs_title">Phone Specifications</string>
 
+    <!-- Awaken maintainer -->
+    <string name="maintainer">Maintainer</string>
+
 </resources>
