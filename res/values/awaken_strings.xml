@@ -22,4 +22,7 @@
     <string name="awaken_version">Awaken version</string>
     <string name="awaken_version_default">Unknown</string>
     <string name="awaken_uri" translatable="false">https://github.com/Project-Awaken</string>
+
+    <!-- Awaken maintainer -->
+    <string name="maintainer">Maintainer</string>
 </resources>
