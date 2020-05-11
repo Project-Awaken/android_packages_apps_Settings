@@ -60,4 +60,11 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
 
+    <!-- Battery health -->
+    <string name="battery_health_title">Battery health</string>
+    <string name="battery_health_summary">Monitor the battery health of your device</string>
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="current_battery_capacity_summary">The current battery capacity measured by the kernel</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="designed_battery_capacity_summary">The battery capacity designed by the manufacturer</string>
 </resources>
