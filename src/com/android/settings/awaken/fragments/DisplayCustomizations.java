@@ -32,7 +32,6 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.awaken.AwakenUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -40,8 +39,6 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.awaken.support.preferences.SecureSettingMasterSwitchPreference;
 import com.awaken.support.preferences.SecureSettingSwitchPreference;
 import com.awaken.support.preferences.SystemSettingMasterSwitchPreference;
-import com.awaken.support.preferences.SystemSettingSeekBarPreference;
-import com.awaken.support.preferences.SystemSettingSwitchPreference;
 
 public class DisplayCustomizations extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -53,9 +50,7 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     private static final String PREF_STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
     private static final String KEY_EDGE_LIGHTNING = "pulse_ambient_light";
-    private static final String KEY_NETWORK_TRAFFIC = "network_traffic_location";
-    private static final String KEY_NETWORK_TRAFFIC_ARROW = "network_traffic_arrow";
-    private static final String KEY_NETWORK_TRAFFIC_AUTOHIDE = "network_traffic_autohide_threshold";
+    private static final String KEY_NETWORK_TRAFFIC = "network_traffic_state";
 
     private static final int BATTERY_STYLE_PORTRAIT = 0;
     private static final int BATTERY_STYLE_TEXT = 4;
@@ -68,9 +63,7 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
 
     private SecureSettingMasterSwitchPreference mBrightnessSlider;
     private SystemSettingMasterSwitchPreference mEdgeLightning;
-    private ListPreference mNetworkTraffic;
-    private SystemSettingSwitchPreference mNetworkTrafficArrow;
-    private SystemSettingSeekBarPreference mNetworkTrafficAutohide;
+    private SystemSettingMasterSwitchPreference mNetworkTraffic;
 
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
@@ -137,25 +130,12 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
         mEdgeLightning.setChecked(enabled);
         mEdgeLightning.setOnPreferenceChangeListener(this);
 
-        mNetworkTraffic = (ListPreference) findPreference(KEY_NETWORK_TRAFFIC);
-        int networkTraffic = Settings.System.getInt(resolver,
-        Settings.System.NETWORK_TRAFFIC_LOCATION, 0);
-        CharSequence[] NonNotchEntries = { getResources().getString(R.string.network_traffic_disabled),
-                getResources().getString(R.string.network_traffic_statusbar),
-                getResources().getString(R.string.network_traffic_qs_header) };
-        CharSequence[] NotchEntries = { getResources().getString(R.string.network_traffic_disabled),
-                getResources().getString(R.string.network_traffic_qs_header) };
-        CharSequence[] NonNotchValues = {"0", "1" , "2"};
-        CharSequence[] NotchValues = {"0", "2"};
-        mNetworkTraffic.setEntries(AwakenUtils.hasNotch(getActivity()) ? NotchEntries : NonNotchEntries);
-        mNetworkTraffic.setEntryValues(AwakenUtils.hasNotch(getActivity()) ? NotchValues : NonNotchValues);
-        mNetworkTraffic.setValue(String.valueOf(networkTraffic));
-        mNetworkTraffic.setSummary(mNetworkTraffic.getEntry());
+        mNetworkTraffic = (SystemSettingMasterSwitchPreference)
+                findPreference(KEY_NETWORK_TRAFFIC);
+        enabled = Settings.System.getIntForUser(resolver,
+                KEY_NETWORK_TRAFFIC, 0, UserHandle.USER_CURRENT) == 1;
+        mNetworkTraffic.setChecked(enabled);
         mNetworkTraffic.setOnPreferenceChangeListener(this);
-
-        mNetworkTrafficArrow = (SystemSettingSwitchPreference) findPreference(KEY_NETWORK_TRAFFIC_ARROW);
-        mNetworkTrafficAutohide = (SystemSettingSeekBarPreference) findPreference(KEY_NETWORK_TRAFFIC_AUTOHIDE);
-        updateNetworkTrafficPrefs(networkTraffic);
     }
 
     @Override
@@ -194,28 +174,13 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
             Settings.System.putIntForUser(resolver, KEY_EDGE_LIGHTNING,
                     value ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
-        } else if (preference == mNetworkTraffic) {
-            int networkTraffic = Integer.valueOf((String) newValue);
-            int index = mNetworkTraffic.findIndexOfValue((String) newValue);
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.NETWORK_TRAFFIC_LOCATION, networkTraffic);
-            mNetworkTraffic.setSummary(mNetworkTraffic.getEntries()[index]);
-            updateNetworkTrafficPrefs(networkTraffic);
+	} else if (preference == mNetworkTraffic) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putIntForUser(resolver, KEY_NETWORK_TRAFFIC,
+                    value ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
         }
         return false;
-    }
-
-    private void updateNetworkTrafficPrefs(int networkTraffic) {
-        if (mNetworkTraffic != null) {
-            if (networkTraffic == 0) {
-                mNetworkTrafficArrow.setEnabled(false);
-                mNetworkTrafficAutohide.setEnabled(false);
-            } else {
-                mNetworkTrafficArrow.setEnabled(true);
-                mNetworkTrafficAutohide.setEnabled(true);
-            }
-        }
     }
 
     @Override
