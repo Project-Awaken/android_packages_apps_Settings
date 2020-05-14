@@ -89,4 +89,7 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
+    <!-- Specs -->
+    <string name="specs_title">Phone Specifications</string>
+
 </resources>
