@@ -38,6 +38,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private SystemSettingListPreference mLocation;
+    private SystemSettingListPreference mIndicatorMode;
     private SystemSettingSeekBarPreference mThreshold;
     private SystemSettingSeekBarPreference mInterval;
 
@@ -47,6 +48,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.network_traffic);
 
         mLocation = (SystemSettingListPreference) findPreference("network_traffic_location");
+        mIndicatorMode = (SystemSettingListPreference) findPreference("network_traffic_mode");
         mThreshold = (SystemSettingSeekBarPreference) findPreference("network_traffic_autohide_threshold");
         mInterval = (SystemSettingSeekBarPreference) findPreference("network_traffic_refresh_interval");
     }
