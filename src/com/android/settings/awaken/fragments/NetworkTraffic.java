@@ -39,6 +39,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
 
     private SystemSettingListPreference mLocation;
     private SystemSettingSeekBarPreference mThreshold;
+    private SystemSettingSeekBarPreference mInterval;
 
     @Override
     public void onCreate(Bundle savedInstance) {
@@ -47,6 +48,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
 
         mLocation = (SystemSettingListPreference) findPreference("network_traffic_location");
         mThreshold = (SystemSettingSeekBarPreference) findPreference("network_traffic_autohide_threshold");
+        mInterval = (SystemSettingSeekBarPreference) findPreference("network_traffic_refresh_interval");
     }
 
     @Override
