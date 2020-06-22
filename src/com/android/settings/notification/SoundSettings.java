@@ -19,6 +19,7 @@ package com.android.settings.notification;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -53,6 +54,7 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
     private static final String TAG = "SoundSettings";
 
     private static final String SELECTED_PREFERENCE_KEY = "selected_preference";
+    private static final String KEY_RINGTONE_FOCUS_MODE = "ringtone_focus_mode";
     private static final int REQUEST_CODE = 200;
     private static final int SAMPLE_CUTOFF = 2000;  // manually cap sample playback at 2 seconds
 
@@ -80,6 +82,7 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
     private UpdatableListPreferenceDialogFragment mDialogFragment;
     private String mHfpOutputControllerKey;
     private String mVibrationPreferencesKey = "vibration_preference_screen";
+    private ListPreference mRingtoneFocusMode;
 
     @Override
     public int getMetricsCategory() {
@@ -89,6 +92,14 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        final Resources res = getResources();
+
+        mRingtoneFocusMode = (ListPreference) findPreference(KEY_RINGTONE_FOCUS_MODE);
+
+        if (!res.getBoolean(com.android.internal.R.bool.config_deviceRingtoneFocusMode)) {
+            mRingtoneFocusMode.setVisible(false);
+        }
+
         if (savedInstanceState != null) {
             String selectedPreference = savedInstanceState.getString(SELECTED_PREFERENCE_KEY, null);
             if (!TextUtils.isEmpty(selectedPreference)) {
