@@ -94,5 +94,6 @@
 
     <!-- Awaken maintainer -->
     <string name="maintainer">Maintainer</string>
+    <string name="awaken_maintainer">Unofficial Maintainer</string>
 
 </resources>
