@@ -19,6 +19,7 @@
 
     <!-- Awaken maintainer -->
     <string name="maintainer">Maintainer</string>
+    <string name="awaken_maintainer">Unofficial Maintainer</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
