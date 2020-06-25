@@ -25,4 +25,5 @@
 
     <!-- Awaken maintainer -->
     <string name="maintainer">Maintainer</string>
+    <string name="awaken_maintainer" translatable="false">Unofficial Maintainer</string>
 </resources>
