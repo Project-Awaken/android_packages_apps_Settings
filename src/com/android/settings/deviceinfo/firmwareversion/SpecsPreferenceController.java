@@ -63,8 +63,12 @@ public class SpecsPreferenceController extends BasePreferenceController {
                 aprox = "64";
             } else if (lastval > 64 && lastval <=128) {
                 aprox = "128";
-            } else if (lastval > 128) {
-                aprox = "128+";
+            } else if (lastval > 128 && lastval <= 256) {
+                aprox = "256";
+            } else if (lastval > 256 && lastval <= 512) {
+                aprox = "512";
+            } else if (lastval > 512) {
+                aprox = "512+";
             } else aprox = "null";
         return aprox;
     }
