@@ -61,6 +61,10 @@
     <string name="quicksettings_category_title">Quick Settings Customizations</string>
     <string name="statusbar_category_title">Statusbar Customizations</string>
 
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">Color balance</string>
 
