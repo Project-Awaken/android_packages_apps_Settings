@@ -42,7 +42,7 @@ public class AwakenVersionPreferenceController extends BasePreferenceController 
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
-    private static final String KEY_AWAKEN_VERSION_PROP = "ro.awaken.version";
+    private static final String KEY_AWAKEN_VERSION_PROP = "ro.awaken.build.version";
 
     private final UserManager mUserManager;
     private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
