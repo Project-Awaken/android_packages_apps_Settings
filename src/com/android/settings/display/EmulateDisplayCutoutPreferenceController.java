@@ -31,7 +31,7 @@ public class EmulateDisplayCutoutPreferenceController extends OverlayCategoryPre
     @VisibleForTesting
     EmulateDisplayCutoutPreferenceController(Context context, PackageManager packageManager,
             IOverlayManager overlayManager) {
-        super(context, DisplayCutout.EMULATION_OVERLAY_CATEGORY);
+        super(context, packageManager, overlayManager, DisplayCutout.EMULATION_OVERLAY_CATEGORY);
     }
 
     public EmulateDisplayCutoutPreferenceController(Context context) {
