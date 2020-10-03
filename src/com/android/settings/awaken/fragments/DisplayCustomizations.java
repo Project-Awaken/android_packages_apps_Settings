@@ -16,6 +16,7 @@
 
 package com.android.settings.awaken.fragments;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
@@ -35,6 +36,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.awaken.support.preferences.SecureSettingMasterSwitchPreference;
 import com.awaken.support.preferences.SecureSettingSwitchPreference;
 
 public class DisplayCustomizations extends SettingsPreferenceFragment
@@ -45,6 +47,7 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     private static final String CONFIG_RESOURCE_NAME = "flag_combined_status_bar_signal_icons";
     private static final String PREF_STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String PREF_STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
+    private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
 
     private static final int BATTERY_STYLE_PORTRAIT = 0;
     private static final int BATTERY_STYLE_TEXT = 4;
@@ -54,6 +57,8 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     //private static final int BATTERY_PERCENT_SHOW_OUTSIDE = 2;
 
     private static final String COBINED_STATUSBAR_ICONS = "show_combined_status_bar_signal_icons";
+
+    private SecureSettingMasterSwitchPreference mBrightnessSlider;
 
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
@@ -105,6 +110,13 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
                 COBINED_STATUSBAR_ICONS, def ? 1 : 0) == 1;
         mCombinedIcons.setChecked(enabled);
         mCombinedIcons.setOnPreferenceChangeListener(this);
+
+        mBrightnessSlider = (SecureSettingMasterSwitchPreference)
+                findPreference(BRIGHTNESS_SLIDER);
+        mBrightnessSlider.setOnPreferenceChangeListener(this);
+        enabled = Settings.Secure.getInt(resolver,
+                BRIGHTNESS_SLIDER, 1) == 1;
+        mBrightnessSlider.setChecked(enabled);
     }
 
     @Override
@@ -132,6 +144,11 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
             boolean enabled = (boolean) newValue;
             Settings.Secure.putInt(resolver,
                     COBINED_STATUSBAR_ICONS, enabled ? 1 : 0);
+            return true;
+        } else if (preference == mBrightnessSlider) {
+            Boolean value = (Boolean) newValue;
+            Settings.Secure.putInt(resolver,
+                    BRIGHTNESS_SLIDER, value ? 1 : 0);
             return true;
         }
         return false;

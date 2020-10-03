@@ -99,4 +99,17 @@
             android:summary="@string/roaming_indicator_icon_summary"
             android:defaultValue="true"/>
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="quicksettings_category"
+        android:title="@string/quicksettings_category_title">
+
+        <!-- qs brightness customization -->
+        <com.awaken.support.preferences.SecureSettingMasterSwitchPreference
+            android:key="qs_show_brightness"
+            android:title="@string/qs_show_brightness_title"
+            android:summary="@string/qs_show_brightness_summary"
+            android:fragment="com.android.settings.awaken.fragments.BrightnessSliderSettings"
+            android:defaultValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>
