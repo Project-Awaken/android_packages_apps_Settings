@@ -143,6 +143,7 @@
     <string name="display_customization_title">Display Customizations</string>
     <string name="display_customization_summary">Adjust statusbar and quick settings</string>
     <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
+    <string name="quicksettings_category_title">Quick Settings Customizations</string>
     <string name="statusbar_category_title">Statusbar Customizations</string>
 
     <!-- Double Tap to Sleep Lockscreen -->
@@ -172,4 +173,10 @@
 
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
+
+    <!-- Brightness slider -->
+    <string name="qs_show_brightness_title">Brightness slider</string>
+    <string name="qs_show_brightness_summary">Brightness slider visibility and settings</string>
+    <string name="qs_brightness_position_bottom_title">Bottom brightness slider</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on the bottom of QS</string>
 </resources>
