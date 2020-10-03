@@ -35,11 +35,20 @@
     <string name="backup_transport_setting_label">Change backup provider</string>
     <string name="backup_transport_title">Select backup provider</string>
 
+    <!-- Brightness slider -->
+    <string name="qs_show_brightness_title">Brightness slider</string>
+    <string name="qs_show_brightness_summary">Brightness slider visibility and settings</string>
+    <string name="qs_brightness_position_bottom_title">Bottom brightness slider</string>
+    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on the bottom of QS</string>
+    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
+    <string name="qs_show_auto_brightness_summary">Show an auto brightness toggle near the brightness slider</string>
+
     <!-- Customization category -->
     <string name="customization_category_title">Customization</string>
     <string name="display_customization_title">Display Customizations</string>
     <string name="display_customization_summary">Adjust statusbar and quick settings</string>
     <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
+    <string name="quicksettings_category_title">Quick Settings Customizations</string>
     <string name="statusbar_category_title">Statusbar Customizations</string>
 
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->

@@ -20,6 +20,19 @@
     android:title="@string/display_customization_title">
 
     <PreferenceCategory
+        android:key="quicksettings_category"
+        android:title="@string/quicksettings_category_title">
+
+        <!-- QS Brightness Customization -->
+        <com.awaken.support.preferences.SecureSettingMasterSwitchPreference
+            android:key="qs_show_brightness"
+            android:title="@string/qs_show_brightness_title"
+            android:summary="@string/qs_show_brightness_summary"
+            android:fragment="com.android.settings.awaken.fragments.BrightnessSliderSettings"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="statusbar_category"
         android:title="@string/statusbar_category_title">
 
