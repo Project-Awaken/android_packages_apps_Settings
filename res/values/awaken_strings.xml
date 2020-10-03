@@ -32,6 +32,7 @@
     <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
 
     <!-- Customization category -->
+    <string name="customization_category_title">Customization</string>
     <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
 
     <!-- Double Tap to Sleep Lockscreen -->
@@ -82,6 +83,12 @@
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="search">Search</string>
+    <string name="search_apps">Search apps</string>
 
     <!-- Notification sound timeout -->
     <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
