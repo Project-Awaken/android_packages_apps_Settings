@@ -96,4 +96,9 @@
     <string name="maintainer">Maintainer</string>
     <string name="awaken_maintainer">Unofficial Maintainer</string>
 
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
+
 </resources>
