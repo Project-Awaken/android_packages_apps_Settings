@@ -70,6 +70,12 @@
         android:title="@string/navbar_category">
 
         <com.awaken.support.preferences.SecureSettingSwitchPreference
+            android:key="back_gesture_haptic"
+            android:title="@string/back_gesture_haptic_title"
+            android:summary="@string/back_gesture_haptic_summary"
+            android:defaultValue="true" />
+
+        <com.awaken.support.preferences.SecureSettingSwitchPreference
             android:key="navigation_bar_hint"
             android:title="@string/show_navbar_gesture_bar_title"
             android:summary="@string/show_navbar_gesture_bar_summary"
