@@ -105,4 +105,8 @@
     <string name="awaken_settings_title">Awaken Settings</string>
     <string name="awaken_dashboard_summary">All our customisations are in here</string>
 
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+
 </resources>
