@@ -35,12 +35,14 @@
 
     <Preference
         android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings"
+        android:icon="@drawable/ic_battery_saver"
         android:key="battery_saver_summary"
         android:title="@string/battery_saver"
         settings:controller="com.android.settings.fuelgauge.BatterySaverController" />
 
     <Preference
         android:fragment="com.android.settings.fuelgauge.SmartBatterySettings"
+        android:icon="@drawable/ic_power_optimize"
         android:key="smart_battery_manager"
         android:title="@string/smart_battery_manager_title"
         settings:controller="com.android.settings.fuelgauge.batterytip.BatteryManagerPreferenceController" />
@@ -54,10 +56,12 @@
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
+        android:icon="@drawable/ic_last_full_charge"
         android:title="@string/battery_last_full_charge"/>
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="screen_usage"
+        android:icon="@drawable/ic_screen_usage"
         android:title="@string/device_screen_usage"/>
 
     <com.android.settings.fuelgauge.PowerGaugePreference
