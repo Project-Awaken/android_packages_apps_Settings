@@ -54,13 +54,11 @@
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
-        android:title="@string/battery_last_full_charge"
-        android:selectable="false" />
+        android:title="@string/battery_last_full_charge"/>
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="screen_usage"
-        android:title="@string/device_screen_usage"
-        android:selectable="false" />
+        android:title="@string/device_screen_usage"/>
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="designed_battery_capacity"
@@ -79,8 +77,7 @@
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="battery_temp"
-        android:title="@string/battery_temp_title"
-        android:selectable="false" />
+        android:title="@string/battery_temp_title"/>
 
     <com.android.settingslib.widget.FooterPreference
         android:key="power_usage_footer"
