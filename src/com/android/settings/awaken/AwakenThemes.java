@@ -30,7 +30,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.awaken.margaritov.preference.colorpicker.ColorPickerPreference;
+import com.awaken.support.colorpicker.ColorPickerPreference;
 
 public class AwakenThemes extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {

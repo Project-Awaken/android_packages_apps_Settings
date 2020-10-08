@@ -91,7 +91,7 @@
         settings:controller="com.android.settings.notification.NotificationVolumePreferenceController"/>
 
     <!-- Link ringtone and notification volumes -->
-    <com.android.settings.awaken.preferences.SecureSettingSwitchPreference
+    <com.awaken.support.preferences.SecureSettingSwitchPreference
         android:key="volume_link_notification"
         android:title="@string/volume_link_notification_title"
         android:defaultValue="true"
