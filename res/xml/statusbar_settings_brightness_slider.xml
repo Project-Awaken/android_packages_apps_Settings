@@ -20,4 +20,10 @@
         android:title="@string/qs_brightness_position_bottom_title"
         android:summary="@string/qs_brightness_position_bottom_summary"
         android:defaultValue="false" />
+
+    <com.awaken.support.preferences.SecureSettingSwitchPreference
+        android:key="qs_show_auto_brightness_button"
+        android:title="@string/qs_show_auto_brightness_title"
+        android:summary="@string/qs_show_auto_brightness_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
