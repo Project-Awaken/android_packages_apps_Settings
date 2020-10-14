@@ -122,4 +122,6 @@
 
     <string name="weather_title">Weather</string>
 
+    <string name="traffic_title">Network traffic</string>
+
 </resources>

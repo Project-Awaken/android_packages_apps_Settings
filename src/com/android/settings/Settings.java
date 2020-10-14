@@ -246,4 +246,7 @@ public class Settings extends SettingsActivity {
     public static class AwakenSettingsActivity extends SettingsActivity { /* empty */ }
 
     public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
+
+    public static class TrafficActivity extends SettingsActivity { /* empty */ }
+
 }
