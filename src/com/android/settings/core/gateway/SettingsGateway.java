@@ -163,6 +163,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.awaken.settings.AwakenSettings;
 import com.awaken.settings.OmniJawsSettings;
 import com.awaken.settings.Traffic;
+import com.awaken.settings.Visualizer;
 
 public class SettingsGateway {
 
@@ -314,7 +315,8 @@ public class SettingsGateway {
             MediaControlsSettings.class.getName(),
             AwakenSettings.class.getName(),
             OmniJawsSettings.class.getName(),
-            Traffic.class.getName()
+            Traffic.class.getName(),
+            Visualizer.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -357,5 +359,6 @@ public class SettingsGateway {
             Settings.AwakenSettingsActivity.class.getName(),
             Settings.OmniJawsSettingsActivity.class.getName(),
             Settings.TrafficActivity.class.getName(),
+            Settings.VisualizerActivity.class.getName(),
     };
 }

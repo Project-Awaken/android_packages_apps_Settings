@@ -124,4 +124,6 @@
 
     <string name="traffic_title">Network traffic</string>
 
+    <string name="visualizer_title">Lockscreen visualizer</string>
+
 </resources>
