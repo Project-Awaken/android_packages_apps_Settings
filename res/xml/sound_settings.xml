@@ -165,6 +165,7 @@
     <!-- Ringtone vibration pattern -->
     <ListPreference
         android:key="vibration_pattern"
+        android:icon="@drawable/ic_vibrate"
         android:title="@string/vibration_pattern_title"
         android:order="-125"
         android:entries="@array/vibration_pattern_entries"
@@ -223,7 +224,6 @@
         <!-- Vibrate on touch -->
         <SwitchPreference
           android:key="vibrate_on_touch"
-          android:icon="@drawable/ic_system_vibrate"
           android:title="@string/vibrate_on_touch_title"
           android:summary="@string/vibrate_on_touch_summary"
           settings:keywords="@string/keywords_vibrate_on_touch"/>
