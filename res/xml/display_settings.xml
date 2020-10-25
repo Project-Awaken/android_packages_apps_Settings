@@ -22,6 +22,17 @@
     settings:keywords="@string/keywords_display"
     settings:initialExpandedChildrenCount="5">
 
+    <Preference
+        android:key="lockscreen_from_display_settings"
+        android:title="@string/lockscreen_settings_title"
+        android:fragment="com.android.settings.security.LockscreenDashboardFragment"
+        settings:keywords="@string/keywords_ambient_display_screen"
+        settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController" />
+
+    <PreferenceCategory
+        android:key="screen_category"
+        android:title="@string/display_screen_category">
+
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
         android:icon="@drawable/ic_settings_adaptive_brightness"
@@ -106,6 +117,12 @@
         android:summary="@string/peak_refresh_rate_summary"
         settings:controller="com.android.settings.display.PeakRefreshRatePreferenceController" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="density_category"
+        android:title="@string/display_density_category">
+
     <Preference
         android:key="font_size"
         android:icon="@drawable/ic_font_size"
@@ -123,6 +140,8 @@
         android:key="density"
         android:title="@string/developer_smallest_width" />
 
+    </PreferenceCategory>
+
     <SwitchPreference
         android:key="show_operator_name"
         android:title="@string/show_operator_name_title"
@@ -136,6 +155,10 @@
         settings:keywords="@string/keywords_ambient_display_screen"
         settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController" />
 
+    <PreferenceCategory
+        android:key="wake_options_category"
+        android:title="@string/wake_options_category_title">
+
     <SwitchPreference
         android:key="camera_gesture"
         android:title="@string/camera_gesture_title"
@@ -146,6 +169,13 @@
         android:icon="@drawable/ic_settings_quick_gestures"
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
+
+    <Preference
+        android:key="vr_display_pref"
+        android:title="@string/display_vr_pref_title"
+        android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+
+    </PreferenceCategory>
 
     <ListPreference
         android:key="display_cutout_emulation"
@@ -163,11 +193,6 @@
         android:key="theme"
         android:title="@string/device_theme"
         android:summary="@string/summary_placeholder" />
-
-    <Preference
-        android:key="vr_display_pref"
-        android:title="@string/display_vr_pref_title"
-        android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
     <PreferenceCategory
         android:key="theme_customization_category"

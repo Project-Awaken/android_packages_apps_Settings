@@ -157,4 +157,18 @@
     <!-- Screen off fod --> 
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+
+    <!-- Categories -->
+    <string name="display_screen_category">Screen</string>
+    <string name="display_customisation_title">Display Customisation</string>
+    <string name="wake_options_category_title">Wake Options</string>
+    <string name="volume_adjustment_category_title">Volume Adjustments</string>
+    <string name="sound_effects_category_title">Effects</string>
+    <string name="do_not_disturb_category_title">Do Not Disturb</string>
+    <string name="ringtone_category_title">Ringtone</string>
+    <string name="vibrations_category_title">Vibrations</string>
+    <string name="display_density_category">Display density</string>
+    <string name="apps_category">Apps</string>
+    <string name="connected_devices_category_title">Connected Devices</string>
+
 </resources>
