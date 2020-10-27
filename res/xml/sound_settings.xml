@@ -101,7 +101,7 @@
     <PreferenceCategory
         android:key="do_not_disturb_category_title"
         android:title="@string/do_not_disturb_category_title"
-        android:order="200">
+        android:order="300">
 
     <com.android.settingslib.RestrictedPreference
         android:key="zen_mode"
@@ -125,7 +125,7 @@
     <PreferenceCategory
         android:key="sound_effects_category"
         android:title="@string/sound_effects_category_title"
-        android:order="300">
+        android:order="200">
 
     <!-- Link ringtone and notification volumes -->
     <com.awaken.support.preferences.SecureSettingSwitchPreference
@@ -219,7 +219,7 @@
     <PreferenceCategory
           android:key="other_sounds_and_vibrations_category"
           android:title="@string/other_sound_category_preference_title"
-          android:order="-500">
+          android:order="500">
 
         <!-- Vibrate on touch -->
         <SwitchPreference
