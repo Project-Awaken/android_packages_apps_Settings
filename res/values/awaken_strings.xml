@@ -180,5 +180,6 @@
     <string name="theming_settings_dashboard_icons_default_accent2">Accent background</string>
     <string name="theming_settings_dashboard_icons_plain">Plain</string>
     <string name="theming_settings_dashboard_icons_plain_accent">Plain accent</string>
+    <string name="theming_settings_dashboard_icons_default_oneplus">OnePlus</string>
 
 </resources>
