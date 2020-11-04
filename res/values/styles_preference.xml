@@ -74,4 +74,9 @@
         <item name="android:layout">@layout/setup_preference</item>
     </style>
 
+    <style name="PreferenceCategoryTitleTextStyle">
+        <item name="android:textAppearance">?preferenceCategoryTitleTextAppearance</item>
+        <item name="android:textColor">?android:colorAccent</item>
+    </style>
+
 </resources>
