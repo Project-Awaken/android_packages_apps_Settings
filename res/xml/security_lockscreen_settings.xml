@@ -56,12 +56,6 @@
             android:title="@string/lockscreen_privacy_controls_setting_toggle"
             android:summary="@string/lockscreen_privacy_controls_summary"
             settings:controller="com.android.settings.display.ControlsPrivacyPreferenceController" />
-
-        <com.awaken.support.preferences.SystemSettingSwitchPreference
-            android:key="keygaurd_media_art"
-            android:title="@string/keygaurd_media_art_title"
-            android:summary="@string/keygaurd_media_art_summary"
-            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -130,6 +124,28 @@
             android:summary="@string/summary_placeholder"
             settings:searchable="false"/>
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="lockscreen_media_art_options"
+        android:title="@string/lockscreen_media_art_category_title"
+        android:order="1002">
+
+        <com.awaken.support.preferences.SystemSettingSwitchPreference
+            android:key="keygaurd_media_art"
+            android:title="@string/keygaurd_media_art_title"
+            android:summary="@string/keygaurd_media_art_summary"
+            android:defaultValue="false" />
+
+        <com.awaken.support.preferences.CustomSystemSeekBarPreference
+            android:key="lockscreen_media_blur"
+            android:title="@string/lockscreen_media_blur_title"
+            android:dependency="keygaurd_media_art"
+            settings:allowEditText="true"
+            android:max="25"
+            android:min="0"
+            android:defaultValue="25"
+            settings:units="dp"/>
     </PreferenceCategory>
 
 </PreferenceScreen>
