@@ -38,6 +38,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.awaken.support.preferences.SecureSettingMasterSwitchPreference;
 import com.awaken.support.preferences.SecureSettingSwitchPreference;
+import com.awaken.support.preferences.SystemSettingMasterSwitchPreference;
 
 public class DisplayCustomizations extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -48,6 +49,7 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     private static final String PREF_STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String PREF_STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
+    private static final String KEY_EDGE_LIGHTNING = "pulse_ambient_light";
 
     private static final int BATTERY_STYLE_PORTRAIT = 0;
     private static final int BATTERY_STYLE_TEXT = 4;
@@ -59,6 +61,7 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     private static final String COBINED_STATUSBAR_ICONS = "show_combined_status_bar_signal_icons";
 
     private SecureSettingMasterSwitchPreference mBrightnessSlider;
+    private SystemSettingMasterSwitchPreference mEdgeLightning;
 
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
@@ -117,6 +120,13 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
         enabled = Settings.Secure.getInt(resolver,
                 BRIGHTNESS_SLIDER, 1) == 1;
         mBrightnessSlider.setChecked(enabled);
+
+        mEdgeLightning = (SystemSettingMasterSwitchPreference)
+                findPreference(KEY_EDGE_LIGHTNING);
+        enabled = Settings.System.getIntForUser(resolver,
+                KEY_EDGE_LIGHTNING, 0, UserHandle.USER_CURRENT) == 1;
+        mEdgeLightning.setChecked(enabled);
+        mEdgeLightning.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -149,6 +159,11 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
             Boolean value = (Boolean) newValue;
             Settings.Secure.putInt(resolver,
                     BRIGHTNESS_SLIDER, value ? 1 : 0);
+            return true;
+        } else if (preference == mEdgeLightning) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putIntForUser(resolver, KEY_EDGE_LIGHTNING,
+                    value ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
         }
         return false;

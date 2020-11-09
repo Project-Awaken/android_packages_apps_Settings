@@ -129,5 +129,13 @@
             android:defaultValue="false"
             android:title="@string/doze_on_charge_title"
             android:summary="@string/doze_on_charge_summary" />
+
+        <!-- Pulse notifications lightning -->
+        <com.awaken.support.preferences.SystemSettingMasterSwitchPreference
+            android:key="pulse_ambient_light"
+            android:title="@string/pulse_ambient_light_title"
+            android:summary="@string/pulse_ambient_light_summary"
+            android:fragment="com.android.settings.awaken.fragments.EdgeLightningSettings"
+            android:defaultValue="false" />
     </PreferenceCategory>
 </PreferenceScreen>
