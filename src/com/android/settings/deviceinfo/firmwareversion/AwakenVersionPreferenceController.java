@@ -18,43 +18,30 @@ package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
-import android.os.SystemClock;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.SystemProperties;
-import android.os.UserHandle;
-import android.os.UserManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 
 import com.android.settings.R;
-import com.android.settings.Utils;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.slices.Sliceable;
-import com.android.settingslib.RestrictedLockUtils;
-import com.android.settingslib.RestrictedLockUtilsInternal;
 
 public class AwakenVersionPreferenceController extends BasePreferenceController {
 
     private static final String TAG = "awakenVersionDialogCtrl";
-    private static final int DELAY_TIMER_MILLIS = 500;
-    private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     private static final String KEY_AWAKEN_VERSION_PROP = "ro.awaken.base.version";
     private static final String KEY_AWAKEN_CODENAME_PROP = "ro.awaken.base.codename";
 
-    private final UserManager mUserManager;
-    private final long[] mHits = new long[ACTIVITY_TRIGGER_COUNT];
+    private final PackageManager mPackageManager;
 
-    private RestrictedLockUtils.EnforcedAdmin mFunDisallowedAdmin;
-    private boolean mFunDisallowedBySystem;
-
-    public AwakenVersionPreferenceController(Context context, String key) {
-        super(context, key);
-        mUserManager = (UserManager) mContext.getSystemService(Context.USER_SERVICE);
-        initializeAdminPermissions();
+    public AwakenVersionPreferenceController(Context context, String preferenceKey) {
+        super(context, preferenceKey);
+        mPackageManager = mContext.getPackageManager();
     }
 
     @Override
@@ -89,47 +76,18 @@ public class AwakenVersionPreferenceController extends BasePreferenceController 
         if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
             return false;
         }
-        if (Utils.isMonkeyRunning()) {
-            return false;
-        }
-        arrayCopy();
-        mHits[mHits.length - 1] = SystemClock.uptimeMillis();
-        if (mHits[0] >= (SystemClock.uptimeMillis() - DELAY_TIMER_MILLIS)) {
-            if (mUserManager.hasUserRestriction(UserManager.DISALLOW_FUN)) {
-                if (mFunDisallowedAdmin != null && !mFunDisallowedBySystem) {
-                    RestrictedLockUtils.sendShowAdminSupportDetailsIntent(mContext,
-                            mFunDisallowedAdmin);
-                }
-                Log.d(TAG, "Sorry, no fun for you!");
-                return true;
-            }
 
-            final Intent intent = new Intent(Intent.ACTION_MAIN)
-                    .setClassName(
-                            "android", com.android.internal.app.PlatLogoActivity.class.getName());
-            try {
-                mContext.startActivity(intent);
-            } catch (Exception e) {
-                Log.e(TAG, "Unable to start activity " + intent.toString());
-            }
+        final Intent intent = new Intent();
+        intent.setAction(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(mContext.getString(R.string.awaken_uri)));
+        if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
+            // Don't send out the intent to stop crash
+            Log.w(TAG, "queryIntentActivities() returns empty");
+            return true;
         }
+
+        mContext.startActivity(intent);
         return true;
-    }
-
-    /**
-     * Copies the array onto itself to remove the oldest hit.
-     */
-    @VisibleForTesting
-    void arrayCopy() {
-        System.arraycopy(mHits, 1, mHits, 0, mHits.length - 1);
-    }
-
-    @VisibleForTesting
-    void initializeAdminPermissions() {
-        mFunDisallowedAdmin = RestrictedLockUtilsInternal.checkIfRestrictionEnforced(
-                mContext, UserManager.DISALLOW_FUN, UserHandle.myUserId());
-        mFunDisallowedBySystem = RestrictedLockUtilsInternal.hasBaseUserRestriction(
-                mContext, UserManager.DISALLOW_FUN, UserHandle.myUserId());
     }
 
     @Override
