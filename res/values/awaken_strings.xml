@@ -362,4 +362,8 @@
     <string name="pulse_ambient_light_layout_title">Edge light view</string>
     <string name="pulse_ambient_light_layout_solid">Solid</string>
     <string name="pulse_ambient_light_layout_faded">Faded</string>
+
+    <!-- Lockscreen media art -->
+    <string name="keygaurd_media_art_title">Show media art</string>
+    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
 </resources>
