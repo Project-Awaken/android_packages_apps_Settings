@@ -78,4 +78,10 @@
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+
+    <!-- Lockscreen media art -->
+    <string name="lockscreen_media_art_category_title">Media art</string>
+    <string name="keygaurd_media_art_title">Display media cover art</string>
+    <string name="keygaurd_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
 </resources>
