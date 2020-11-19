@@ -167,4 +167,7 @@
     <!-- Display Customizations Fragment -->
     <string name="display_customization_title">Display Customizations</string>
     <string name="statusbar_category_title">Statusbar Customizations</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
 </resources>
