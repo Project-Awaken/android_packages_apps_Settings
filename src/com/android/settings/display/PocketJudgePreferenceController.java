@@ -23,9 +23,12 @@ import com.android.settings.DisplaySettings;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settings.R;
 import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
 import static android.provider.Settings.System.POCKET_JUDGE;
 
+@SearchIndexable
 public class PocketJudgePreferenceController extends AbstractPreferenceController implements
         PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
 
@@ -59,4 +62,7 @@ public class PocketJudgePreferenceController extends AbstractPreferenceControlle
         Settings.System.putInt(mContext.getContentResolver(), POCKET_JUDGE, pocketJudgeValue ? 1 : 0);
         return true;
     }
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.display_settings);
 }

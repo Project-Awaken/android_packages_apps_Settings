@@ -35,11 +35,14 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
 import com.awaken.support.preferences.SecureSettingMasterSwitchPreference;
 import com.awaken.support.preferences.SecureSettingSwitchPreference;
 import com.awaken.support.preferences.SystemSettingMasterSwitchPreference;
 
+@SearchIndexable
 public class DisplayCustomizations extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
@@ -173,4 +176,7 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     public int getMetricsCategory() {
        return MetricsProto.MetricsEvent.AWAKEN;
     }
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.display_customizations);
 }

@@ -21,6 +21,8 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settingslib.core.AbstractPreferenceController;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,6 +30,7 @@ import java.util.List;
 /**
  * Settings for custom ringtone vibration pattern
  */
+@SearchIndexable
 public class CustomVibrationPreferenceFragment extends DashboardFragment {
 
     private static final String TAG = "CustomVibrationPreferenceFragment";
@@ -53,4 +56,7 @@ public class CustomVibrationPreferenceFragment extends DashboardFragment {
         controllers.add(new CustomVibrationPreferenceController(context));
         return controllers;
     }
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.custom_vibration_pattern);
 }

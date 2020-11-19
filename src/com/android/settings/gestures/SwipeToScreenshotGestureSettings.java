@@ -55,14 +55,6 @@ public class SwipeToScreenshotGestureSettings extends DashboardFragment {
         return R.xml.swipe_to_screenshot_gesture_settings;
     }
 
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider() {
-                @Override
-                public List<SearchIndexableResource> getXmlResourcesToIndex(
-                        Context context, boolean enabled) {
-                    final SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.swipe_to_screenshot_gesture_settings;
-                    return Arrays.asList(sir);
-                }
-            };
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.swipe_to_screenshot_gesture_settings);
 }

@@ -22,9 +22,12 @@ import androidx.preference.Preference;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
 import com.android.internal.logging.nano.MetricsProto;
 
+@SearchIndexable
 public class BrightnessSliderSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
@@ -43,4 +46,7 @@ public class BrightnessSliderSettings extends SettingsPreferenceFragment impleme
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.AWAKEN;
     }
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.statusbar_settings_brightness_slider);
 }
