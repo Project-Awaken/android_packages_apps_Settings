@@ -55,6 +55,15 @@
             android:max="2"
             settings:textStart="@string/low_label"
             settings:textEnd="@string/high_label"/>
+
+        <com.android.settings.widget.LabeledSeekBarPreference
+            android:key="gesture_back_deadzone"
+            android:title="@string/gesture_back_deadzone_label"
+            android:summary="@string/back_sensitivity_dialog_message_cust"
+            android:max="3"
+            android:selectable="true"
+            settings:textStart="@string/smallest_tick_label"
+            settings:textEnd="@string/greatest_tick_label"/>
     </PreferenceCategory>
 
     <PreferenceCategory
