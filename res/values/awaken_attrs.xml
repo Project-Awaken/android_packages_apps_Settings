@@ -23,4 +23,6 @@
         <attr name="digits" format="integer" />
     </declare-styleable>
 
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
 </resources>
