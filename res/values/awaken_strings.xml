@@ -151,4 +151,7 @@
     <!-- Battery light -->
     <string name="battery_light_title">Battery light</string>
     <string name="battery_light_summary">Turn on the light while charging and blink when battery is low</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
 </resources>
