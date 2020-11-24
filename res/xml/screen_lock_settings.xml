@@ -45,4 +45,23 @@
         android:key="lockscreen_scramble_pin_layout"
         android:title="@string/unlock_scramble_pin_layout_title"
         android:summary="@string/unlock_scramble_pin_layout_summary" />
+
+    <!-- Always available -->
+    <com.awaken.support.preferences.SecureSettingSwitchPreference
+        android:key="qstile_requires_unlocking"
+        android:title="@string/qstile_requires_unlocking_title"
+        android:summary="@string/qstile_requires_unlocking_summary"
+        android:defaultValue="true"/>
+
+    <com.awaken.support.preferences.SecureSettingSwitchPreference
+        android:key="secure_lockscreen_qs_disabled"
+        android:title="@string/disable_qs_title"
+        android:summary="@string/disable_qs_summary"
+        android:defaultValue="false" />
+
+    <com.awaken.support.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_power_menu_disabled"
+        android:title="@string/lockscreen_power_menu_disabled_title"
+        android:summary="@string/lockscreen_power_menu_disabled_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
