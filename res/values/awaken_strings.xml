@@ -351,6 +351,10 @@
     <string name="qs_show_data_usage_title">Show data usage</string>
     <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
 
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Secure QS tiles</string>
+    <string name="qstile_requires_unlocking_summary">Require unlocking to use sensitive QS tiles</string>
+
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
 
