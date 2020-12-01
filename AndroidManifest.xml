@@ -3498,6 +3498,17 @@
                 android:value="com.awaken.settings.Visualizer" />
         </activity>
 
+        <activity android:name="Settings$HeadsUpSettingsActivity"
+                  android:label="@string/headsupsettings_title"
+                  android:taskAffinity="com.android.settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.awaken.settings.HeadsUpSettings" />
+        </activity>
+
         <activity android:name=".backup.transport.TransportActivity"
                   android:label="@string/backup_transport_title"
                   android:icon="@drawable/ic_settings_backup"
