@@ -167,6 +167,7 @@ import com.awaken.settings.Traffic;
 import com.awaken.settings.Visualizer;
 import com.awaken.settings.GamingMode;
 import com.awaken.settings.HeadsUpSettings;
+import com.awaken.settings.FODIconPickerFragment;
 
 public class SettingsGateway {
 
@@ -322,7 +323,8 @@ public class SettingsGateway {
             Visualizer.class.getName(),
             RunningServices.class.getName(),
             GamingMode.class.getName(),
-            HeadsUpSettings.class.getName()
+            HeadsUpSettings.class.getName(),
+            FODIconPickerFragment.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -369,5 +371,6 @@ public class SettingsGateway {
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
             Settings.HeadsUpSettingsActivity.class.getName(),
+            Settings.FODIconPickerFragmentActivity.class.getName(),
     };
 }

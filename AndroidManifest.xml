@@ -3533,5 +3533,15 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.syberia.settings.fragments.GamingMode" />
         </activity>
+        <activity android:name="Settings$FODIconPickerFragmentActivity"
+                  android:label="@string/fod_icon_picker_title"
+                  android:taskAffinity="com.android.settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.awaken.settings.FODIconPickerFragment" />
+        </activity>
     </application>
 </manifest>

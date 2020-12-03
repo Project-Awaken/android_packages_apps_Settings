@@ -259,4 +259,6 @@
 
     <string name="headsupsettings_title">Heads Up Settings</string>
 
+    <string name="fod_icon_picker_title">FOD icon picker</string>
+
 </resources>
