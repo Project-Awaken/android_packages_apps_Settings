@@ -218,7 +218,7 @@ public class PreviouslyConnectedDevicePreferenceController extends BasePreferenc
 
     @Override
     public void onBluetoothStateChanged(int bluetoothState) {
-        updatePreferenceVisiblity();
+        updatePreferenceVisibility();
     }
 
     @Override
