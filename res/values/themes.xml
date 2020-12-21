@@ -30,7 +30,7 @@
         <item name="android:clipToPadding">false</item>
         <item name="android:clipChildren">false</item>
         <item name="android:listPreferredItemHeight">72dip</item>
-        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back</item>
+        <item name="android:homeAsUpIndicator">@*android:drawable/ic_ab_back_material</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:datePickerDialogTheme">@style/PickerDialogTheme.Settings</item>
 
