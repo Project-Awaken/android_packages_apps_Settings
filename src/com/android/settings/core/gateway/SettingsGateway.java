@@ -164,7 +164,6 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.awaken.settings.AwakenSettings;
 import com.awaken.settings.OmniJawsSettings;
 import com.awaken.settings.Traffic;
-import com.awaken.settings.Visualizer;
 import com.awaken.settings.GamingMode;
 import com.awaken.settings.HeadsUpSettings;
 import com.awaken.settings.FODIconPickerFragment;
@@ -320,7 +319,6 @@ public class SettingsGateway {
             AwakenSettings.class.getName(),
             OmniJawsSettings.class.getName(),
             Traffic.class.getName(),
-            Visualizer.class.getName(),
             RunningServices.class.getName(),
             GamingMode.class.getName(),
             HeadsUpSettings.class.getName(),
@@ -367,7 +365,6 @@ public class SettingsGateway {
             Settings.AwakenSettingsActivity.class.getName(),
             Settings.OmniJawsSettingsActivity.class.getName(),
             Settings.TrafficActivity.class.getName(),
-            Settings.VisualizerActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
             Settings.HeadsUpSettingsActivity.class.getName(),

@@ -3493,17 +3493,6 @@
                 android:value="com.awaken.settings.Traffic" />
         </activity>
 
-        <activity android:name="Settings$VisualizerActivity"
-                  android:label="@string/visualizer_title"
-                  android:taskAffinity="com.android.settings" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.awaken.settings.Visualizer" />
-        </activity>
-
         <activity android:name="Settings$HeadsUpSettingsActivity"
                   android:label="@string/headsupsettings_title"
                   android:taskAffinity="com.android.settings" >
