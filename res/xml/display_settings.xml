@@ -225,12 +225,5 @@
             android:entryValues="@array/theming_settings_dashboard_icons_values"
             android:defaultValue="0" />
 
-     <Preference
-         android:key="themes"
-         android:title="@string/themes_title"
-         android:summary="@string/themes_summary"
-         android:fragment="com.android.settings.awaken.AwakenThemes" />
-
     </PreferenceCategory>
-
 </PreferenceScreen>
