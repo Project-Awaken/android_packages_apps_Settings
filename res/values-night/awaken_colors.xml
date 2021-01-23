@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2020 Project-Awaken
-
+<!-- Copyright (C) 2007 The Android Open Source Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
-
           http://www.apache.org/licenses/LICENSE-2.0
-
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,16 +11,6 @@
      limitations under the License.
 -->
 
-<vector
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:name="vector"
-    android:width="24dp"
-    android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
-    <path
-        android:name="path"
-        android:pathData="M 15 6 L 21 20 L 19 20 C 17.8 20 17.4 19.5 17.4 19.4 C 17.3 19.3 17.1 19 17 18.8 L 13 10 L 15 6 Z M 13 4 L 7.1 18.9 C 7 19 7 19.1 6.9 19.2 C 6.6 19.4 6 20 5 20 L 3 20 L 9 5 C 9.4 4.3 10 4 11 4 L 13 4 Z"
-        android:fillColor="#ffffff"
-        android:strokeWidth="1"/>
-</vector>
+<resources>
+    <color name="awaken_icon_tint_color">@*android:color/accent_device_default_dark</color>
+</resources>
