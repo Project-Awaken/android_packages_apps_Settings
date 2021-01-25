@@ -20,6 +20,18 @@
     android:title="@string/display_customization_title">
 
     <PreferenceCategory
+        android:key="clocksettings_category"
+        android:title="@string/clocksettings_category_title">
+
+        <!-- Clock Customizations -->
+        <Preference
+	    android:key="clock_settings"
+            android:title="@string/clocksettings_title"
+            android:summary="@string/clocksettings_summary"
+            android:fragment="com.android.settings.awaken.fragments.ClockSettings" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="quicksettings_category"
         android:title="@string/quicksettings_category_title">
 
