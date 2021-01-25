@@ -3561,5 +3561,17 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.awaken.settings.FODIconPickerFragment" />
         </activity>
+
+        <activity android:name="Settings$ClockOptionsActivity"
+                  android:label="@string/clock_options_title"
+                  android:taskAffinity="com.android.settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.awaken.settings.ClockOptions" />
+        </activity>
+
     </application>
 </manifest>

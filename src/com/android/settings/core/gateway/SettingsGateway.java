@@ -166,6 +166,7 @@ import com.awaken.settings.OmniJawsSettings;
 import com.awaken.settings.Traffic;
 import com.awaken.settings.GamingMode;
 import com.awaken.settings.HeadsUpSettings;
+import com.awaken.settings.ClockOptions;
 import com.awaken.settings.FODIconPickerFragment;
 
 public class SettingsGateway {
@@ -322,7 +323,8 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             GamingMode.class.getName(),
             HeadsUpSettings.class.getName(),
-            FODIconPickerFragment.class.getName()
+            FODIconPickerFragment.class.getName(),
+            ClockOptions.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -369,5 +371,6 @@ public class SettingsGateway {
             Settings.GamingModeActivity.class.getName(),
             Settings.HeadsUpSettingsActivity.class.getName(),
             Settings.FODIconPickerFragmentActivity.class.getName(),
+            Settings.ClockOptionsActivity.class.getName(),
     };
 }

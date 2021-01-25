@@ -259,4 +259,7 @@ public class Settings extends SettingsActivity {
 
     // omni additions start
     public static class SwipeToNotificationSuggestionActivity extends SettingsActivity { /* empty */ }
+
+    public static class ClockOptionsActivity extends SettingsActivity { /* empty */ }
+
 }
