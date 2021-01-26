@@ -163,7 +163,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.awaken.settings.AwakenSettings;
 import com.awaken.settings.OmniJawsSettings;
-import com.awaken.settings.Traffic;
+import com.awaken.settings.NetworkTrafficSettings;
 import com.awaken.settings.GamingMode;
 import com.awaken.settings.HeadsUpSettings;
 import com.awaken.settings.ClockOptions;
@@ -319,7 +319,7 @@ public class SettingsGateway {
             MediaControlsSettings.class.getName(),
             AwakenSettings.class.getName(),
             OmniJawsSettings.class.getName(),
-            Traffic.class.getName(),
+            NetworkTrafficSettings.class.getName(),
             RunningServices.class.getName(),
             GamingMode.class.getName(),
             HeadsUpSettings.class.getName(),
