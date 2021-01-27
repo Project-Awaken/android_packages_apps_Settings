@@ -16,6 +16,8 @@
     <!-- Awaken version -->
     <string name="awaken_version">Awaken version</string>
     <string name="awaken_version_default">Unknown</string>
+    <string name="awaken_codename">Awaken codename</string>
+    <string name="awaken_build_type">Build type</string>
     <string name="build_date">Build date</string>
 
     <!-- Battery stats reset -->

@@ -43,6 +43,22 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AwakenVersionPreferenceController"/>
 
+    <!-- Awaken codename -->
+    <Preference
+        android:key="awaken_codename"
+        android:title="@string/awaken_codename"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AwakenCodeNamePreferenceController"/>
+
+    <!-- Awaken release type -->
+    <Preference
+        android:key="awaken_releasetype"
+        android:title="@string/awaken_build_type"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.AwakenReleaseTypePreferenceController"/>
+
     <!-- Awaken maintainer -->
     <Preference
         android:key="maintainer"
