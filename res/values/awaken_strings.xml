@@ -334,4 +334,8 @@
     <string name="pocket_judge_fp_title">Allow FP in pocket mode</string>
     <string name="pocket_judge_fp_summary">Listen for fingerprint when pocket detection is active</string>
 
+    <!-- Clipboard toast toggle -->
+    <string name="show_clipboard_toast">Show clipboard access alerts</string>
+    <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
+
 </resources>
