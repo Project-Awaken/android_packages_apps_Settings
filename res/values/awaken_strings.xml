@@ -338,4 +338,9 @@
     <string name="show_clipboard_toast">Show clipboard access alerts</string>
     <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
 
+    <!-- Navbar radius -->
+    <string name="navbar_radius">Gesture bar Radius</string>
+    <string name="small_label">small</string>
+    <string name="big_label">iOS</string>
+
 </resources>
