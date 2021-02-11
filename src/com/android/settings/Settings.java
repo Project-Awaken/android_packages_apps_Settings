@@ -262,4 +262,10 @@ public class Settings extends SettingsActivity {
 
     public static class ClockOptionsActivity extends SettingsActivity { /* empty */ }
 
+    public static class SensorBlockActivity extends SettingsActivity { /* empty */ }
+
+    public static class AggressiveBatteryActivity extends SettingsActivity { /* empty */ }
+
+    public static class BatteryBarActivity extends SettingsActivity { /* empty */ }
+
 }

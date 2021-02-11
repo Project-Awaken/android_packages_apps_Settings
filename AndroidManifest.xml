@@ -3573,5 +3573,38 @@
                 android:value="com.awaken.settings.ClockOptions" />
         </activity>
 
+        <activity android:name="Settings$SensorBlockActivity"
+                  android:label="@string/sensor_block_title"
+                  android:taskAffinity="com.android.settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.awaken.settings.SensorBlock" />
+        </activity>
+
+        <activity android:name="Settings$AggressiveBatteryActivity"
+                  android:label="@string/aggressive_battery_title"
+                  android:taskAffinity="com.android.settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.awaken.settings.AggressiveBattery" />
+        </activity>
+
+        <activity android:name="Settings$BatteryBarActivity"
+                  android:label="@string/battery_bar_title"
+                  android:taskAffinity="com.android.settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.awaken.settings.BatteryBar" />
+        </activity>
+
     </application>
 </manifest>

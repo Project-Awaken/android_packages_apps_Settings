@@ -168,6 +168,9 @@ import com.awaken.settings.GamingMode;
 import com.awaken.settings.HeadsUpSettings;
 import com.awaken.settings.ClockOptions;
 import com.awaken.settings.FODIconPickerFragment;
+import com.awaken.settings.SensorBlock;
+import com.awaken.settings.AggressiveBattery;
+import com.awaken.settings.BatteryBar;
 
 public class SettingsGateway {
 
@@ -324,7 +327,10 @@ public class SettingsGateway {
             GamingMode.class.getName(),
             HeadsUpSettings.class.getName(),
             FODIconPickerFragment.class.getName(),
-            ClockOptions.class.getName()
+            ClockOptions.class.getName(),
+            SensorBlock.class.getName(),
+            AggressiveBattery.class.getName(),
+            BatteryBar.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -372,5 +378,8 @@ public class SettingsGateway {
             Settings.HeadsUpSettingsActivity.class.getName(),
             Settings.FODIconPickerFragmentActivity.class.getName(),
             Settings.ClockOptionsActivity.class.getName(),
+            Settings.SensorBlockActivity.class.getName(),
+            Settings.AggressiveBatteryActivity.class.getName(),
+            Settings.BatteryBarActivity.class.getName(),
     };
 }
