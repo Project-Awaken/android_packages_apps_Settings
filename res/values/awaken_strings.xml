@@ -619,4 +619,9 @@
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
+
+    <!-- Headset ringtone audio focus -->
+    <string name="ringtone_focus_mode_title">Ringtone focus mode</string>
+    <string name="ringtone_focus_mode_dynamic">Headset (If media is playing)</string>
+    <string name="ringtone_focus_mode_stock">Speaker and headset</string>
 </resources>
