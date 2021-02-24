@@ -126,18 +126,23 @@
     <dimen name="switchbar_subsettings_margin_start">72dp</dimen>
     <dimen name="switchbar_subsettings_margin_end">16dp</dimen>
 
-    <dimen name="search_bar_margin">8dp</dimen>
+    <dimen name="settings_header_side_margin">24dp</dimen>
+    <dimen name="settings_header_vertical_margin">32dp</dimen>
 
-    <dimen name="search_bar_height">48dp</dimen>
+    <dimen name="search_bar_margin">26dp</dimen>
+    <dimen name="search_bar_side_margin">12dp</dimen>
+    <dimen name="search_bar_vertical_margin">16dp</dimen>
+
+    <dimen name="search_bar_height">56dp</dimen>
     <dimen name="search_bar_corner_radius">@*android:dimen/config_dialogCornerRadius</dimen>
     <dimen name="search_bar_text_size">16dp</dimen>
-    <dimen name="search_bar_card_elevation">1dp</dimen>
+    <dimen name="search_bar_card_elevation">0dp</dimen>
     <dimen name="search_bar_content_inset">64dp</dimen>
-    <dimen name="search_bar_avatar_end_padding">16dp</dimen>
+    <dimen name="search_bar_avatar_end_padding">0dp</dimen>
     <!-- 32dp (avatar size) + 16 dp (search_bar_avatar_end_padding) -->
-    <dimen name="search_bar_avatar_width">48dp</dimen>
+    <dimen name="search_bar_avatar_width">32dp</dimen>
     <!-- (search_bar_height 48dp - avatar size 32dp) / 2  -->
-    <dimen name="search_bar_avatar_top_bottom_padding">8dp</dimen>
+    <dimen name="search_bar_avatar_top_bottom_padding">0dp</dimen>
 
     <!-- Dimensions for Wifi Assistant Card -->
     <dimen name="wifi_assistant_padding_top_bottom">16dp</dimen>
@@ -339,7 +344,7 @@
     <!-- Homepage cards size and padding -->
     <dimen name="contextual_card_icon_size">24dp</dimen>
     <dimen name="contextual_card_vertical_margin">8dp</dimen>
-    <dimen name="contextual_card_side_margin">4dp</dimen>
+    <dimen name="contextual_card_side_margin">12dp</dimen>
     <dimen name="contextual_card_icon_padding_start">14dp</dimen>
     <dimen name="contextual_card_text_padding_start">16dp</dimen>
     <dimen name="contextual_card_padding_end">16dp</dimen>

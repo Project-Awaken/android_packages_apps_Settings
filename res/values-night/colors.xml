@@ -18,9 +18,10 @@
     <color name="switchbar_switch_track_tint">#82000000</color>
     <color name="switchbar_switch_thumb_tint">@android:color/black</color>
     <color name="homepage_card_dismissal_background">@*android:color/material_grey_900</color>
-    <color name="contextual_card_dismissal_background">@*android:color/material_grey_900</color>
-    <color name="contextual_card_background">@*android:color/material_grey_900</color>
-    <color name="search_bar_background">@*android:color/material_grey_800</color>
+    <color name="contextual_card_background">@android:color/transparent</color>
+    <color name="search_bar_background">@android:color/transparent</color>
+    <color name="search_bar_stroke_color">#13FFFFFF</color>
+    <color name="contextual_card_stroke_color">#13FFFFFF</color>
     <!-- Dialog background color. -->
     <color name="dialog_background">@*android:color/material_grey_800</color>
     <color name="notification_importance_selection_bg">@*android:color/material_grey_800</color>
@@ -38,5 +39,7 @@
     <color name="palette_list_color_blue">@color/palette_list_dark_mode_color_blue</color>
     <color name="palette_list_color_purple">@color/palette_list_dark_mode_color_purple</color>
     <color name="gestures_setting_background_color">@android:color/black</color>
+
+    <color name="homepage_generic_icon_background">#14253D</color>
 </resources>
 
