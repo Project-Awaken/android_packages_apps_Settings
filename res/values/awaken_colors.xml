@@ -13,4 +13,6 @@
 
     <color name="awaken_icon_tint_color">@*android:color/accent_device_default_light</color>
 
+    <color name="settings_header_color">#000</color>
+
 </resources>

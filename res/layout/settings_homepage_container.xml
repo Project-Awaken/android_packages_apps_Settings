@@ -50,6 +50,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal|top"
+                    android:paddingTop="20dp"
                     android:gravity="center_vertical"
                     style="@style/SettingsHeaderStyle">
 
@@ -58,18 +59,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="start"
-                        android:textColor="?android:attr/colorAccent"
+                        android:textColor="@color/settings_header_color"
                         android:textSize="34sp"
+                        android:fontFamily="@*android:string/config_headlineFontFamilyMedium"
                         android:text="@string/dashboard_title" />
 
-                    <ImageView
-                        android:id="@+id/account_avatar"
-                        android:paddingEnd="@dimen/search_bar_avatar_end_padding"
-                        android:paddingTop="@dimen/search_bar_avatar_top_bottom_padding"
-                        android:layout_width="@dimen/search_bar_avatar_width"
-                        android:layout_height="@dimen/search_bar_avatar_width"
-                        android:layout_gravity="center_vertical|end"
-                        android:contentDescription="@string/search_bar_account_avatar_content_description"/>
                 </FrameLayout>
 
                 <FrameLayout
@@ -83,6 +77,15 @@
                     layout="@layout/search_bar"
                     android:layout_marginStart="@dimen/search_bar_side_margin"
                     android:layout_marginEnd="@dimen/search_bar_side_margin" />
+
+                    <ImageView
+                        android:id="@+id/account_avatar"
+                        android:paddingEnd="@dimen/search_bar_avatar_end_padding"
+                        android:paddingTop="@dimen/search_bar_avatar_top_bottom_padding"
+                        android:layout_width="@dimen/search_bar_avatar_width"
+                        android:layout_height="@dimen/search_bar_avatar_width"
+                        android:layout_gravity="center_vertical|end"
+                        android:contentDescription="@string/search_bar_account_avatar_content_description"/>
             </com.google.android.material.appbar.AppBarLayout>
 
             <FrameLayout

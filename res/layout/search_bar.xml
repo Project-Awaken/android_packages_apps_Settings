@@ -20,7 +20,7 @@
     android:layout_marginStart="@dimen/search_bar_margin"
     android:layout_marginTop="@dimen/search_bar_margin"
     android:layout_marginEnd="@dimen/search_bar_margin"
-    android:layout_marginBottom="16.0dip"
+    android:layout_marginBottom="0dip"
     app:layout_scrollFlags="enterAlways|scroll">
 
     <com.google.android.material.card.MaterialCardView
@@ -28,7 +28,7 @@
         style="@style/SearchBarStyle"
         android:layout_marginStart="@dimen/search_bar_margin"
         android:layout_marginTop="@dimen/search_bar_margin"
-        android:layout_marginBottom="@dimen/search_bar_margin"
+        android:layout_marginBottom="0dip"
         android:layout_marginEnd="28dp"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
