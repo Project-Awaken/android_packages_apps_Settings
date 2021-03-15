@@ -55,6 +55,10 @@
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
 
+    <!-- Battery saver refresh rate -->
+    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
+    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+
     <!-- Battery Styles -->
     <string name="battery_percent_title">Statusbar battery indicator</string>
     <string name="battery_percent_summary">Configure icon and text styles for the statusbar battery indicator</string>
