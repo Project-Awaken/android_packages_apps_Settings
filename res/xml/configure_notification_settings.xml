@@ -176,11 +176,16 @@
 
         <!-- Battery light -->
         <SwitchPreference
-            android:key="battery_light_enabled"
-            android:order="23"
-            android:title="@string/battery_light_title"
-            android:summary="@string/battery_light_summary"
-            settings:controller="com.android.settings.notification.BatteryLightPreferenceController"/>
+            android:key="charging_battery_light_enabled"
+            android:title="@string/charging_battery_light_title"
+            android:summary="@string/charging_battery_light_summary"
+            settings:controller="com.android.settings.notification.ChargingBatteryLightPreferenceController"/>
+
+        <SwitchPreference
+            android:key="low_battery_light_enabled"
+            android:title="@string/low_battery_light_title"
+            android:summary="@string/low_battery_light_summary"
+            settings:controller="com.android.settings.notification.LowBatteryLightPreferenceController"/>
 
         <SwitchPreference
             android:key="notification_assistant"
