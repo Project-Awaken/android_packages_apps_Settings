@@ -165,6 +165,10 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
 
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
