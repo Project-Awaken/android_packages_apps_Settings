@@ -14,14 +14,13 @@
  * limitations under the License.
  */
 
-package com.android.settings.display;
+package com.android.settings.development;
 
 import android.content.Context;
 import android.content.om.IOverlayManager;
 import android.content.pm.PackageManager;
 import android.os.ServiceManager;
 import android.view.DisplayCutout;
-import com.android.settings.display.OverlayCategoryPreferenceController;
 import androidx.annotation.VisibleForTesting;
 
 public class EmulateDisplayCutoutPreferenceController extends OverlayCategoryPreferenceController {
