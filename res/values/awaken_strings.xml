@@ -104,6 +104,9 @@
     <string name="keygaurd_media_art_summary">Show current playing media\'s album art on lockscreen</string>
     <string name="lockscreen_media_blur_title">Media art blur level</string>
 
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Peak refresh rate</string>
+
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
