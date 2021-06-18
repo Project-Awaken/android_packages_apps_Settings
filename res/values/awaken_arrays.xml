@@ -69,6 +69,16 @@
         <item>5</item>
     </string-array>
 
+    <!-- Face Unlock -->
+    <string-array name="face_unlock_method_entries">
+        <item>@string/face_unlock_method_default</item>
+        <item>@string/face_unlock_method_swipe</item>
+    </string-array>
+    <string-array name="face_unlock_method_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
     <!-- Per-app notification settings: Timeout period in which the app notifications are muted. These are shown in a list dialog. -->
     <string-array name="app_notification_sound_timeout_entries" translatable="false">
         <item>@string/app_notification_sound_timeout_value_none</item>
