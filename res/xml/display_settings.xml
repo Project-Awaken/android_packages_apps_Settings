@@ -131,6 +131,11 @@
             android:summary="@string/touch_sensitivity_summary"
             settings:controller="com.android.settings.display.TouchSensitivityPreferenceController" />
 
+       <SwitchPreference
+            android:key="show_refresh_rate"
+            android:title="@string/show_refresh_rate"
+            android:summary="@string/show_refresh_rate_summary" />
+
         <SwitchPreference
             android:key="show_operator_name"
             android:title="@string/show_operator_name_title"
