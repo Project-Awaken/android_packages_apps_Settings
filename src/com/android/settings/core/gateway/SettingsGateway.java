@@ -172,6 +172,9 @@ import com.awaken.settings.FODIconPickerFragment;
 import com.awaken.settings.SensorBlock;
 import com.awaken.settings.AggressiveBattery;
 import com.awaken.settings.BatteryBar;
+import com.awaken.settings.GamingModeSettings;
+import com.awaken.settings.DanmakuSettings;
+import com.awaken.settings.QuickStartAppSettings;
 
 public class SettingsGateway {
 
@@ -333,6 +336,9 @@ public class SettingsGateway {
             AggressiveBattery.class.getName(),
             BatteryBar.class.getName(),
             LiveDisplaySettings.class.getName(),
+            GamingModeSettings.class.getName(),
+            DanmakuSettings.class.getName(),
+            QuickStartAppSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -382,5 +388,8 @@ public class SettingsGateway {
             Settings.SensorBlockActivity.class.getName(),
             Settings.AggressiveBatteryActivity.class.getName(),
             Settings.BatteryBarActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
+            Settings.DanmakuActivity.class.getName(),
+            Settings.QuickStartAppActivity.class.getName(),
     };
 }

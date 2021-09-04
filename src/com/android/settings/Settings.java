@@ -255,6 +255,11 @@ public class Settings extends SettingsActivity {
 
     public static class FODIconPickerFragmentActivity extends SettingsActivity { /* empty */ }
 
+    // Gaming mode
+    public static class GamingModeActivity extends SettingsActivity {}
+    public static class DanmakuActivity extends SettingsActivity {}
+    public static class QuickStartAppActivity extends SettingsActivity {}
+
     // omni additions start
     public static class SwipeToNotificationSuggestionActivity extends SettingsActivity { /* empty */ }
 
