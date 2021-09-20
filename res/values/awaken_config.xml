@@ -22,6 +22,11 @@
         <item>com.android.localtransport/.LocalTransport</item>
     </string-array>
 
+    <!-- Battery health -->
+    <string name="config_batteryHealthNode"></string>
+    <string name="config_batteryRemainingCapacityNode"></string>
+    <string name="config_batteryDesignCapacityNode"></string>
+
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
 

@@ -52,6 +52,9 @@
     <string name="backup_transport_setting_label">Change backup provider</string>
     <string name="backup_transport_title">Select backup provider</string>
 
+    <!-- Battery health -->
+    <string name="battery_health_title">Battery health</string>
+
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
     <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
