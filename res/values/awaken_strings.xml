@@ -345,9 +345,12 @@
     <string name="pulse_ambient_light_layout_solid">Solid</string>
     <string name="pulse_ambient_light_layout_faded">Faded</string>
 
-    <!-- Lockscreen media art -->
-    <string name="lockscreen_media_art_category_title">Media art</string>
+    <!-- Lockscreen media art and visualizer -->
+    <string name="lockscreen_media_art_category_title">Media art &amp; Visualizer</string>
     <string name="keygaurd_media_art_title">Show media art</string>
     <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
     <string name="lockscreen_media_blur_title">Media art blur level</string>
+    <string name="lockscreen_visualizer_title">Visualizer</string>
+    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
+    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
 </resources>
