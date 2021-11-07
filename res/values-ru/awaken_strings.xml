@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 Project-Awaken
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Awaken version -->
+    <string name="awaken_version">Версия Awaken</string>
+    <string name="awaken_version_default">Не известно</string>
+    <string name="build_date">Дата сборки</string>
+
+    <!-- Awaken maintainer -->
+    <string name="maintainer">Сопровождающий</string>
+    <string name="awaken_maintainer">Неофициальный сопровождающий</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Свайп для скриншота</string>
+    <string name="three_finger_gesture_summary">Проведите тремя пальцами вниз для создания скриншота</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">Статус SELinux</string>
+    <string name="selinux_status_disabled">Отключен</string>
+    <string name="selinux_status_permissive">Разрешающий</string>
+    <string name="selinux_status_enforcing">Запрещающий</string>
+
+    <!-- Density category -->
+    <string name="density_category">Настройки плотности</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Звук скриншота</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Показать журнал истории уведомлений</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость рингтона и уведомлений</string>
+
+     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Включить расширенную перезагрузку</string>
+    <string name="global_actions_advanced_reboot_summary">Показать параметры рекавери и загрузчика в меню питания</string>
+
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_awaken">Дважды коснитесь экрана в любом месте, чтобы ввести или вывести устройство из спящего режима</string>
+
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Прикоснитесь для сна</string>
+    <string name="double_tap_sleep_gesture_summary">Дважды коснитесь в любом месте строки состояния, чтобы перевести устройство в спящий режим</string>
+</resources>
