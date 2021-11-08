@@ -36,6 +36,7 @@ public class AwakenVersionPreferenceController extends BasePreferenceController 
 
     private static final String KEY_AWAKEN_VERSION_PROP = "ro.awaken.base.version";
     private static final String KEY_AWAKEN_CODENAME_PROP = "ro.awaken.base.codename";
+    private static final String KEY_AWAKEN_ZIPTYPE_PROP = "ro.awaken.ziptype";
 
     private final PackageManager mPackageManager;
 
@@ -65,8 +66,10 @@ public class AwakenVersionPreferenceController extends BasePreferenceController 
                 mContext.getString(R.string.unknown));
         String awakenCodename = SystemProperties.get(KEY_AWAKEN_CODENAME_PROP,
                 mContext.getString(R.string.unknown));
+        String awakenZiptype =  SystemProperties.get(KEY_AWAKEN_ZIPTYPE_PROP,
+                mContext.getString(R.string.unknown));
         if (!awakenVersion.isEmpty())
-            return awakenVersion + " | " + awakenCodename;
+            return awakenVersion + " | " + awakenCodename + " | " + awakenZiptype;
         else
             return mContext.getString(R.string.awaken_version_default);
     }
