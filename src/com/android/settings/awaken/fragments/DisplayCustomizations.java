@@ -22,6 +22,7 @@ import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.provider.DeviceConfig;
 import android.provider.Settings;
 
 import androidx.preference.ListPreference;
@@ -51,6 +52,7 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
     private static final String KEY_EDGE_LIGHTNING = "pulse_ambient_light";
     private static final String KEY_NETWORK_TRAFFIC = "network_traffic_state";
+    private static final String LOCATION_DEVICE_CONFIG = "location_indicators_enabled";
 
     private static final int BATTERY_STYLE_PORTRAIT = 0;
     private static final int BATTERY_STYLE_TEXT = 4;
@@ -60,6 +62,7 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     //private static final int BATTERY_PERCENT_SHOW_OUTSIDE = 2;
 
     private static final String COBINED_STATUSBAR_ICONS = "show_combined_status_bar_signal_icons";
+    private static final String LOCATION_INDICATOR = "enable_location_privacy_indicator";
 
     private SecureSettingMasterSwitchPreference mBrightnessSlider;
     private SystemSettingMasterSwitchPreference mEdgeLightning;
@@ -136,6 +139,13 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
                 KEY_NETWORK_TRAFFIC, 0, UserHandle.USER_CURRENT) == 1;
         mNetworkTraffic.setChecked(enabled);
         mNetworkTraffic.setOnPreferenceChangeListener(this);
+
+        SecureSettingSwitchPreference locationIndicator = findPreference(LOCATION_INDICATOR);
+        def = DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_PRIVACY,
+                LOCATION_DEVICE_CONFIG, false);
+        locationIndicator.setDefaultValue(def);
+        locationIndicator.setChecked(Settings.Secure.getInt(resolver,
+                LOCATION_INDICATOR, def ? 1 : 0) == 1);
     }
 
     @Override
