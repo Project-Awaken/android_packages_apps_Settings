@@ -95,6 +95,13 @@
         <com.android.settings.display.DensityPreference
             android:key="density"
             android:title="@string/developer_smallest_width" />
+
+        <!-- Monet -->
+        <Preference
+            android:key="monet_settings"
+            android:title="@string/monet_engine_settings_title"
+            android:summary="@string/monet_engine_settings_summary"
+            android:fragment="com.android.settings.awaken.fragments.MonetSettings" />
     </PreferenceCategory>
 
     <PreferenceCategory
