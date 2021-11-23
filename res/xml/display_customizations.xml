@@ -20,38 +20,6 @@
     android:title="@string/display_customization_title">
 
     <PreferenceCategory
-        android:key="statusbar_category"
-        android:title="@string/statusbar_category_title">
-
-        <!-- Statusbar Icon Manager -->
-        <Preference
-            android:key="systemui_tuner_statusbar"
-            android:title="@string/statusbar_items_title" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-        </Preference>
-
-        <com.awaken.support.preferences.SystemSettingSwitchPreference
-            android:key="show_fourg_icon"
-            android:title="@string/show_fourg_icon_title"
-            android:summary="@string/show_fourg_icon_summary"
-            android:defaultValue="false"/>
-
-        <com.awaken.support.preferences.SystemSettingSwitchPreference
-            android:key="use_old_mobiletype"
-            android:title="@string/use_old_mobiletype_title"
-            android:summary="@string/use_old_mobiletype_summary"
-            android:defaultValue="true" />
-
-        <com.awaken.support.preferences.SystemSettingSwitchPreference
-            android:key="roaming_indicator_icon"
-            android:title="@string/roaming_indicator_icon_title"
-            android:summary="@string/roaming_indicator_icon_summary"
-            android:defaultValue="true"/>
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:key="battery_style_category"
         android:title="@string/battery_style_category_title" >
 
@@ -79,5 +47,50 @@
             android:summaryOn="@string/qs_show_battery_estimate_summary_on"
             android:summaryOff="@string/qs_show_battery_estimate_summary_off"
             android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="clocksettings_category"
+        android:title="@string/clocksettings_category_title">
+
+        <!-- Clock Customizations -->
+        <Preference
+	    android:key="clock_settings"
+            android:title="@string/clocksettings_title"
+            android:summary="@string/clocksettings_summary"
+            android:fragment="com.android.settings.awaken.fragments.ClockSettings" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="statusbar_category"
+        android:title="@string/statusbar_category_title">
+
+        <!-- Statusbar Icon Manager -->
+        <Preference
+            android:key="systemui_tuner_statusbar"
+            android:title="@string/statusbar_items_title"
+            android:summary="@string/statusbar_items_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+        </Preference>
+
+        <com.awaken.support.preferences.SystemSettingSwitchPreference
+            android:key="show_fourg_icon"
+            android:title="@string/show_fourg_icon_title"
+            android:summary="@string/show_fourg_icon_summary"
+            android:defaultValue="false"/>
+
+        <com.awaken.support.preferences.SystemSettingSwitchPreference
+            android:key="use_old_mobiletype"
+            android:title="@string/use_old_mobiletype_title"
+            android:summary="@string/use_old_mobiletype_summary"
+            android:defaultValue="true" />
+
+        <com.awaken.support.preferences.SystemSettingSwitchPreference
+            android:key="roaming_indicator_icon"
+            android:title="@string/roaming_indicator_icon_title"
+            android:summary="@string/roaming_indicator_icon_summary"
+            android:defaultValue="true"/>
     </PreferenceCategory>
 </PreferenceScreen>
