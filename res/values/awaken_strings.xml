@@ -60,10 +60,11 @@
     <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
 
     <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <string name="customization_category_title">Customizations</string>
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_summary">Enable/Disable items in statusbar</string>
 
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Ringtone vibration pattern</string>
@@ -85,6 +86,7 @@
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
 
     <!-- Customization Categories/Fragment Titles -->
+    <string name="clocksettings_category_title">Clock Customizations</string>
     <string name="clocksettings_title">Clock Settings</string>
     <string name="clocksettings_summary">Statusbar clock settings</string>
     <string name="status_bar_clock_date_title">Clock and Date</string>
@@ -166,6 +168,7 @@
 
     <!-- Display Customizations Fragment -->
     <string name="display_customization_title">Display Customizations</string>
+    <string name="display_customization_summary">Adjust statusbar and quick settings</string>
     <string name="statusbar_category_title">Statusbar Customizations</string>
 
     <!-- Radio Info -->

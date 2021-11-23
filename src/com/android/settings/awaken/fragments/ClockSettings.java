@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.datetime;
+package com.android.settings.awaken.fragments;
 
 import android.app.AlertDialog;
 import android.content.ContentResolver;
