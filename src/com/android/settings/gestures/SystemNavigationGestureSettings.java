@@ -76,6 +76,8 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
 
     private static final String KEY_SHOW_A11Y_TUTORIAL_DIALOG = "show_a11y_tutorial_dialog_bool";
 
+    private static final String FULLSCREEN_GESTURE_OVERLAY_PKG = "com.krypton.overlay.systemui.navbar.gestural";
+
     private boolean mA11yTutorialDialogShown = false;
 
     private IOverlayManager mOverlayManager;
@@ -215,7 +217,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
 
     @Override
     protected boolean setDefaultKey(String key) {
-        setCurrentSystemNavigationMode(mOverlayManager, key);
+        setCurrentSystemNavigationMode(getContext(), mOverlayManager, key);
         setIllustrationVideo(mVideoPreference, key);
         setGestureNavigationTutorialDialog(key);
         return true;
@@ -228,13 +230,16 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
         }
 
         OverlayInfo info = null;
+        OverlayInfo fullscreenOverlayInfo = null;
         try {
             info = overlayManager.getOverlayInfo(NAV_BAR_MODE_GESTURAL_OVERLAY, USER_CURRENT);
+            fullscreenOverlayInfo = overlayManager.getOverlayInfo(FULLSCREEN_GESTURE_OVERLAY_PKG, USER_CURRENT);
         } catch (RemoteException e) { /* Do nothing */ }
-        if (info != null && !info.isEnabled()) {
+        if (info != null && !info.isEnabled() &&
+                (fullscreenOverlayInfo == null || !fullscreenOverlayInfo.isEnabled())) {
             // Enable the default gesture nav overlay. Back sensitivity for left and right are
             // stored as separate settings values, and other gesture nav overlays are deprecated.
-            setCurrentSystemNavigationMode(overlayManager, KEY_SYSTEM_NAV_GESTURAL);
+            setCurrentSystemNavigationMode(context, overlayManager, KEY_SYSTEM_NAV_GESTURAL);
             Settings.Secure.putFloat(context.getContentResolver(),
                     Settings.Secure.BACK_GESTURE_INSET_SCALE_LEFT, 1.0f);
             Settings.Secure.putFloat(context.getContentResolver(),
@@ -253,12 +258,14 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
         }
     }
 
-    @VisibleForTesting
-    static void setCurrentSystemNavigationMode(IOverlayManager overlayManager, String key) {
+    static void setCurrentSystemNavigationMode(Context context, IOverlayManager overlayManager, String key) {
         String overlayPackage = NAV_BAR_MODE_GESTURAL_OVERLAY;
         switch (key) {
             case KEY_SYSTEM_NAV_GESTURAL:
-                overlayPackage = NAV_BAR_MODE_GESTURAL_OVERLAY;
+                final boolean fullscreen = Settings.System.getIntForUser(context.getContentResolver(),
+                    Settings.System.FULLSCREEN_GESTURES, 0,
+                    USER_CURRENT) == 1;
+                overlayPackage = fullscreen ? FULLSCREEN_GESTURE_OVERLAY_PKG : NAV_BAR_MODE_GESTURAL_OVERLAY;
                 break;
             case KEY_SYSTEM_NAV_2BUTTONS:
                 overlayPackage = NAV_BAR_MODE_2BUTTON_OVERLAY;
