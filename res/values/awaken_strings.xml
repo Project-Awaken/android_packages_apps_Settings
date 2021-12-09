@@ -822,4 +822,8 @@
     <string name="app_lock_timeout_5mins">5 minutes</string>
     <string name="app_lock_timeout_10mins">10 minutes</string>
     <string name="app_lock_timeout_30mins">30 minutes</string>
+
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
 </resources>
