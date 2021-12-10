@@ -52,6 +52,7 @@
     <com.awaken.support.preferences.SecureSettingSeekBarPreference
         android:key="monet_engine_white_luminance"
         android:title="@string/white_luminance_title"
+        android:dependency="monet_engine_linear_lightness"
         android:defaultValue="425"
         android:max="1000"
         settings:min="0"
