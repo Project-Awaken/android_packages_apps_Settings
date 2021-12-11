@@ -125,6 +125,14 @@
         android:key="quicksettings_category"
         android:title="@string/quicksettings_category_title">
 
+        <!-- Media player in QS -->
+        <com.awaken.support.preferences.GlobalSettingSwitchPreference
+            android:key="qs_media_controls"
+            android:title="@string/qs_media_controls_title"
+            android:summaryOn="@string/qs_media_controls_summary_on"
+            android:summaryOff="@string/qs_media_controls_summary_off"
+            android:defaultValue="true" />
+
         <!-- qs brightness customization -->
         <com.awaken.support.preferences.SecureSettingMasterSwitchPreference
             android:key="qs_show_brightness"
