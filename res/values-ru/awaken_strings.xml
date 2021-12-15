@@ -54,4 +54,221 @@
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Прикоснитесь для сна</string>
     <string name="double_tap_sleep_gesture_summary">Дважды коснитесь в любом месте строки состояния, чтобы перевести устройство в спящий режим</string>
+     
+     <!-- Display customization category -->
+    <string name="customization_category_title">Настройки </string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Элементы строки состояния</string>
+    <string name="statusbar_items_summary">Включение/отключение элементов в строке состояния</string>
+
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Режим вибрации звонка</string>
+    <string name="pattern_dzzz_dzzz">дззз-дззз</string>
+    <string name="pattern_dzzz_da">дззз-да</string>
+    <string name="pattern_mm_mm_mm">мм-мм-мм</string>
+    <string name="pattern_da_da_dzzz">да-да-дззз</string>
+    <string name="pattern_da_dzzz_da">да-дззз-да</string>
+    <string name="pattern_custom">Пользовательский</string>
+    <string name="custom_vibration_pattern_title">Пользовательский шаблон</string>
+    <string name="custom_vibration_pattern_summary">Установите собственный шаблон вибрации</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Циклический переход между режимами</string>
+    <string name="prevent_ringing_option_cycle_summary">Вкл. (Переключение режимов)</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Когда экран выключен, долгое нажатие клавиш громкости переключает музыкальные треки</string>
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
+    <string name="volume_rocker_wake_summary">Нажатие кнопок регулировки громкости пробуждает устройство</string>
+
+    <!-- Customization Categories/Fragment Titles -->
+    <string name="clocksettings_category_title">Настройки часов</string>
+    <string name="clocksettings_title">Настройки часов</string>
+    <string name="clocksettings_summary">Настройки часов в строке состояния</string>
+    <string name="status_bar_clock_date_title">Часы и дата</string>
+    <string name="status_bar_clock_date_summary">Настройка часов и даты в строке состояния</string>
+    <string name="status_bar_clock_title">Настройки часов</string>
+    <string name="status_bar_clock_show">Показать часы и дату</string>
+    <string name="status_bar_clock_style_title">Стиль часов</string>
+    <string name="status_bar_clock_style_right">Справа</string>
+    <string name="status_bar_clock_style_left">Слева</string>
+    <string name="status_bar_clock_style_center">По центру</string>
+    <string name="status_bar_clock_style_hidden">Не показывать</string>
+    <string name="status_bar_am_pm_title">Стиль индикатора «AM/PM»</string>
+    <string name="status_bar_am_pm_info">Включен 24-часовой формат времени</string>
+    <string name="status_bar_am_pm_normal">Обычный</string>
+    <string name="status_bar_am_pm_small">Небольшой</string>
+    <string name="status_bar_am_pm_hidden">Не показывать</string>
+    <string name="clock_seconds_display">Показать секунды</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_summary">Отображать дату перед часами</string>
+    <string name="clock_date_display_none">Не показывать</string>
+    <string name="clock_date_display_small">Маленький размер шрифта</string>
+    <string name="clock_date_display_normal">Обычный размер шрифта</string>
+    <string name="clock_date_style">Стиль даты</string>
+    <string name="clock_date_style_normal">Нормальный</string>
+    <string name="clock_date_style_lowercase">В нижнем регистре</string>
+    <string name="clock_date_style_uppercase">В верхнем регистре</string>
+    <string name="clock_date_format_custom">Собственный формат Java</string>
+    <string name="clock_date_format">Формат даты</string>
+    <string name="clock_date_string_edittext_title">Должен быть в формате даты, например. мм/дд/гг</string>
+    <string name="clock_date_string_edittext_summary">Введите строку</string>
+    <string name="clock_date_right">Справа от времени</string>
+    <string name="clock_date_left">Слева от времени</string>
+    <string name="clock_date_position">Расположение даты</string>
+
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Предотвратить случайное пробуждение</string>
+    <string name="proximity_wake_summary">Перед включением экрана проверят датчик приближения</string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Отладка с root-доступом</string>
+    <string name="adb_enable_summary_root">Разрешить запуск отладки Android с root правами</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Показать информацию о CPU</string>
+
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Наложение экрана(оверлей), показывающее текущую информацию о CPU</string>      
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Увеличение громкости звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость звонка</string>
+    <string name="increasing_ring_ramp_up_time_title">Время повышения громкости</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Настройки вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
+    <string name="incall_vibrate_call_wait_title">Вибрировать в ожидании вызова</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при отключении</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сбросить статистику</string>
+    <string name="battery_stats_message">Статистика батареи будет сброшена</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_title">Индикация заряда батареи</string>
+    <string name="battery_light_summary">Активация индикатора во время зарядки и его мигание, когда батарея разряжена</string>
+
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
+    <string name="preferred_refresh_rate_title">Предпочтительная частота обновления</string>
+    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления</string>
+    <string name="battery_saver_refresh_rate_summary">Использовать максимальную частоту обновления экрана 60 Гц для экономии энергии при включенной функции энергосбережения.</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Включенеи фонарика при выключенном экране</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопку питания (медленнее однократный отклик), отключает двойное нажатие по кнопке питания для камеры.</string>
+    <string name="torch_power_button_gesture_lp">Долгое нажатие кнопки питания</string>
+
+    <!-- Display Customizations Fragment -->
+    <string name="display_customization_title">Настройки экрана</string>
+    <string name="display_customization_summary">Настройки строки состояния и быстрых настроек</string>
+    <string name="statusbar_category_title">Настройки статус бара</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Информация о сети</string>
+
+    <!-- Monet engine -->
+    <string name="monet_engine_settings_title">Monet engine</string>
+    <string name="monet_engine_settings_summary"> Настройка акцентного цвета, насыщенности и яркости</string>
+    <string name="accurate_shades_title">Использовать точные оттенки</string>
+    <string name="use_wallpaper_color_title">Использовать цвета обоев</string>
+    <string name="color_override_title">Выбор цвета акцента</string>
+    <string name="color_override_summary">Выберите собственный цвет акцента, чтобы переопределить цвета, выбранные Monet engine</string>
+    <string name="chroma_factor_title">Насыщенность</string>
+    <string name="linear_lightness_title">Использовать настраиваемую шкалу яркости</string>
+    <string name="white_luminance_title">Яркость</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Менее 1 минуты</string>
+
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s сегодня</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Иконка 4G</string>
+    <string name="show_fourg_icon_summary">Отображать значок 4G в значке сигнала вместо LTE</string>
+
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Использовать старый стиль значков сети</string>
+    <string name="use_old_mobiletype_summary">Показывать значок мобильной сети над индикатором сигнала</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Индикатор роуминга</string>
+    <string name="roaming_indicator_icon_summary">Отображать индикатор роуминга в значке сигнала в режиме роуминга</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Стили батареи</string>
+    <string name="battery_percent_title">Процент батареи</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальная иконка (по умолчанию)</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Круг (Точечный)</string>
+    <string name="status_bar_battery_style_filled_circle">Круг (Заполняющийся)</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрыт</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+    <string name="status_bar_battery_percentage_default">Не отображать (по умолчанию)</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
+
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Оценочное время работы</string>
+    <string name="qs_show_battery_estimate_summary">Показывать приблизительный оставшееся время работы батареи рядом со значком</string>
+
+    <!-- Custom vibration intensity -->
+    <string name="vibration_intensity_title">Интенсивность вибрации</string>
+    <string name="vibration_intensity_summary">Контроль интенсивности вибрации для разных режимов</string>
+    <string name="notification_vibration_intensity_title">Уведомления</string>
+    <string name="ring_vibration_intensity_title">Звонок</string>
+    <string name="haptic_feedback_intensity_title">Тактильная обратная связь</string>
+    <string name="vibration_intensity_off">Отключена</string>
+    <string name="vibration_intensity_low">Слабая</string>
+    <string name="vibration_intensity_medium">Средняя</string>
+    <string name="vibration_intensity_high">Сильная</string>
+
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Раздражающие уведомления</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизведение звука и вибрации для уведомлений при включенном экране</string>
+
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Меньше надоедливых всплывающих уведомлений</string>
+    <string name="less_boring_heads_up_summary">Показывать всплывающие уведомления только для приложений телефона и обмена сообщениями</string>
+
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons">Комбинированные значки сигналов</string>
+    <string name="combined_status_bar_signal_icons_summary">Включить комбинированные значки сигналов в строке состояния.\nТребуется перезапуск SystemUI</string>
+
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Другие элементы управления</string>
+    <string name="fullscreen_gestures_title">Полноэкранные жесты</string>
+    <string name="fullscreen_gestures_summary">Скрыть панель навигации и отступ у клавиатуры</string>
+
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Длина полосы</string>
+    <string name="short_label">Короткая</string>
+    <string name="long_label">Длинная</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Всего ОЗУ</string>
+	
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Двойное касание</string>
+    <string name="doze_double_tap_title">Коснитесь дважды, чтобы проверить телефон</string>
+    <string name="doze_double_tap_summary">Пульсирующие уведомления двойным касанием</string>
 </resources>
