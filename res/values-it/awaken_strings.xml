@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 Project-Awaken
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Awaken version -->
+    <string name="awaken_version">Versione Awaken</string>
+    <string name="awaken_version_default">Sconosciuta</string>
+    <string name="build_date">Data della build</string>
+
+    <!-- Awaken maintainer -->
+    <string name="maintainer">Maintainer</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe per uno screenshot</string>
+    <string name="three_finger_gesture_summary">Fai swipe down con tre dita per acquisire uno screenshot</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">Stato di SELinux</string>
+    <string name="selinux_status_disabled">Disattivato</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Applicazione</string>
+
+    <!-- Density category -->
+    <string name="density_category">Optzioni densità</string>
+
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Suono screenshot</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Mostra lo storico delle notifiche</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Collega i volumi di chiamate e notifiche</string>
+
+     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Attiva il riavvio avanzato</string>
+    <string name="global_actions_advanced_reboot_summary">Mostra opzioni per il riavvio in recovery e bootloader nel menù di spegnimento</string>
+
+    <!-- Display tap to wake custom summary -->
+    <string name="tap_to_wake_summary_awaken">Premi due volte sullo schermo per riattivare il dispositivo</string>
+
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Un doppio tap sulla barra di stato bloccherà il dispositivo</string>
+
+    <!-- Display customization category -->
+    <string name="customization_category_title">Personalizzazione</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Icone della barra di stato</string>
+    <string name="statusbar_items_summary">Attiva/Disattiva icone nella barra di stato</string>
+
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Sequenza della vibrazione</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Custom</string>
+    <string name="custom_vibration_pattern_title">Sequenza personalizzata</string>
+    <string name="custom_vibration_pattern_summary">Imposta una sequenza della vibrazione personalizzata</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Scorri le modalità</string>
+    <string name="prevent_ringing_option_cycle_summary">On (scorri le modalità)</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Controllo playback</string>
+    <string name="volume_button_music_control_summary">Quando lo schermo è spento premere a lungo i tasti volume cambierà canzone</string>
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Risveglio con il volume</string>
+    <string name="volume_rocker_wake_summary">Premere i tasti del volume risveglierà il dispositivo</string>
+
+    <!-- Customization Categories/Fragment Titles -->
+    <string name="clocksettings_category_title">Personalizzazione orologio</string>
+    <string name="clocksettings_title">Impostazioni orologio</string>
+    <string name="clocksettings_summary">Impostazioni dell\'orologio della barra di stato</string>
+    <string name="status_bar_clock_date_title">Orologio e data</string>
+    <string name="status_bar_clock_date_summary">
+    Personalizza l\'orologio e la data della barra di stato
+    </string>
+    <string name="status_bar_clock_title">Impostazioni dell\'orologio</string>
+    <string name="status_bar_clock_show">Mostra orologio e data</string>
+    <string name="status_bar_clock_style_title">Stile orologio</string>
+    <string name="status_bar_clock_style_right">Destra</string>
+    <string name="status_bar_clock_style_center">Centro</string>
+    <string name="status_bar_clock_style_left">Sinistra</string>
+    <string name="status_bar_date_title">Impostazioni data</string>
+    <string name="status_bar_am_pm_title">Stile AM/PM</string>
+    <string name="status_bar_am_pm_info">L\'orologio a 24 ore è abilitato</string>
+    <string name="status_bar_am_pm_normal">Normale</string>
+    <string name="status_bar_am_pm_small">Piccolo</string>
+    <string name="status_bar_am_pm_hidden">Nascosto (predefinito)</string>
+    <string name="clock_seconds_display">Mostra secondi</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">
+    Visualizza la data personalizzata prima dell\'orologio
+    </string>
+    <string name="clock_date_display_none">Non mostrare</string>
+    <string name="clock_date_display_small">Dimensioni carattere piccole</string>
+    <string name="clock_date_display_normal">Dimensione carattere normale</string>
+    <string name="clock_date_style">Stile data</string>
+    <string name="clock_date_style_normal">Normale</string>
+    <string name="clock_date_style_lowercase">Minuscolo</string>
+    <string name="clock_date_style_uppercase">Maiuscolo</string>
+    <string name="clock_date_format_custom">Formato Java personalizzato</string>
+    <string name="clock_date_format">Formato data</string>
+    <string name="clock_date_string_edittext_title">Deve essere in formato data, ad es. MM/gg/aa</string>
+    <string name="clock_date_string_edittext_summary">Inserisci stringa</string>
+    <string name="clock_date_right">Data a destra</string>
+    <string name="clock_date_left">Data a sinistra</string>
+    <string name="clock_date_position">Posizione della data</string>
+
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Previeni risvegli accidentali</string>
+    <string name="proximity_wake_summary">
+    Controlla il sensore di prossimità prima di riattivare lo schermo
+    </string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Rooted debugging</string>
+    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Mostra informazioni CPU</string>
+    <string name="show_cpu_info_summary">
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    Overlay su schermo con informazioni sulla CPU
+    </string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Suoneria incrementale</string>
+    <string name="increasing_ring_min_volume_title">Volume iniziale</string>
+    <string name="increasing_ring_ramp_up_time_title">Tempo per arrivare al volume massimo</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opzioni di vibrazione in chiamata</string>
+    <string name="incall_vibrate_connect_title">Vibra alla connessione</string>
+    <string name="incall_vibrate_call_wait_title">Vibrazione in attesa di chiamata</string>
+    <string name="incall_vibrate_disconnect_title">Vibra alla disconnessione</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Ripristina statistiche</string>
+    <string name="battery_stats_message">
+    Le statistiche della cronologia della batteria verranno ripristinate
+    </string>
+
+    <!-- Battery light -->
+    <string name="battery_light_title">Led batteria</string>
+    <string name="battery_light_summary">Attiva i led durante la ricarica e fallo lampeggiare quando la batteria è quasi scarica</string>
+
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Frequenza di aggiornamento minima</string>
+    <string name="max_refresh_rate_title">Frequenza di aggiornamento massima</string>
+    <string name="preferred_refresh_rate_title">Frequenza di aggiornamento preferita</string>
+    <string name="battery_saver_refresh_rate_title">Riduci la frequenza di aggiornamento</string>
+    <string name="battery_saver_refresh_rate_summary">
+    Usa la frequenza di aggiornamento dello schermo a 60 Hz per risparmiare energia quando è attivo il risparmio energetico
+    </string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">
+    Attiva/disattiva la torcia quando lo schermo è spento
+    </string>
+    <string name="torch_power_button_gesture_none">Disabilitato</string>
+    <string name="torch_power_button_gesture_dt">
+    Doppio tocco del pulsante di accensione (risposta al tocco singolo più lenta), nota: disabilita il doppio tocco per la fotocamera.
+    </string>
+    <string name="torch_power_button_gesture_lp">Premere a lungo il pulsante di accensione</string>
+
+    <!-- Display Customizations Fragment -->
+    <string name="display_customization_title">Personalizzazioni display</string>
+    <string name="display_customization_summary">Personalizza la barra di stato e le impostazioni rapide</string>
+    <string name="statusbar_category_title">Personalizzazioni barra di stato</string>
+
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+
+    <!-- Monet engine -->
+    <string name="monet_engine_settings_title">Monet engine</string>
+    <string name="monet_engine_settings_summary">
+    Regola il colore dell\'accento, la vivacità e la luminosità
+    </string>
+    <string name="accurate_shades_title">Usa sfumature accurate</string>
+    <string name="use_wallpaper_color_title">Usa il colore dello sfondo</string>
+    <string name="color_override_title">Selettore colore di accento</string>
+    <string name="color_override_summary">
+    Scegli un colore di accento personalizzato per sovrascrivere i colori scelti da Monet
+    </string>
+    <string name="chroma_factor_title">Colorazione</string>
+    <string name="linear_lightness_title">Usa una scala di luminosità personalizzata</string>
+    <string name="white_luminance_title">Luminosità</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Meno di un minuto</string>
+
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s oggi</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">Icona piccola per il tipo di rete</string>
+    <string name="use_old_mobiletype_summary">Mostra l\'icona dei dati sopra quella del segnale</string>
+
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Indicatore roaming </string>
+    <string name="roaming_indicator_icon_summary">Mostra un indicatore per il roaming nella barra di stato</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_style_category_title">Personalizzazioni della batteria</string>
+    <string name="battery_percent_title">Percentuale batteria</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Stile della batteria</string>
+    <string name="status_bar_battery_style_icon_portrait">Verticale</string>
+    <string name="status_bar_battery_style_circle">Cerchio</string>
+    <string name="status_bar_battery_style_dotted_circle">Cerchio (A puntini)</string>
+    <string name="status_bar_battery_style_filled_circle">Cerchio (Pieno)</string>
+    <string name="status_bar_battery_style_text">Testo</string>
+    <string name="status_bar_battery_style_hidden">Nascosto</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Percentuale batteria</string>
+    <string name="status_bar_battery_percentage_default">Nascosta (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro l\'icona</string>
+    <string name="status_bar_battery_percentage_text_next">Accanto l\'icona</string>
+
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Stima della batteria</string>
+    <string name="qs_show_battery_estimate_summary">Mostra una stima della batteria rimanente vicino l\'icona</string>
+
+    <!-- Custom vibration intensity -->
+    <string name="vibration_intensity_title">Intensità della vibrazione</string>
+    <string name="vibration_intensity_summary">Personaliiza l\'intensità della vibrazione in base al contesto</string>
+    <string name="notification_vibration_intensity_title">Notifiche</string>
+    <string name="ring_vibration_intensity_title">Chiamate</string>
+    <string name="haptic_feedback_intensity_title">Feedback aptico</string>
+    <string name="vibration_intensity_off">Spenta</string>
+    <string name="vibration_intensity_low">Bassa</string>
+    <string name="vibration_intensity_medium">Media</string>
+    <string name="vibration_intensity_high">Alta</string>
+
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notifiche rumorose</string>
+    <string name="notification_sound_vib_screen_on_summary">Vibra e suona quando ricevi notifiche a schermo acceso</string>
+
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Heads UP controllate</string>
+    <string name="less_boring_heads_up_summary">Disattiva le notifiche Heads-UP per ogni app eccetto quelle di messaggi e chiamate</string>
+
+    <!-- Combined signal icons in status bar -->
+    <string name="combined_status_bar_signal_icons">Icone del segnale combinate</string>
+    <string name="combined_status_bar_signal_icons_summary">Attiva le notifiche combinate nella barra di stato.\nRichiede il riavvio dell\'UI sistema</string>
+
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">Altri controlli</string>
+    <string name="fullscreen_gestures_title">Gesti a schermo intero</string>
+    <string name="fullscreen_gestures_summary">Nascondi la barra dei gesti e lo spazio sotto la tastiera</string>
+
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Lunghezza della navbar pill</string>
+    <string name="short_label">Corta</string>
+    <string name="long_label">Lunga</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Piattaforma</string>
+
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">RAM totale</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doppio tap</string>
+    <string name="doze_double_tap_title">Doppio tap per controllare il telefono</string>
+    <string name="doze_double_tap_summary">Lancia il display ambient con un doppio tap</string>
+</resources>
