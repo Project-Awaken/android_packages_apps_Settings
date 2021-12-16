@@ -20,7 +20,6 @@
 
     <!-- Awaken maintainer -->
     <string name="maintainer">Сопровождающий</string>
-    <string name="awaken_maintainer">Неофициальный сопровождающий</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Свайп для скриншота</string>

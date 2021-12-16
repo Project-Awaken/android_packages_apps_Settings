@@ -19,7 +19,6 @@
 
     
     <string name="maintainer">Mantenedor</string>
-    <string name="awaken_maintainer">Mantenedor no oficial</string>
 
     
     <string name="three_finger_gesture">Deslizar para captura de pantalla</string>
@@ -56,4 +55,209 @@
     
     <string name="double_tap_sleep_gesture_title">Toca para dormir</string>
     <string name="double_tap_sleep_gesture_summary">Toque dos veces en cualquier lugar de la barra de estado para poner el dispositivo en suspensión</string>
+
+    <string name="customization_category_title">Personalización</string>
+
+    
+    <string name="statusbar_items_title">Elementos de la barra de estado</string>
+    <string name="statusbar_items_summary">Habilitar/Deshabilitar elementos en la barra de estado</string>
+
+    
+    <string name="lockscreen_customization_title">Personalización de pantalla de bloqueo</string>
+
+    
+    <string name="lockscreen_battery_info_title">Información de carga en pantalla de bloqueo</string>
+    <string name="lockscreen_battery_info_summary">Muestra la corriente y el voltaje máximos negociados del cargador y la temperatura de la batería en la pantalla de bloqueo mientras se carga</string>
+
+    
+    <string name="vibration_pattern_title">Patrón de vibración del tono de llamada</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizado</string>
+    <string name="custom_vibration_pattern_title">Patrón personalizado</string>
+    <string name="custom_vibration_pattern_summary">Establecer un patrón de vibración personalizado</string>
+
+    
+    <string name="prevent_ringing_option_cycle">Pasar por los modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Encendido (pasar por los modos)</string>
+
+    
+    <string name="volume_button_music_control_title">Control de reproducción</string>
+    <string name="volume_button_music_control_summary">Cuando la pantalla apagada, presionar prolongadamente las teclas de volumen cambiará las pistas de música</string>
+
+    <string name="volume_rocker_wake_title">Despertar con Volumen</string>
+    <string name="volume_rocker_wake_summary">Despierta tu dispositivo presionando las teclas de volumen</string>
+    
+    <string name="clocksettings_category_title">Personalización del reloj</string>
+    <string name="clocksettings_title">Configuración del reloj</string>
+    <string name="clocksettings_summary">Configuración del reloj de la barra de estado</string>
+    <string name="status_bar_clock_date_title">Reloj y fecha</string>
+    <string name="status_bar_clock_date_summary">Personaliza el reloj y la fecha de tu barra de estado</string>
+    <string name="status_bar_clock_title">Configuraciones del reloj</string>
+    <string name="status_bar_clock_show">Mostrar reloj y fecha</string>
+    <string name="status_bar_clock_style_title">Estilo de reloj</string>
+    <string name="status_bar_clock_style_right">Derecha</string>
+    <string name="status_bar_clock_style_center">Centrar</string>
+    <string name="status_bar_clock_style_left">Izquierda</string>
+    <string name="status_bar_date_title">Configuraciones de fecha</string>
+    <string name="status_bar_am_pm_title">Estilo AM/PM</string>
+    <string name="status_bar_am_pm_info">El reloj de 24 horas está habilitado</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Pequeño</string>
+    <string name="status_bar_am_pm_hidden">Oculto (predeterminado)</string>
+    <string name="clock_seconds_display">Mostrar segundos</string>
+    <string name="clock_date_display">Fecha</string>
+    <string name="clock_date_display_summary">Mostrar fecha antes del reloj</string>
+    <string name="clock_date_display_none">No mostrar</string>
+    <string name="clock_date_display_small">Tamaño de fuente pequeño</string>
+    <string name="clock_date_display_normal">Tamaño de fuente normal</string>
+    <string name="clock_date_style">Estilo de fecha</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Minúsculas</string>
+    <string name="clock_date_style_uppercase">Mayúsculas</string>
+    <string name="clock_date_format_custom">Formato java personalizado</string>
+    <string name="clock_date_format">Formato de fecha</string>
+    <string name="clock_date_string_edittext_title">Debe estar en formato de fecha, por ejemplo MM/dd/aa</string>
+    <string name="clock_date_string_edittext_summary">Ingrese la cadena</string>
+    <string name="clock_date_right">A la derecha de la hora</string>
+    <string name="clock_date_left">A la izquierda de la hora</string>
+    <string name="clock_date_position">Posición de la fecha</string>
+
+    
+    <string name="proximity_wake_title">Evita el despertar accidental</string>
+    <string name="proximity_wake_summary">Comprobar el sensor de proximidad antes de despertar la pantalla</string>
+
+    
+    <string name="adb_enable_root">Depuración privilegiada</string>
+    <string name="adb_enable_summary_root">Permitir ejecutar la depuración de Android como root</string>
+
+    
+    <string name="show_cpu_info">Mostrar información de CPU</string>
+
+    
+    <string name="show_cpu_info_summary">Superposición de pantalla que muestra la información actual de la CPU</string>      
+
+    
+    <string name="increasing_ring_volume_option_title">Volumen de timbre ascendente</string>
+    <string name="increasing_ring_min_volume_title">Volumen de inicio</string>
+    <string name="increasing_ring_ramp_up_time_title">Duración del ascenso</string>
+
+    
+    <string name="incall_vibration_category">Opciones de vibración durante la llamada</string>
+    <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>
+
+    
+    <string name="battery_stats_reset">Restablecer estadísticas</string>
+    <string name="battery_stats_message">Las estadísticas del historial de la batería se restablecerán</string>
+
+
+    <string name="battery_light_title">Luz de batería</string>
+    <string name="battery_light_summary">Luz encendida al cargar y parpadear con batería baja</string>
+
+
+    <string name="min_refresh_rate_title">Tasa de refresco mínima</string>
+    <string name="max_refresh_rate_title">Tasa de refresco máxima</string>
+    <string name="preferred_refresh_rate_title">Tasa de refresco preferida</string>
+    <string name="battery_saver_refresh_rate_title">Reducir la tasa de refresco</string>
+    <string name="battery_saver_refresh_rate_summary">Utilice la tasa de refresco de la pantalla de 60 Hz para ahorrar energía cuando el Ahorro de batería está activado</string>
+
+    
+    <string name="torch_power_button_gesture_title">Alternar la antorcha cuando la pantalla está apagada</string>
+    <string name="torch_power_button_gesture_none">Deshabilitado</string>
+    <string name="torch_power_button_gesture_dt">Botón de encendido dos veces (respuesta más lenta de un solo toque). Desactiva el toque doble de encendido para la cámara.</string>
+    <string name="torch_power_button_gesture_lp">Mantener pulsado el botón de encendido</string>
+
+    
+    <string name="display_customization_title">Mostrar personalizaciones</string>
+    <string name="display_customization_summary">Ajustar la barra de estado y la configuración rápida</string>
+    <string name="statusbar_category_title">Personalización de la barra de estado</string>
+
+    
+    <string name="radio_info_title">Información de radio</string>
+
+    
+    <string name="monet_engine_settings_title">Monet</string>
+    <string name="monet_engine_settings_summary">Ajuste el color de acento, el colorido y el brillo</string>
+    <string name="accurate_shades_title">Usa tonos precisos</string>
+    <string name="use_wallpaper_color_title">Usar color de fondo de pantalla</string>
+    <string name="color_override_title">Selector de color de acento</string>
+    <string name="color_override_summary">Elija un color de acento personalizado para anular los colores elegidos por el motor de monet</string>
+    <string name="chroma_factor_title">Colorido</string>
+    <string name="linear_lightness_title">Utilice una escala de luminosidad personalizada</string>
+    <string name="white_luminance_title">Brillo</string>
+
+    
+    <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+
+    
+    <string name="screen_time_summary_usage_today">%1$s hoy</string>
+
+
+    <string name="show_fourg_icon_title">Icono 4G</string>
+    <string name="show_fourg_icon_summary">Mostrar el icono 4G en el icono de señal en lugar de LTE</string>
+
+    
+    <string name="use_old_mobiletype_title">Icono pequeño de red móvil</string>
+    <string name="use_old_mobiletype_summary">Mostrar el icono de tipo de red móvil encima del indicador de señal</string>
+
+    
+    <string name="roaming_indicator_icon_title">Indicador de itinerancia</string>
+    <string name="roaming_indicator_icon_summary">Muestra el indicador de roaming en el icono de señal cuando está en modo roaming</string>
+
+    
+    <string name="battery_style_category_title">Personalización de batería</string>
+    <string name="battery_percent_title">Porcentaje de batería</string>
+
+    
+    <string name="status_bar_battery_style_title">Estilo de batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Vertical (predeterminado)</string>
+    <string name="status_bar_battery_style_circle">Circulo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo (punteado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (relleno)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+
+    
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto (predeterminado)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+
+    
+    <string name="qs_show_battery_estimate_title">Estimación de batería</string>
+    <string name="qs_show_battery_estimate_summary">Muestra la nestimación de vida útil restante de la batería junto al icono</string>
+
+    
+    <string name="vibration_intensity_title">Intensidad de vibración</string>
+    <string name="vibration_intensity_summary">Controle la intensidad de la vibración para diferentes corrientes</string>
+    <string name="notification_vibration_intensity_title">Notificaciones</string>
+    <string name="ring_vibration_intensity_title">Timbre</string>
+    <string name="haptic_feedback_intensity_title">Respuesta háptica</string>
+    <string name="vibration_intensity_off">Deshabilitado</string>
+    <string name="vibration_intensity_low">Bajo</string>
+    <string name="vibration_intensity_medium">Medio</string>
+    <string name="vibration_intensity_high">Alto</string>
+
+    <string name="notification_sound_vib_screen_on_title">Notificaciones molestas</string>
+    <string name="notification_sound_vib_screen_on_summary">Sonar y vibrar en notificaciones con pantalla encendida</string>
+    <string name="less_boring_heads_up_title">Avisos más coherentes</string>
+    <string name="less_boring_heads_up_summary">Desactivación rápida de avisos para todas las aplicacicones excepto Teléfono y Mensajes</string>
+    <string name="combined_status_bar_signal_icons">Iconos de señal combinados</string>
+    <string name="combined_status_bar_signal_icons_summary">Activar iconos de señal combinados en barra de estado.\nRequiere reiniciar SystemUI</string>
+    <string name="other_controls_title">Otros controles</string>
+    <string name="fullscreen_gestures_title">Gestos a pantalla completa</string>
+    <string name="fullscreen_gestures_summary">Esconder píldora de navegación y espacio en el teclado</string>
+    <string name="gesture_navbar_length_title">Longitud de la píldora</string>
+    <string name="short_label">Corta</string>
+    <string name="long_label">Larga</string>
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">RAM total disponible</string>
+    <string name="double_tap_title">Doble toque</string>
+    <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
+    <string name="doze_double_tap_summary">Doble toque para mostrar notificaciones</string>
 </resources>
