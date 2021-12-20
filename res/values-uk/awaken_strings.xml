@@ -41,7 +41,7 @@
     <string name="notification_log_summary">Показати журнал історії сповіщень</string>
 
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Зв'язати гучність рингтону і сповіщень</string>
+    <string name="volume_link_notification_title">Звязати гучність рингтону і сповіщень</string>
 
      <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Увімкнути розширене перезавантаження</string>
@@ -231,7 +231,7 @@
     <string name="vibration_intensity_summary">Контроль інтенсивності вібрації для різних режимів</string>
     <string name="notification_vibration_intensity_title">Сповіщення</string>
     <string name="ring_vibration_intensity_title">Дзвінок</string>
-    <string name="haptic_feedback_intensity_title">Тактильний зворотній зв'язок</string>
+    <string name="haptic_feedback_intensity_title">Тактильний зворотній звязок</string>
     <string name="vibration_intensity_off">Відключено</string>
     <string name="vibration_intensity_low">Слабка</string>
     <string name="vibration_intensity_medium">Середня</string>
