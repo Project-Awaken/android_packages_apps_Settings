@@ -81,6 +81,7 @@ android_library {
         "VendorSupport-preference",
         "accountfeatureprovidergoogle",
         "faceunlock_framework",
+        "gamemode-settingsgoogle",
     ],
 
     libs: [
@@ -150,5 +151,11 @@ filegroup {
 java_import {
     name: "accountfeatureprovidergoogle",
     jars: ["libs/accountfeatureprovidergoogle.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "gamemode-settingsgoogle",
+    jars: ["libs/gamemode.jar"],
     sdk_version: "current",
 }
