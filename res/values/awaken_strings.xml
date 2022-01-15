@@ -482,4 +482,8 @@
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+
+    <!-- Keyguard force small clock -->
+    <string name="lockscreen_small_clock_title">Force small clock</string>
+    <string name="lockscreen_small_clock_summary">Don\'t switch to the big clock when there are no notifications</string>
 </resources>
