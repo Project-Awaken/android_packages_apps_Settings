@@ -53,6 +53,7 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     private static final String KEY_EDGE_LIGHTNING = "pulse_ambient_light";
     private static final String KEY_NETWORK_TRAFFIC = "network_traffic_state";
     private static final String LOCATION_DEVICE_CONFIG = "location_indicators_enabled";
+    private static final String CAMERA_DEVICE_CONFIG = "camera_indicators_enabled";
 
     private static final int BATTERY_STYLE_PORTRAIT = 0;
     private static final int BATTERY_STYLE_TEXT = 4;
@@ -63,6 +64,7 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
 
     private static final String COBINED_STATUSBAR_ICONS = "show_combined_status_bar_signal_icons";
     private static final String LOCATION_INDICATOR = "enable_location_privacy_indicator";
+    private static final String CAMERA_INDICATOR = "enable_camera_privacy_indicator";
 
     private SecureSettingMasterSwitchPreference mBrightnessSlider;
     private SystemSettingMasterSwitchPreference mEdgeLightning;
@@ -146,6 +148,13 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
         locationIndicator.setDefaultValue(def);
         locationIndicator.setChecked(Settings.Secure.getInt(resolver,
                 LOCATION_INDICATOR, def ? 1 : 0) == 1);
+
+        SecureSettingSwitchPreference cameraIndicator = findPreference(CAMERA_INDICATOR);
+        def = DeviceConfig.getBoolean(DeviceConfig.NAMESPACE_PRIVACY,
+                CAMERA_DEVICE_CONFIG, false);
+        cameraIndicator.setDefaultValue(def);
+        cameraIndicator.setChecked(Settings.Secure.getInt(resolver,
+                CAMERA_INDICATOR, def ? 1 : 0) == 1);
     }
 
     @Override
