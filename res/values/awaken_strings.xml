@@ -531,7 +531,9 @@
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
-    <!-- Location privacy indicator -->
+    <!-- Privacy Indicator -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
     <string name="location_privacy_indicator_title">Location access indicator</string>
     <string name="location_privacy_indicator_summary_on">Show location in the privacy chip</string>
     <string name="location_privacy_indicator_summary_off">Show location in status bar icons</string>
