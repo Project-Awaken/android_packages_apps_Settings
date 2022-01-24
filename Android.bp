@@ -80,6 +80,7 @@ android_library {
         "windowExtLib",
         "VendorSupport-preference",
         "accountfeatureprovidergoogle",
+        "columbus-settingsgoogle",
         "faceunlock_framework",
         "gamemode-settingsgoogle",
     ],
@@ -151,6 +152,12 @@ filegroup {
 java_import {
     name: "accountfeatureprovidergoogle",
     jars: ["libs/accountfeatureprovidergoogle.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "columbus-settingsgoogle",
+    jars: ["libs/columbus-settings.jar"],
     sdk_version: "current",
 }
 
