@@ -169,12 +169,6 @@
     <string name="battery_saver_refresh_rate_summary">Use 60Hz max screen refresh rate to save power when Battery Saver is on</string>
     <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
 
-    <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
-
     <!-- Display Customizations Fragment -->
     <string name="display_customization_title">Display Customizations</string>
     <string name="display_customization_summary">Adjust statusbar and quick settings</string>
@@ -519,4 +513,13 @@
 
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
+
+    <!-- Power button -->
+    <string name="power_menu_setting_name">Power button</string>
+    <string name="power_menu_setting_summary">Power button gestures</string>
+    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response)</string>
+    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="quickly_open_camera_disabled">Disabled for torch when screen off</string>
 </resources>
