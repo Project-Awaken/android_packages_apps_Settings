@@ -299,6 +299,9 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
 
+    <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_refresh_rate_controls">Refresh Rate</string>
+
     <!-- Navbar settings -->
     <string name="navbar_category">Navigation bar</string>
     <string name="show_navbar_gesture_bar_title">Gesture indicator</string>
