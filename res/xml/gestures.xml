@@ -53,12 +53,6 @@
         android:defaultValue="false" />
 
     <Preference
-        android:key="gesture_one_handed"
-        android:title="@string/one_handed_title"
-        android:fragment="com.android.settings.gestures.OneHandedSettings"
-        settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController" />
-
-    <Preference
         android:key="gesture_tap_screen_input_summary"
         android:title="@string/ambient_display_tap_screen_title"
         android:fragment="com.android.settings.gestures.TapScreenGestureSettings"
@@ -84,6 +78,12 @@
         android:summary="@string/ambient_display_pickup_summary"
         settings:keywords="@string/keywords_gesture"
         settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
+
+    <com.android.settings.widget.PrimarySwitchPreference
+        android:key="gesture_one_handed"
+        android:title="@string/one_handed_title"
+        android:fragment="com.android.settings.gestures.OneHandedSettings"
+        settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController" />
 
     <Preference
         android:key="three_finger_gesture_summary"
