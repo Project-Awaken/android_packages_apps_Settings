@@ -365,6 +365,11 @@
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
 
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+
     <!-- PIN scramble -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
