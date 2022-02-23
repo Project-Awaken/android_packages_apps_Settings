@@ -22,6 +22,10 @@ import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_3BUTTON_OVE
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 
+import android.os.Bundle;
+
+import androidx.preference.SwitchPreference;
+
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -38,6 +42,22 @@ public class ButtonNavigationSettingsFragment extends DashboardFragment {
     public static final String BUTTON_NAVIGATION_SETTINGS =
             "com.android.settings.BUTTON_NAVIGATION_SETTINGS";
 
+    private static final String KEY_NAVBAR_INVERT = "navigation_bar_inverse";
+
+    private SwitchPreference mNavbarInvertPref;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        SwitchPreference navbarInvertPref = (SwitchPreference) findPreference(KEY_NAVBAR_INVERT);
+        final Bundle arguments = getArguments();
+        if (arguments != null) {
+            final String key = arguments.getString(SystemNavigationGestureSettings.KEY_SYSTEM_NAV);
+            if (key != null && !key.equals(SystemNavigationGestureSettings.KEY_SYSTEM_NAV_3BUTTONS))
+                getPreferenceScreen().removePreference(navbarInvertPref);
+        }
+    }
 
     @Override
     public int getMetricsCategory() {
