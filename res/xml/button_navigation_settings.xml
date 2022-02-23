@@ -37,5 +37,11 @@
         settings:controller="com.android.settings.gestures.ButtonNavigationSettingsAssistController"
     />
 
+    <com.awaken.support.preferences.SystemSettingSwitchPreference
+        android:key="navigation_bar_inverse"
+        android:title="@string/navigation_bar_inverse_title"
+        android:summary="@string/navigation_bar_inverse_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
 
