@@ -43,5 +43,11 @@
         android:summary="@string/navbar_invert_info"
         android:defaultValue="false" />
 
+    <com.awaken.support.preferences.SystemSettingSwitchPreference
+            android:key="navigation_bar_compact_layout"
+            android:title="@string/navbar_compact_layout_title"
+            android:summary="@string/navbar_compact_layout_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
 
