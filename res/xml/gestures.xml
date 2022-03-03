@@ -113,6 +113,15 @@
         android:defaultValue="false"
         android:disableDependentsState="true" />
 
+    <!-- Volume key cursor control -->
+    <com.awaken.support.preferences.SystemSettingListPreference
+        android:key="volume_key_cursor_control"
+        android:title="@string/volume_key_cursor_control_title"
+        android:summary="%s"
+        android:entries="@array/volume_key_cursor_control_entries"
+        android:entryValues="@array/volume_key_cursor_control_values"
+        android:defaultValue="0" />
+
     <!-- Torch gesture -->
     <com.awaken.support.preferences.SystemSettingListPreference
         android:key="torch_power_button_gesture"

@@ -463,4 +463,17 @@
         <item>left,back,home,recent,right;space;space</item>
         <item>space;space;left,back,home,recent,right</item>
     </string-array>
+
+    <!-- Volume key cursor control  -->
+    <string-array name="volume_key_cursor_control_entries">
+        <item>@string/volume_key_cursor_control_disabled</item>
+        <item>@string/volume_key_cursor_control_left</item>
+        <item>@string/volume_key_cursor_control_right</item>
+    </string-array>
+
+    <string-array name="volume_key_cursor_control_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>
