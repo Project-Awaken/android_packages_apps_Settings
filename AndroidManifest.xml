@@ -4330,6 +4330,19 @@
             </intent-filter>
         </activity>
 
+        <!-- App lock -->
+        <activity android:name="com.android.settings.awaken.security.applock.AppLockCredentialActivity"
+            android:exported="false"
+            android:permission="android.permission.MANAGE_USERS"
+            android:excludeFromRecents="true"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.app.action.UNLOCK_APP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <receiver android:name="com.google.android.settings.routines.RoutinesActionBroadcastReceiver"
                   android:permission="com.google.android.settings.routines.ROUTINES_ACTIONS" android:exported="true">
             <intent-filter>
