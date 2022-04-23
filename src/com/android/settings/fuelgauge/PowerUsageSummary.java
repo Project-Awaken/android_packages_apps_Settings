@@ -192,6 +192,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
         initFeatureProvider();
         initPreference();
 
+        mBatteryTempPref = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
         mBatteryHealthPref = (PowerGaugePreference) findPreference(KEY_BATTERY_HEALTH);
         mBatteryUtils = BatteryUtils.getInstance(getContext());
 
@@ -327,7 +328,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
         } else {
             mNeedUpdateBatteryTip = true;
         }
-        mBatteryTempPref.setSummary(BatteryInfo.batteryTemp + " \u2103");
+        mBatteryTempPref.setSummary(BatteryInfo.batteryTemp / 10 + " °C");
         // reload BatteryInfo and updateUI
         restartBatteryInfoLoader();
         if (mBatteryHealthPref != null)
@@ -373,7 +374,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
                         getString(R.string.advanced_battery_preference_summary_with_hours) :
                         getString(R.string.advanced_battery_preference_summary));
 
-        mBatteryTempPref = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
         mHelpPreference = findPreference(KEY_BATTERY_ERROR);
         mHelpPreference.setVisible(false);
     }
