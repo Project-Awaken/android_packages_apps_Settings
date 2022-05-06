@@ -155,6 +155,16 @@
             android:title="@string/quick_settings_vibrate_title"
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="true"/>
+       
+        <!-- Qs Transparency Settings -->
+        <com.awaken.support.preferences.SystemSettingSeekBarPreference
+            android:key="qs_transparency"
+            android:title="@string/qs_transparency_title"
+            android:summary="@string/qs_transparency_summary"
+            android:defaultValue="10"
+            settings:interval="1"
+            android:max="10"         
+            android:min="1" />
 
         <!-- QS footer warnings -->
         <com.awaken.support.preferences.SystemSettingSwitchPreference
