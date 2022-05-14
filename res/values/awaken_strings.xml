@@ -306,6 +306,10 @@
     <string name="fullscreen_gestures_title">Fullscreen gestures</string>
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
 
+    <!-- General -->
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="longpress_to_clipboard">Long-press to copy</string>
+
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pill length</string>
     <string name="short_label">Short</string>
