@@ -205,7 +205,7 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Clear usage data?</string>
     <string name="battery_stats_message">Battery usage data will be lost</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <string name="battery_stats_clear" translatable="false">@string/proxy_clear_text</string>
 
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
