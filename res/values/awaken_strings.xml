@@ -710,13 +710,6 @@
     <string name="hidden_apps_title">Hidden apps</string>
     <string name="hidden_apps_summary">Applications that should be hidden from launcher. Requires a launcher restart for changes to take effect</string>
 
-    <!-- Game -->
-    <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
-    <string name="game_dashboard_always_on_title">Game Dashboard</string>
-    <string name="game_dashboard_dnd_rule_name">Gaming</string>
-    <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
-    <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
-
     <!-- Columbus -->
     <string name="columbus_title">@string/columbus_name</string>
     <string name="columbus_gesture_detected">Quick Tap detected!</string>
