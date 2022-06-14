@@ -31,4 +31,7 @@
     <string name="config_batteryHealthNode"></string>
     <string name="config_batteryRemainingCapacityNode"></string>
     <string name="config_batteryDesignCapacityNode"></string>
+
+    <!-- Max network scan search time in seconds -->
+    <integer name="config_network_scan_helper_max_search_time_sec">300</integer>
 </resources>
