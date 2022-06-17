@@ -210,6 +210,10 @@
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+
     <!-- Lockscreen media art -->
     <string name="lockscreen_media_art_category_title">Media art</string>
     <string name="keygaurd_media_art_title">Display media cover art</string>
