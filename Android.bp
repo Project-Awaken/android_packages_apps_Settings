@@ -82,6 +82,7 @@ android_library {
         "accountfeatureprovidergoogle",
         "columbus-settingsgoogle",
         "faceunlock_framework",
+        "battery-settingsgoogle",
     ],
 
     libs: [
@@ -157,5 +158,11 @@ java_import {
 java_import {
     name: "columbus-settingsgoogle",
     jars: ["libs/columbus-settings.jar"],
+    sdk_version: "current",
+}
+
+java_import {
+    name: "battery-settingsgoogle",
+    jars: ["libs/battery-settings.jar"],
     sdk_version: "current",
 }
