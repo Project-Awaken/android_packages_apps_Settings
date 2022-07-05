@@ -121,7 +121,9 @@ public class SimListDialogFragment extends SimDialogFragment implements
         if (currentSubscriptions.equals(mSubscriptions)) {
             return;
         }
-        mSubscriptions.clear();
+        if (mSubscriptions != null) {
+            mSubscriptions.clear();
+        }
         mSubscriptions.addAll(currentSubscriptions);
         mAdapter.notifyDataSetChanged();
     }
