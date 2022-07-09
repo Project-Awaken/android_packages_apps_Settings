@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Android debugging as root -->
-    <string name="adb_enable_root">Debugging als Root</string>
+    <string name="adb_enable_root">Rooted debugging</string>
     <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
@@ -26,10 +26,10 @@
     <string name="app_notification_sound_timeout_value_none">No restriction</string>
     <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
     <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 Minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 Minuten</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 Minuten</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 Minuten</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
     <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
     <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
@@ -52,7 +52,11 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_awaken">
+        <item quantity="zero">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
         <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling development settings.</item>
+        <item quantity="two">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
+        <item quantity="few">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
+        <item quantity="many">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
         <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
@@ -64,15 +68,15 @@
     <string name="awaken_version_default">Unknown</string>
     <string name="build_date">Build date</string>
     <!-- Awaken maintainer -->
-    <string name="maintainer">Entwickler</string>
+    <string name="maintainer">Maintainer</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux Status</string>
-    <string name="selinux_status_disabled">Deaktiviert</string>
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Wischen um ein Bildschirmfoto zu erstellen</string>
-    <string name="three_finger_gesture_summary">Mit drei Fingern nach unten wischen, um ein Bildschirmfoto aufzunehmen</string>
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
     <!-- Density category -->
     <string name="density_category">Density options</string>
     <!-- Screenshot shutter -->
@@ -82,8 +86,8 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Erweiterten Neustart aktivieren</string>
-    <string name="global_actions_advanced_reboot_summary">Optionen für Recovery und Bootloader im Power-Menü anzeigen</string>
+    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
     <!-- Customization category -->
     <string name="ambientsettings_category_title">Ambient Settings Customizations</string>
     <string name="clocksettings_category_title">Clock Customizations</string>
@@ -176,7 +180,7 @@
     <string name="battery_stats_message">Battery usage data will be lost</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Deaktiviert</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
     <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
     <string name="torch_power_button_gesture_lp">Long press power button</string>
     <!-- Radio Info -->
@@ -220,7 +224,7 @@
     <string name="notification_vibration_intensity_title">Notifications</string>
     <string name="ring_vibration_intensity_title">Ring</string>
     <string name="haptic_feedback_intensity_title">Haptic Feedback</string>
-    <string name="vibration_intensity_off">Deaktiviert</string>
+    <string name="vibration_intensity_off">Disabled</string>
     <string name="vibration_intensity_low">Low</string>
     <string name="vibration_intensity_medium">Medium</string>
     <string name="vibration_intensity_high">High</string>
@@ -295,10 +299,10 @@
     <string name="ambient_notification_light_timeout_title">Timeout</string>
     <string name="ambient_notification_light_timeout_forever">Forever</string>
     <string name="ambient_notification_light_timeout_half_minute">30 seconds</string>
-    <string name="ambient_notification_light_timeout_minute">1 Minute</string>
+    <string name="ambient_notification_light_timeout_minute">1 minute</string>
     <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
-    <string name="ambient_notification_light_timeout_five_minutes">5 Minuten</string>
-    <string name="ambient_notification_light_timeout_ten_minutes">10 Minuten</string>
+    <string name="ambient_notification_light_timeout_five_minutes">5 minutes</string>
+    <string name="ambient_notification_light_timeout_ten_minutes">10 minutes</string>
     <string name="set_to_zero">Set repeats to 0 to enable</string>
     <string name="ambient_notification_color_mode_title">Color mode</string>
     <string name="ambient_notification_color_mode_accent">Accent color</string>
@@ -342,9 +346,9 @@
     <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
     <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
     <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-    <string name="heads_up_snooze_1min">1 Minute</string>
-    <string name="heads_up_snooze_5min">5 Minuten</string>
-    <string name="heads_up_snooze_10min">10 Minuten</string>
+    <string name="heads_up_snooze_1min">1 minute</string>
+    <string name="heads_up_snooze_5min">5 minutes</string>
+    <string name="heads_up_snooze_10min">10 minutes</string>
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
     <!-- Lockscreen battery info indicator  -->
@@ -355,15 +359,15 @@
     <!-- Network preferences screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Automatically turn off Wi-Fi after a set amount of time.</string>
     <string name="wifi_timeout_summary1">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="wifi_timeout_summary2">Deaktiviert</string>
+    <string name="wifi_timeout_summary2">Disabled</string>
     <string name="wifi_timeout_summary_never">Never</string>
     <string name="wifi_timeout_summary_15secs">15 seconds</string>
     <string name="wifi_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_timeout_summary_1min">1 Minute</string>
+    <string name="wifi_timeout_summary_1min">1 minute</string>
     <string name="wifi_timeout_summary_2mins">2 minutes</string>
-    <string name="wifi_timeout_summary_5mins">5 Minuten</string>
-    <string name="wifi_timeout_summary_10mins">10 Minuten</string>
-    <string name="wifi_timeout_summary_30mins">30 Minuten</string>
+    <string name="wifi_timeout_summary_5mins">5 minutes</string>
+    <string name="wifi_timeout_summary_10mins">10 minutes</string>
+    <string name="wifi_timeout_summary_30mins">30 minutes</string>
     <string name="wifi_timeout_summary_1hour">1 hour</string>
     <string name="wifi_timeout_summary_2hours">2 hours</string>
     <string name="wifi_timeout_summary_4hours">4 hours</string>
@@ -376,11 +380,11 @@
     <string name="bluetooth_timeout_summary_never">Never</string>
     <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
     <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
-    <string name="bluetooth_timeout_summary_1min">1 Minute</string>
+    <string name="bluetooth_timeout_summary_1min">1 minute</string>
     <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
-    <string name="bluetooth_timeout_summary_5mins">5 Minuten</string>
-    <string name="bluetooth_timeout_summary_10mins">10 Minuten</string>
-    <string name="bluetooth_timeout_summary_30mins">30 Minuten</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
     <string name="bluetooth_timeout_summary_1hour">1 hour</string>
     <string name="bluetooth_timeout_summary_2hours">2 hours</string>
     <string name="bluetooth_timeout_summary_4hours">4 hours</string>
@@ -428,13 +432,13 @@
     <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
     <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 Minute</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
     <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
     <string name="adaptive_playback_timeout_2_min">2 minutes</string>
     <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 Minuten</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 Minuten</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- 3-Button navigation settings -->
     <string name="button_settings_activity_title">3-Button Navigation Settings</string>
@@ -656,7 +660,7 @@
     <string name="columbus_summary">%1$s / %2$s</string>
     <!-- Volume key cursor control  -->
     <string name="volume_key_cursor_control_title">Volume cursor control</string>
-    <string name="volume_key_cursor_control_disabled">Deaktiviert</string>
+    <string name="volume_key_cursor_control_disabled">Disabled</string>
     <string name="volume_key_cursor_control_left">up - left, down - right</string>
     <string name="volume_key_cursor_control_right">up - right, down - left</string>
     <!-- Battery health -->
@@ -694,10 +698,10 @@
     <string name="app_lock_timeout_5secs">5 seconds</string>
     <string name="app_lock_timeout_10secs">10 seconds</string>
     <string name="app_lock_timeout_30secs">30 seconds</string>
-    <string name="app_lock_timeout_1min">1 Minute</string>
-    <string name="app_lock_timeout_5mins">5 Minuten</string>
-    <string name="app_lock_timeout_10mins">10 Minuten</string>
-    <string name="app_lock_timeout_30mins">30 Minuten</string>
+    <string name="app_lock_timeout_1min">1 minute</string>
+    <string name="app_lock_timeout_5mins">5 minutes</string>
+    <string name="app_lock_timeout_10mins">10 minutes</string>
+    <string name="app_lock_timeout_30mins">30 minutes</string>
     <!-- Game Space -->
     <string name="game_space_title">Game Space</string>
     <string name="game_space_summary">Enhance your gaming experience</string>

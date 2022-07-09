@@ -16,59 +16,59 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Android debugging as root -->
-    <string name="adb_enable_root">Rooted debugging</string>
-    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+    <string name="adb_enable_root">Ladění s právy root</string>
+    <string name="adb_enable_summary_root">Povolit spuštění ladění Androidu s právy root</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Uložená sluchátka</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_title">Minimální doba mezi zvuky oznámení</string>
+    <string name="app_notification_sound_timeout_summary_template">Povolit zvuky nebo vibrace ne více než jednou každých <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Bez omezení</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekund</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekund</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuta</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minut</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minut</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minut</string>
     <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
-    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Vyhledejte snímač otisků prstů na přední straně tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Vyhledejte snímač otisků prstů na přední straně zařízení.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Vyhledejte snímač otisků prstů na přední straně telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Vyhledejte snímač otisků prstů na zadní straně tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Vyhledejte snímač otisků prstů na zadní straně zařízení.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Vyhledejte snímač otisků prstů na zadní straně telefonu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Vyhledejte snímač otisků prstů na boční straně tabletu.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Vyhledejte snímač otisků prstů na boční straně zařízení.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Vyhledejte snímač otisků prstů na boční straně telefonu.</string>
     <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
-    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Dotkněte se senzoru na přední straně tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Dotkněte se senzoru na přední straně zařízení.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Dotkněte se senzoru na přední straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Dotkněte se senzoru na zadní straně tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Dotkněte se senzoru na zadní straně zařízení.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Dotkněte se senzoru na zadní straně telefonu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Dotkněte se senzoru na boční straně tabletu.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Dotkněte se senzoru na boční straně zařízení.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Dotkněte se senzoru na boční straně telefonu.</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_awaken">
-        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling development settings.</item>
-        <item quantity="few">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
-        <item quantity="many">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
-        <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> steps away from enabling development settings.</item>
+        <item quantity="one">Jste <xliff:g id="step_count">%1$d</xliff:g> kroků od povolení vývojářského nastavení.</item>
+        <item quantity="few">Už jste jen <xliff:g id="step_count">%1$d</xliff:g> kroků od povolení vývojářských nastavení.</item>
+        <item quantity="many">Už jste jen <xliff:g id="step_count">%1$d</xliff:g> kroků od povolení vývojářských nastavení.</item>
+        <item quantity="other">Už jste jen <xliff:g id="step_count">%1$d</xliff:g> kroků od povolení vývojářských nastavení.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
-    <string name="show_dev_on_awaken">You have enabled development settings!</string>
+    <string name="show_dev_on_awaken">Voilà! Stal se z vás vývojář.</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
-    <string name="show_dev_already_awaken">No need, you have already enabled development settings.</string>
+    <string name="show_dev_already_awaken">Není potřeba, vývojářské nastavení je již povoleno.</string>
     <!-- Awaken version -->
-    <string name="awaken_version">Awaken version</string>
-    <string name="awaken_version_default">Unknown</string>
-    <string name="build_date">Build date</string>
+    <string name="awaken_version">Verze Awaken</string>
+    <string name="awaken_version_default">Neznámá</string>
+    <string name="build_date">Datum sestavení</string>
     <!-- Awaken maintainer -->
-    <string name="maintainer">Maintainer</string>
+    <string name="maintainer">Správce</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status">Stav SELinux</string>
     <string name="selinux_status_disabled">Disabled</string>
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
@@ -76,34 +76,34 @@
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
     <!-- Density category -->
-    <string name="density_category">Density options</string>
+    <string name="density_category">Možnosti hustoty zobrazení</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Zvuk snímku obrazovky</string>
     <!-- App details: open play store link if app is user installed -->
-    <string name="app_play_store">Google Play</string>
+    <string name="app_play_store">Obchod Play</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_title">Povolit rozšířený restart</string>
+    <string name="global_actions_advanced_reboot_summary">V menu napájení zobrazit možnosti pro režim recovery a bootloader</string>
     <!-- Customization category -->
     <string name="ambientsettings_category_title">Ambient Settings Customizations</string>
-    <string name="clocksettings_category_title">Clock Customizations</string>
-    <string name="customization_category_title">Customizations</string>
-    <string name="display_customization_title">Display Customizations</string>
+    <string name="clocksettings_category_title">Vlastní nastavení hodin</string>
+    <string name="customization_category_title">Přizpůsobení</string>
+    <string name="display_customization_title">Přizpůsobení obrazovky</string>
     <string name="display_customization_summary">Adjust statusbar and quick settings</string>
-    <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
-    <string name="quicksettings_category_title">Quick Settings Customizations</string>
-    <string name="statusbar_category_title">Statusbar Customizations</string>
+    <string name="lockscreen_tweaks_category_title">Přizpůsobení zamykací obrazovky</string>
+    <string name="quicksettings_category_title">Přizpůsobení rychlých nastavení</string>
+    <string name="statusbar_category_title">Přizpůsobení stavového řádku</string>
     <!-- Double Tap to Sleep Lockscreen -->
-    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreeen to sleep</string>
+    <string name="double_tap_sleep_lockscreen_title">Uspat dvojím poklepáním</string>
+    <string name="double_tap_sleep_lockscreen_summary">Dvojím poklepáním kdekoliv na zamykací obrazovku uvést zařízení do režimu spánku</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap anywhere on the status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Dvojí poklepání kdekoliv na stavový řádek uvede zařízení do režimu spánku</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
-    <string name="statusbar_items_summary">Enable/Disable items in statusbar</string>
+    <string name="statusbar_items_title">Položky stavového řádku</string>
+    <string name="statusbar_items_summary">Povolení/zakázání položek v stavovém řádku</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Ringtone vibration pattern</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
@@ -111,118 +111,117 @@
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="pattern_custom">Vlastní</string>
+    <string name="custom_vibration_pattern_title">Vlastní vzor</string>
+    <string name="custom_vibration_pattern_summary">Vlastní vzor vibrací</string>
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
     <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Ovládání přehrávání</string>
+    <string name="volume_button_music_control_summary">Pokud je obrazovka vypnutá, dlouhé stisknutí tlačítek hlasitosti přeskočí skladby</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
-    <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
+    <string name="volume_rocker_wake_title">Probudit tlačítky hlasitosti</string>
+    <string name="volume_rocker_wake_summary">Probudit zařízení stisknutím tlačítek hlasitosti</string>
     <!-- Customization Categories/Fragment Titles -->
-    <string name="clocksettings_title">Clock Settings</string>
-    <string name="clocksettings_summary">Statusbar clock settings</string>
-    <string name="status_bar_clock_date_title">Clock and Date</string>
+    <string name="clocksettings_title">Nastavení hodin</string>
+    <string name="clocksettings_summary">Nastavení hodin ve stavové liště</string>
+    <string name="status_bar_clock_date_title">Datum a čas</string>
     <string name="status_bar_clock_date_summary">Customize your statusbar clock and date</string>
-    <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
+    <string name="status_bar_clock_title">Nastavení hodin</string>
+    <string name="status_bar_clock_show">Zobrazit datum a čas</string>
     <string name="status_bar_clock_style_title">Clock style</string>
     <string name="status_bar_clock_style_right">Right</string>
     <string name="status_bar_clock_style_center">Center</string>
     <string name="status_bar_clock_style_left">Left</string>
     <string name="status_bar_date_title">Date settings</string>
-    <string name="status_bar_am_pm_title">AM/PM style</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-    <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
-    <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style">Date style</string>
-    <string name="clock_date_style_normal">Normal</string>
+    <string name="status_bar_am_pm_title">Styl zobrazení dop./odp.</string>
+    <string name="status_bar_am_pm_info">24-hodinový formát je povolen</string>
+    <string name="status_bar_am_pm_normal">Normální</string>
+    <string name="status_bar_am_pm_small">Malý</string>
+    <string name="status_bar_am_pm_hidden">Skrytý (výchozí)</string>
+    <string name="clock_seconds_display">Zobrazit sekundy</string>
+    <string name="clock_date_display">Datum</string>
+    <string name="clock_date_display_summary">Zobrazit vlastní datum před hodinami</string>
+    <string name="clock_date_display_none">Nezobrazovat</string>
+    <string name="clock_date_display_small">Malá velikost písma</string>
+    <string name="clock_date_display_normal">Normální velikost písma</string>
+    <string name="clock_date_style">Styl data</string>
+    <string name="clock_date_style_normal">Normální</string>
     <string name="clock_date_style_lowercase">Lowercase</string>
     <string name="clock_date_style_uppercase">Uppercase</string>
     <string name="clock_date_format_custom">Custom java format</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_format">Formát data</string>
+    <string name="clock_date_string_edittext_title">Musí být ve formátu např. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
-    <string name="clock_date_position">Date position</string>
-    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
+    <string name="clock_date_position">Umístění data</string>
+    <string name="status_bar_clock_auto_hide_title">Automatické skrývání hodin</string>
+    <string name="status_bar_clock_auto_hide_summary">Skrývat a zobrazovat hodiny v pravidelných intervalech</string>
     <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
     <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Zvyšující se hlasitost vyzvánění</string>
+    <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
+    <string name="increasing_ring_ramp_up_time_title">Doba zesilování</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibration_category">Možnosti vibrací během hovoru</string>
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Clear usage data?</string>
+    <string name="battery_stats_reset">Vynulovat statistiky?</string>
     <string name="battery_stats_message">Battery usage data will be lost</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
     <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_dt">Dvojité klepnutí na tlačítko napájení (pomalejší odezva při jednom klepnutí), vypne dvojité stisknutí pro spoštění fotoaparátu.</string>
+    <string name="torch_power_button_gesture_lp">Dlouhým stiskem tlačítka napájení</string>
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 minute</string>
+    <string name="duration_less_than_one_minute">Méně než 1 minuta</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">Dnes %1$s</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">Ikona 4G</string>
+    <string name="show_fourg_icon_summary">Zobrazit ikonu 4G namísto LTE</string>
     <!-- Old mobile type icons -->
-    <string name="use_old_mobiletype_title">Small mobile type icon</string>
-    <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+    <string name="use_old_mobiletype_title">Malý typ ikony mobilní sítě</string>
+    <string name="use_old_mobiletype_summary">Zobrazit typ ikony mobilní sítě v horní části indikátoru signálu</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_title">Indikátor roamingu</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
     <!-- Battery Styles -->
     <string name="battery_style_category_title">Battery Customizations</string>
-    <string name="battery_percent_title">Battery percent</string>
+    <string name="battery_percent_title">Procenta baterie</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Battery style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_circle">Kruh</string>
+    <string name="status_bar_battery_style_dotted_circle">Kruh (tečkovaný)</string>
     <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Hidden</string>
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_title">Procenta baterie</string>
+    <string name="status_bar_battery_percentage_default">Skrytý (výchozí)</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
     <!-- QS battery estimates -->
-    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_title">Odhad výdrže baterie</string>
     <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
     <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
     <!-- Custom vibration intensity -->
-    <string name="vibration_intensity_title">Vibration Intensity</string>
+    <string name="vibration_intensity_title">Intenzita vibrací</string>
     <string name="vibration_intensity_summary">Control vibration intensity for different streams</string>
-    <string name="notification_vibration_intensity_title">Notifications</string>
+    <string name="notification_vibration_intensity_title">Notifikace</string>
     <string name="ring_vibration_intensity_title">Ring</string>
-    <string name="haptic_feedback_intensity_title">Haptic Feedback</string>
+    <string name="haptic_feedback_intensity_title">Haptická odezva</string>
     <string name="vibration_intensity_off">Disabled</string>
     <string name="vibration_intensity_low">Low</string>
     <string name="vibration_intensity_medium">Medium</string>
@@ -234,24 +233,24 @@
     <string name="less_boring_heads_up_title">Saner Heads-Up</string>
     <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
     <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nRequires a SystemUI restart</string>
+    <string name="combined_status_bar_signal_icons">Kombinované ikony signálu</string>
+    <string name="combined_status_bar_signal_icons_summary">Povolit kombinované ikony signálu ve stavovém řádku.\nVyžaduje restart SystemUI</string>
     <!-- Fullscreen gestures -->
     <string name="other_controls_title">Other controls</string>
-    <string name="fullscreen_gestures_title">Fullscreen gestures</string>
+    <string name="fullscreen_gestures_title">Gesta přes celou obrazovku</string>
     <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pill length</string>
-    <string name="short_label">Short</string>
-    <string name="long_label">Long</string>
+    <string name="short_label">Krátká</string>
+    <string name="long_label">Dlouhá</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total available RAM</string>
+    <string name="total_ram">Celková dostupná paměť RAM</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="double_tap_title">Dvojité poklepání</string>
+    <string name="doze_double_tap_title">Dvojitým klepnutím zkontrolujte telefon</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Legacy WFD settings -->
     <string name="legacy_wfd_video_mode_title">Video mode</string>
@@ -260,26 +259,26 @@
     <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
     <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
     <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Brightness slider visibility and settings</string>
-    <string name="qs_brightness_position_bottom_title">Bottom brightness slider</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on the bottom of QS</string>
-    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
-    <string name="qs_show_auto_brightness_summary">Show an auto brightness toggle near the brightness slider</string>
+    <string name="qs_show_brightness_title">Posuvník jasu</string>
+    <string name="qs_show_brightness_summary">Zobrazení a nastavení posuvníku jasu</string>
+    <string name="qs_brightness_position_bottom_title">Spodní posuvník jasu</string>
+    <string name="qs_brightness_position_bottom_summary">Zobrazit posuvník jasu ve spodní části panelu QS</string>
+    <string name="qs_show_auto_brightness_title">Ikona automatického jasu</string>
+    <string name="qs_show_auto_brightness_summary">Zobrazit přepínač automatického jasu poblíž posuvníku jasu</string>
     <!-- Volume swap buttons -->
     <string name="swap_volume_buttons_title">Reorient</string>
-    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+    <string name="swap_volume_buttons_summary">Prohodit tlačítka hlasitosti při otočení obrazovky</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_haptic_title">Haptická odezva</string>
+    <string name="back_gesture_haptic_summary">Povolit efekt krátkého zavibrování při použití gesta „Zpět“</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Show data disabled icon</string>
     <string name="data_disabled_icon_summary">Display the exclamation sign next to signal bar when data is disabled</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_title">Vždy zapnuto při nabíjení</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
     <!-- General strings -->
-    <string name="default_string">Default</string>
+    <string name="default_string">Výchozí</string>
     <string name="unit_seconds">Second(s)</string>
     <string name="unit_milliseconds">milliseconds</string>
     <string name="unit_pixels">dp</string>
@@ -297,11 +296,11 @@
     <string name="ambient_notification_light_repeats_summary">Amount of times the animation should show\n0 for infinite</string>
     <string name="ambient_notification_light_timeout_title">Timeout</string>
     <string name="ambient_notification_light_timeout_forever">Forever</string>
-    <string name="ambient_notification_light_timeout_half_minute">30 seconds</string>
-    <string name="ambient_notification_light_timeout_minute">1 minute</string>
+    <string name="ambient_notification_light_timeout_half_minute">30 sekund</string>
+    <string name="ambient_notification_light_timeout_minute">1 minuta</string>
     <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
-    <string name="ambient_notification_light_timeout_five_minutes">5 minutes</string>
-    <string name="ambient_notification_light_timeout_ten_minutes">10 minutes</string>
+    <string name="ambient_notification_light_timeout_five_minutes">5 minut</string>
+    <string name="ambient_notification_light_timeout_ten_minutes">10 minut</string>
     <string name="set_to_zero">Set repeats to 0 to enable</string>
     <string name="ambient_notification_color_mode_title">Color mode</string>
     <string name="ambient_notification_color_mode_accent">Accent color</string>
@@ -318,19 +317,19 @@
     <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
     <string name="lockscreen_media_blur_title">Media art blur level</string>
     <!-- Heads up -->
-    <string name="headsup_category">HeadsUp Settings</string>
+    <string name="headsup_category">Nastavení plovoucího oznámení</string>
     <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Customise heads up notifications settings</string>
+    <string name="heads_up_notifications_summary">Přizpůsobení nastavení plovoucích oznámení</string>
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
     <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
+    <string name="add_heads_up_package">Přidat aplikaci</string>
     <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
     <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
     <string name="heads_up_stoplist_title">Stoplist</string>
     <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="profile_choose_app">Vybrat aplikaci</string>
+    <string name="dialog_delete_title">Smazat</string>
+    <string name="dialog_delete_message">Odstranit vybranou položku?</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
     <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
@@ -339,34 +338,34 @@
     <string name="heads_up_time_out_5sec">5 seconds</string>
     <string name="heads_up_time_out_6sec">6 seconds</string>
     <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_10sec">10 sekund</string>
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Snooze timer</string>
     <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
     <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
     <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-    <string name="heads_up_snooze_1min">1 minute</string>
-    <string name="heads_up_snooze_5min">5 minutes</string>
-    <string name="heads_up_snooze_10min">10 minutes</string>
+    <string name="heads_up_snooze_1min">1 minuta</string>
+    <string name="heads_up_snooze_5min">5 minut</string>
+    <string name="heads_up_snooze_10min">10 minut</string>
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Informace o nabíjení na zamykací obrazovce</string>
+    <string name="lockscreen_battery_info_summary">Zobrazit maximální proud, napětí a teplotu baterie při nabíjení na zamykací obrazovce</string>
     <!-- Network preferences screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">Automaticky vypnout Wi-Fi</string>
     <!-- Network preferences screen, setting option summary to change wifi timeout -->
     <string name="wifi_timeout_summary">Automatically turn off Wi-Fi after a set amount of time.</string>
     <string name="wifi_timeout_summary1">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
     <string name="wifi_timeout_summary2">Disabled</string>
     <string name="wifi_timeout_summary_never">Never</string>
     <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_timeout_summary_1min">1 minute</string>
+    <string name="wifi_timeout_summary_30secs">30 sekund</string>
+    <string name="wifi_timeout_summary_1min">1 minuta</string>
     <string name="wifi_timeout_summary_2mins">2 minutes</string>
-    <string name="wifi_timeout_summary_5mins">5 minutes</string>
-    <string name="wifi_timeout_summary_10mins">10 minutes</string>
-    <string name="wifi_timeout_summary_30mins">30 minutes</string>
+    <string name="wifi_timeout_summary_5mins">5 minut</string>
+    <string name="wifi_timeout_summary_10mins">10 minut</string>
+    <string name="wifi_timeout_summary_30mins">30 minut</string>
     <string name="wifi_timeout_summary_1hour">1 hour</string>
     <string name="wifi_timeout_summary_2hours">2 hours</string>
     <string name="wifi_timeout_summary_4hours">4 hours</string>
@@ -378,12 +377,12 @@
     <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
     <string name="bluetooth_timeout_summary_never">Never</string>
     <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
-    <string name="bluetooth_timeout_summary_1min">1 minute</string>
+    <string name="bluetooth_timeout_summary_30secs">30 sekund</string>
+    <string name="bluetooth_timeout_summary_1min">1 minuta</string>
     <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
-    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
-    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
-    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minut</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minut</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minut</string>
     <string name="bluetooth_timeout_summary_1hour">1 hour</string>
     <string name="bluetooth_timeout_summary_2hours">2 hours</string>
     <string name="bluetooth_timeout_summary_4hours">4 hours</string>
@@ -402,7 +401,7 @@
     <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Klepnutím zobrazit informace</string>
     <!-- QS Tile requires unlocking before being accessible -->
     <string name="qstile_requires_unlocking_title">Secure QS tiles require unlocking</string>
     <string name="qstile_requires_unlocking_summary">The following QS tiles require unlocking before you can acccess them from lock screen:\nAirplane, Cellular, Bluetooth, Data saver, Battery saver, Work mode, Rotation, NFC, Hotspot, USB tethering and Location</string>
@@ -429,22 +428,22 @@
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
     <string name="adaptive_playback_timeout_none">No timeout</string>
     <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuta</string>
     <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
     <string name="adaptive_playback_timeout_2_min">2 minutes</string>
     <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min">5 minut</string>
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min">10 minut</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
     <!-- 3-Button navigation settings -->
     <string name="button_settings_activity_title">3-Button Navigation Settings</string>
     <string name="navigation_bar_inverse_title">Inverse Layout</string>
     <string name="navigation_bar_inverse_summary">Swipe positions between back and recents</string>
     <string name="navbar_layout_title">Layout</string>
-    <string name="navbar_layout_normal">Normal</string>
+    <string name="navbar_layout_normal">Normální</string>
     <string name="navbar_layout_compact">Compact</string>
     <string name="navbar_layout_leftleaning">Left-leaning</string>
     <string name="navbar_layout_rightleaning">Right-leaning</string>
@@ -533,7 +532,7 @@
     <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
     <string name="pulse_color_mode_title">Color</string>
     <string name="pulse_color_accent">Accent</string>
-    <string name="pulse_color_custom">Custom</string>
+    <string name="pulse_color_custom">Vlastní</string>
     <string name="pulse_color_lava_lamp">Lava lamp</string>
     <string name="pulse_color_user_title">Choose color</string>
     <string name="pulse_smoothing_enabled_title">Turn on smoothing</string>
@@ -552,7 +551,7 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <string name="search">Search</string>
+    <string name="search">Vyhledat</string>
     <string name="search_apps">Search apps</string>
     <!-- Headset ringtone audio focus -->
     <string name="ringtone_focus_mode_title">Ringtone focus mode</string>
@@ -605,12 +604,6 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">Hidden apps</string>
     <string name="hidden_apps_summary">Applications that should be hidden from launcher. Requires a launcher restart for changes to take effect</string>
-    <!-- Game -->
-    <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
-    <string name="game_dashboard_always_on_title">Game Dashboard</string>
-    <string name="game_dashboard_dnd_rule_name">Gaming</string>
-    <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
-    <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
     <!-- Columbus -->
     <string name="columbus_title">@string/columbus_name</string>
     <string name="columbus_gesture_detected">Quick Tap detected!</string>
@@ -643,14 +636,14 @@
     <string name="columbus_radio_button_extra_widget_a11y_label">%1$s settings</string>
     <string name="columbus_setting_action_assistant_title">Access your digital assistant</string>
     <string name="columbus_setting_action_assistant_value">assistant</string>
-    <string name="columbus_setting_action_launch_summary_no_selection">No app selected</string>
-    <string name="columbus_setting_action_launch_summary_not_installed">App not installed</string>
-    <string name="columbus_setting_action_launch_title">Open app</string>
-    <string name="columbus_setting_action_launch_value">launch</string>
-    <string name="columbus_setting_action_notification_title">Show notifications</string>
-    <string name="columbus_setting_action_notification_value">notifications</string>
-    <string name="columbus_setting_action_open_app_title">Open app</string>
-    <string name="columbus_setting_action_overview_title">See recent apps</string>
+    <string name="columbus_setting_action_launch_summary_no_selection">Není vybrána žádná aplikace</string>
+    <string name="columbus_setting_action_launch_summary_not_installed">Aplikace není nainstalována</string>
+    <string name="columbus_setting_action_launch_title">Otevřít aplikaci</string>
+    <string name="columbus_setting_action_launch_value">spustit</string>
+    <string name="columbus_setting_action_notification_title">Zobrazovat oznámení</string>
+    <string name="columbus_setting_action_notification_value">notifikace</string>
+    <string name="columbus_setting_action_open_app_title">Otevřít aplikaci</string>
+    <string name="columbus_setting_action_overview_title">Zobrazit nedávné aplikace</string>
     <string name="columbus_setting_action_overview_value">overview</string>
     <string name="columbus_setting_action_play_pause_title">Play or pause media</string>
     <string name="columbus_setting_action_play_pause_value">media</string>
@@ -669,22 +662,53 @@
     <string name="volume_key_cursor_control_left">up - left, down - right</string>
     <string name="volume_key_cursor_control_right">up - right, down - left</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
+    <string name="battery_health_title">Zdraví baterie</string>
     <!-- QS media player -->
-    <string name="qs_media_controls_title">Media player</string>
-    <string name="qs_media_controls_summary_on">Show media player in QS\nRequires a SystemUI restart</string>
-    <string name="qs_media_controls_summary_off">Show media player as a notification\nRequires a SystemUI restart</string>
+    <string name="qs_media_controls_title">Přehrávač médií</string>
+    <string name="qs_media_controls_summary_on">Zobrazit přehrávač médií v QS\nVyžaduje restart SystemUI</string>
+    <string name="qs_media_controls_summary_off">Zobrazit přehrávač médií jako oznámení.\nVyžaduje restart SystemUI</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Nastavení otáčení</string>
+    <string name="display_rotation_enabled">Automatické otáčení povoleno</string>
+    <string name="display_rotation_disabled">Automatické otáčení zakázáno</string>
+    <string name="display_rotation_unit">stupňů</string>
+    <string name="display_rotation_category_title">Režimy otáčení</string>
+    <string name="display_rotation_0_title">0 stupňů</string>
+    <string name="display_rotation_90_title">90 stupňů</string>
+    <string name="display_rotation_180_title">180 stupňů</string>
+    <string name="display_rotation_270_title">270 stupňů</string>
     <!-- General -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">Zkopírováno do schránky</string>
+    <string name="longpress_to_clipboard">Přidržením zkopírovat</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <!-- App lock timeout -->
+    <string name="app_lock_timeout_5secs">5 seconds</string>
+    <string name="app_lock_timeout_10secs">10 sekund</string>
+    <string name="app_lock_timeout_30secs">30 sekund</string>
+    <string name="app_lock_timeout_1min">1 minuta</string>
+    <string name="app_lock_timeout_5mins">5 minut</string>
+    <string name="app_lock_timeout_10mins">10 minut</string>
+    <string name="app_lock_timeout_30mins">30 minut</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
 </resources>

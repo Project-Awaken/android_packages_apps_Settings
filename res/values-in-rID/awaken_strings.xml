@@ -173,7 +173,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Atur ulang statistik baterai?</string>
     <string name="battery_stats_message">Data penggunaan baterai akan hilang</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Nyalakan / matikan senter saat layar mati</string>
     <string name="torch_power_button_gesture_none">Dinonaktifkan</string>
@@ -602,12 +601,6 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">Sembunyikan aplikasi</string>
     <string name="hidden_apps_summary">Aplikasi yang akan disembunyikan dari peluncur. Membutuhkan mulai ulang peluncur agar perubahan diterapkan</string>
-    <!-- Game -->
-    <string name="game_dashboard_always_on_summary">Tampilkan pintasan Dasbor Game dalam game</string>
-    <string name="game_dashboard_always_on_title">Dasbor Game</string>
-    <string name="game_dashboard_dnd_rule_name">Bermain Game</string>
-    <string name="game_dashboard_dnd_summary">Hanya dapatkan notifikasi dari orang dan aplikasi penting saat bermain game</string>
-    <string name="game_dashboard_dnd_title">Jangan Ganggu untuk game</string>
     <!-- Columbus -->
     <string name="columbus_title">@string/columbus_name</string>
     <string name="columbus_gesture_detected">Ketuk Cepat terdeteksi!</string>
@@ -684,4 +677,35 @@
     <!-- General -->
     <string name="copied_to_clipboard">Disalin ke papan klip</string>
     <string name="longpress_to_clipboard">Tekan lama untuk menyalin</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Pilih ukuran pola</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Tampilkan kesalahan pola</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Tampilkan titik-titik pola</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Font Judul/Isi</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Bentuk ikon</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Paket ikon</string>
+    <!-- App lock timeout -->
+    <string name="app_lock_timeout_5secs">5 detik</string>
+    <string name="app_lock_timeout_10secs">10 detik</string>
+    <string name="app_lock_timeout_30secs">30 detik</string>
+    <string name="app_lock_timeout_1min">1 menit</string>
+    <string name="app_lock_timeout_5mins">5 menit</string>
+    <string name="app_lock_timeout_10mins">10 menit</string>
+    <string name="app_lock_timeout_30mins">30 menit</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Ruang Game</string>
+    <string name="game_space_summary">Tingkatkan pengalaman bermain game Anda</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Tekan lama pada sensor sidik jari untuk membuka kunci ponsel</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Tekan lama pada sensor sidik jari untuk membuka kunci tablet</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Tekan lama pada sensor sidik jari untuk membuka kunci perangkat</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">Untuk mengaktifkan layar dan membuka kunci, tekan lama sensor sidik jari di bawah layar.</string>
 </resources>

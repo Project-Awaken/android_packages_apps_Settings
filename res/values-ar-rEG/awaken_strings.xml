@@ -75,7 +75,7 @@
     <string name="selinux_status_permissive">الصلاحية</string>
     <string name="selinux_status_enforcing">فرض</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">مرر  لالتقاط الشاشة</string>
+    <string name="three_finger_gesture">مرر لالتقاط الشاشة</string>
     <string name="three_finger_gesture_summary">السحب لأسفل بثلاث أصابع لأخذ لقطة شاشة</string>
     <!-- Density category -->
     <string name="density_category">خيارات الكثافة</string>
@@ -249,7 +249,7 @@
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">المنصة</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">الإجمالي المتاح من الRAM</string>
+    <string name="total_ram">الإجمالي المتاح من الذاكرة المؤقتة</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">نقر مزدوج</string>
     <string name="doze_double_tap_title">النقر مرّتين للاطّلاع على الهاتف</string>
@@ -281,7 +281,7 @@
     <string name="doze_on_charge_summary">إظهار شاشة غفو طوال الوقت عند الشحن</string>
     <!-- General strings -->
     <string name="default_string">الافتراضي</string>
-    <string name="unit_seconds">ثانية</string>
+    <string name="unit_seconds">ثانية(ث)</string>
     <string name="unit_milliseconds">ميلي ثانية</string>
     <string name="unit_pixels">البكسلات</string>
     <!-- Pulse notifications lightning -->
@@ -667,7 +667,7 @@
     <!-- QS media player -->
     <string name="qs_media_controls_title">مشغل الوسائط</string>
     <string name="qs_media_controls_summary_on">إظهار مشغل الوسائط في قائمه الإعدادات السريعة يتطلب إعادة تشغيل واجهة مستخدم النظام</string>
-    <string name="qs_media_controls_summary_off">إظهار مشغل الوسائط في قائمه الإعدادات السريعة يتطلب إعادة تشغيل واجهة مستخدم النظام</string>
+    <string name="qs_media_controls_summary_off">إظهار مشغل الوسائط في قائمه الإعدادات السريعة يتطلب إعادة تشغيل واجهة مستخدم النظام\n</string>
     <!-- Display : Rotation -->
     <string name="display_rotation_title">إعدادات التدوير</string>
     <string name="display_rotation_enabled">التدوير التلقائي مُفعل</string>
@@ -682,9 +682,9 @@
     <string name="copied_to_clipboard">نسخت إلى الحافظة</string>
     <string name="longpress_to_clipboard">اضغط مطولاً لنسخ</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">أختر حجم النقش</string>
+    <string name="lock_settings_picker_pattern_size_message">اختر حجم النمط</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">إظهار الخطأ بالنمط</string>
+    <string name="lockpattern_settings_enable_error_path_title">اظهار خطأ بالنمط</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">إظهار نقاط النمط</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->

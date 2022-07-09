@@ -52,7 +52,7 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Toca el sensor en el lateral de tu teléfono.</string>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <plurals name="show_dev_countdown_awaken">
-        <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling development settings.</item>
+        <item quantity="one">Estás a <xliff:g id="step_count">%1$d</xliff:g> pasos para habilitar las opciones de desarrollador.</item>
         <item quantity="other">Estás <xliff:g id="step_count">%1$d</xliff:g> pasos de activar los ajustes de desarrollador.</item>
     </plurals>
     <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
@@ -174,7 +174,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">¿Borrar datos de uso?</string>
     <string name="battery_stats_message">Los datos de uso de la batería se perderán</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Alternar linterna con pantalla apagada</string>
     <string name="torch_power_button_gesture_none">Desactivado</string>
@@ -354,8 +353,8 @@
     <!-- Network preferences screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Desactivar Wi-Fi automáticamente</string>
     <!-- Network preferences screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Automatically turn off Wi-Fi after a set amount of time.</string>
-    <string name="wifi_timeout_summary1">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary">Apagar Wi-Fi automáticamente después de un tiempo establecido.</string>
+    <string name="wifi_timeout_summary1">El Wi-Fi se apagará tras <xliff:g id="timeout_description">%1$s</xliff:g> si no está conectado a una red</string>
     <string name="wifi_timeout_summary2">Desactivado</string>
     <string name="wifi_timeout_summary_never">Nunca</string>
     <string name="wifi_timeout_summary_15secs">15 segundos</string>
@@ -458,20 +457,20 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir a los clientes usar VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir a los clientes de hotspot usar las conexiones VPN de este dispositivo para conectividad de subida</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
-    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Red oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">El nombre de tu punto de acceso no aparecerá en la lista de redes WLAN disponibles.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nunca apagar el punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_client_manager_summary">Listar y administrar dispositivos conectados al punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Lista de dispositivos conectados al punto de acceso</string>
+    <string name="wifi_hotspot_client_limit_title">Límite de dispositivos conectados</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos bloqueados</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Esta acción desconectará \"<xliff:g id="device_name">%1$s</xliff:g>\" de este dispositivo y lo añadirá a la lista de bloqueados</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">El dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" podrá conectarse a este punto de acceso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No hay clientes disponibles. Los dispositivos conectados y bloqueados aparecerán aquí cuando estén disponibles.</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Ajustar el brillo una sola vez</string>
     <string name="auto_brightness_one_shot_summary">El brillo sólo se ajustará en el momento de encender la pantalla</string>
@@ -564,125 +563,150 @@
     <string name="app_lock_packages_title">Aplicaciones protegidas</string>
     <string name="app_lock_packages_summary">Seleccionar aplicaciones para proteger con datos biométricos o credenciales</string>
     <string name="app_lock_timeout_title">Tiempo de bloqueo automático</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Collapse notifications</string>
-    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
-          Heads up notifications will be automatically disabled.
+    <string name="app_lock_timeout_summary">Tiempo tras el cual una aplicación en segundo plano debe ser bloqueada</string>
+    <string name="app_lock_notifications_title">Contraer notificaciones</string>
+    <string name="app_lock_notifications_summary">          Las notificaciones se ocultarán y contraerán para las aplicaciones seleccionadas cuando estén bloqueadas.
+          Las notificaciones emergentes se desactivarán automáticamente.
      </string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="app_lock_notifications_disabled_summary">Protege primero una aplicación</string>
+    <string name="app_lock_biometrics_allowed_title">Desbloquear con biometría</string>
+    <string name="app_lock_footer_text">Las burbujas se descartarán automáticamente después del tiempo de espera</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">QS footer warnings</string>
-    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+    <string name="qs_footer_warnings_title">Advertencias al pie de Ajustes Rápidos</string>
+    <string name="qs_footer_warnings_summary">Muestra aviso bajo al pie del panel de ajustes rápidos cuando la red se monitoriza por una aplicación externa o una vpn</string>
     <!-- Battery Temperature -->
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">Temperatura de batería</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Apagado</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
-    <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="greatest_tick_label">Media pantalla</string>
+    <string name="gesture_back_deadzone_label">Zona muerta</string>
+    <string name="back_sensitivity_dialog_message_cust">Usar los dos primeros tercios de pantalla para el gesto Atrás. En el último tercio no se activará el deslizamiento, para evitar conflictos con gestos en aplicaciones.</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="min_refresh_rate_title">Tasa de refresco mínima</string>
+    <string name="max_refresh_rate_title">Tasa de refresco máxima</string>
+    <string name="battery_saver_refresh_rate_title">Reducir la tasa de refresco</string>
+    <string name="battery_saver_refresh_rate_summary">Usar 60 Hz como tasa de refresco para ahorrar energía cuando Ahorro de batería está activado</string>
     <!-- Monet engine -->
-    <string name="monet_engine_settings_title">Monet engine</string>
-    <string name="monet_engine_settings_summary"> Adjust accent color, colorfulness and brightness</string>
-    <string name="accurate_shades_title">Use accurate shades</string>
-    <string name="use_wallpaper_color_title">Use wallpaper color</string>
-    <string name="color_override_title">Accent color picker</string>
-    <string name="color_override_summary">Choose a custom accent color to override the colors chosen by monet engine</string>
-    <string name="chroma_factor_title">Colorfulness</string>
-    <string name="linear_lightness_title">Use a custom lightness scale</string>
-    <string name="white_luminance_title">Brightness</string>
+    <string name="monet_engine_settings_title">Monet</string>
+    <string name="monet_engine_settings_summary"> Ajustar color de acento, coloración y brillo</string>
+    <string name="accurate_shades_title">Use tonos precisos</string>
+    <string name="use_wallpaper_color_title">Usar colores del fondo de pantalla</string>
+    <string name="color_override_title">Selector de color de acento</string>
+    <string name="color_override_summary">Elegir un color de acento personalizado para ignorar los escogidos por monet</string>
+    <string name="chroma_factor_title">Nivel de color</string>
+    <string name="linear_lightness_title">Usar escala de iluminación personalizada</string>
+    <string name="white_luminance_title">Luminosidad</string>
     <!-- Quick Settings quick pulldown -->
-    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
-    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <string name="quick_settings_quick_pull_down_title">Despliegue rápido del panel de ajustes rapidos</string>
+    <string name="quick_settings_quick_pull_down_summary">Desplegar desde la derecha para expandir ajustes rápidos</string>
     <!-- Hidden apps -->
-    <string name="hidden_apps_title">Hidden apps</string>
-    <string name="hidden_apps_summary">Applications that should be hidden from launcher. Requires a launcher restart for changes to take effect</string>
-    <!-- Game -->
-    <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
-    <string name="game_dashboard_always_on_title">Game Dashboard</string>
-    <string name="game_dashboard_dnd_rule_name">Gaming</string>
-    <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
-    <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
+    <string name="hidden_apps_title">Aplicaciones ocultas</string>
+    <string name="hidden_apps_summary">Aplicaciones que no deben ser mostradas en el launcher. Requiere reiniciar el launcher para tener efecto</string>
     <!-- Columbus -->
     <string name="columbus_title">@string/columbus_name</string>
-    <string name="columbus_gesture_detected">Quick Tap detected!</string>
-    <string name="columbus_gesture_enrollment_complete">Done</string>
-    <string name="columbus_gesture_enrollment_do_it_later">Not now</string>
-    <string name="columbus_gesture_enrollment_settings">Go to Settings</string>
-    <string name="columbus_gesture_enrollment_try_it">Try it</string>
-    <string name="columbus_gesture_training_action_no_selection_error">Please select an action to perform</string>
-    <string name="columbus_gesture_training_action_text">Select what happens when you use Quick Tap. You can change this later in settings.</string>
-    <string name="columbus_gesture_training_action_title">Choose Quick Tap option</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture">… Double-tap 1 out of 2 detected</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture_text">Let’s try that once more. Quickly tap the back of your phone twice.</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture_title">Nice!</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture">… Double-tap 2 out of 2 detected</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture_text">You’re ready to start using Quick Tap</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture_title">You got it!</string>
-    <string name="columbus_gesture_training_enrolling_text">Quickly tap the back of your phone twice.</string>
-    <string name="columbus_gesture_training_enrolling_title">Try Quick Tap</string>
-    <string name="columbus_gesture_training_finished_text">To change the tap strength needed to use Quick Tap, go to Settings.</string>
-    <string name="columbus_gesture_training_finished_title">You’ve set up Quick Tap</string>
-    <string name="columbus_gesture_training_intro_text_accidental">You‘ve just tapped twice on the back of your device, which allows you to use your Assistant on the go. You can customize this gesture in settings.</string>
-    <string name="columbus_gesture_training_intro_text_suw">Take a screenshot, show notifications, or start another action in two taps.</string>
-    <string name="columbus_gesture_training_intro_title">Quick Tap for quick actions</string>
-    <string name="columbus_gesture_training_launch_no_selection_error">Please select an app to open</string>
-    <string name="columbus_gesture_training_launch_text">Select the app you’d like to open when you use Quick Tap.</string>
-    <string name="columbus_gesture_training_launch_title">Choose app to open</string>
+    <string name="columbus_gesture_detected">¡Toque rápido detectado!</string>
+    <string name="columbus_gesture_enrollment_complete">Hecho</string>
+    <string name="columbus_gesture_enrollment_do_it_later">Ahora no</string>
+    <string name="columbus_gesture_enrollment_settings">Ir a Configuración</string>
+    <string name="columbus_gesture_enrollment_try_it">Pruébalo</string>
+    <string name="columbus_gesture_training_action_no_selection_error">Por favor selecciona una acción para realizar</string>
+    <string name="columbus_gesture_training_action_text">Seleccione qué sucede al usar el Toque Rápido. Puedes cambiarlo más tarde en los ajustes.</string>
+    <string name="columbus_gesture_training_action_title">Elija la opción de toque rápido</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture">Detectado 1 de los 2 del doble toque</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_text">Prueba de nuevo; toca rápidamente dos veces la parte trasera del teléfono.</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_title">¡Perfecto!</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture">Detectado 2 de los 2 del doble toque</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_text">Estás listo para usar el toque rápido</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_title">¡Lo tienes!</string>
+    <string name="columbus_gesture_training_enrolling_text">Toca rápidamente dos veces la parte trasera del teléfono.</string>
+    <string name="columbus_gesture_training_enrolling_title">Prueba toque rápido</string>
+    <string name="columbus_gesture_training_finished_text">Cambia la intensidad necesaria para usar Toque Rápido en Ajustes.</string>
+    <string name="columbus_gesture_training_finished_title">Has configurado Toque Rápido</string>
+    <string name="columbus_gesture_training_intro_text_accidental">Acabas de tocar dos veces en la parte posterior de tu dispositivo, lo que te permite usar tu asistente. Puede personalizar este gesto en ajustes.</string>
+    <string name="columbus_gesture_training_intro_text_suw">Realiza una captura, muestra las notificaciones o abre una aplicación con dos toques.</string>
+    <string name="columbus_gesture_training_intro_title">Toque Rápido para acciones rápidas</string>
+    <string name="columbus_gesture_training_launch_no_selection_error">Selecciona una aplicación para abrir</string>
+    <string name="columbus_gesture_training_launch_text">Selecciona la aplicación que deseas abrir con Toque Rápido.</string>
+    <string name="columbus_gesture_training_launch_title">Elige una app para abrir</string>
     <string name="columbus_launch_app_extra_widget_a11y_label">%1$s shortcut settings</string>
-    <string name="columbus_launch_settings_activity_title">Quick Tap settings</string>
-    <string name="columbus_name">Quick Tap</string>
-    <string name="columbus_radio_button_extra_widget_a11y_label">%1$s settings</string>
-    <string name="columbus_setting_action_assistant_title">Access your digital assistant</string>
-    <string name="columbus_setting_action_assistant_value">assistant</string>
-    <string name="columbus_setting_action_launch_summary_no_selection">No app selected</string>
-    <string name="columbus_setting_action_launch_summary_not_installed">App not installed</string>
-    <string name="columbus_setting_action_launch_title">Open app</string>
-    <string name="columbus_setting_action_launch_value">launch</string>
-    <string name="columbus_setting_action_notification_title">Show notifications</string>
-    <string name="columbus_setting_action_notification_value">notifications</string>
-    <string name="columbus_setting_action_open_app_title">Open app</string>
-    <string name="columbus_setting_action_overview_title">See recent apps</string>
-    <string name="columbus_setting_action_overview_value">overview</string>
-    <string name="columbus_setting_action_play_pause_title">Play or pause media</string>
-    <string name="columbus_setting_action_play_pause_value">media</string>
-    <string name="columbus_setting_action_screenshot_title">Take screenshot</string>
-    <string name="columbus_setting_action_screenshot_value">screenshot</string>
-    <string name="columbus_setting_actions_title">Tap back of phone twice to</string>
-    <string name="columbus_setting_additional_settings_title">Quick Tap strength</string>
-    <string name="columbus_setting_app_selection_help_text">Select an app to open when you tap the back of your phone twice. If you uninstall the app, Quick Tap turns off until you select a different app.</string>
-    <string name="columbus_setting_app_shortcut_selection_help_text">Select what happens when you open this app using Quick Tap.</string>
-    <string name="columbus_setting_enable_switch_title">Use Quick Tap</string>
-    <string name="columbus_setting_sensitivity_title">Require stronger taps</string>
+    <string name="columbus_launch_settings_activity_title">Ajustes de Toque Rápido</string>
+    <string name="columbus_name">Toque Rápido</string>
+    <string name="columbus_radio_button_extra_widget_a11y_label">%1$s ajustes</string>
+    <string name="columbus_setting_action_assistant_title">Acceder a tu asistente digital</string>
+    <string name="columbus_setting_action_assistant_value">asistente</string>
+    <string name="columbus_setting_action_launch_summary_no_selection">Ninguna aplicación seleccionada</string>
+    <string name="columbus_setting_action_launch_summary_not_installed">Aplicación no instalada</string>
+    <string name="columbus_setting_action_launch_title">Abrir app</string>
+    <string name="columbus_setting_action_launch_value">iniciar</string>
+    <string name="columbus_setting_action_notification_title">Mostrar notificaciones</string>
+    <string name="columbus_setting_action_notification_value">notificaciones</string>
+    <string name="columbus_setting_action_open_app_title">Abrir app</string>
+    <string name="columbus_setting_action_overview_title">Ver aplicaciones recientes</string>
+    <string name="columbus_setting_action_overview_value">resumen</string>
+    <string name="columbus_setting_action_play_pause_title">Reproducir o pausar multimedia</string>
+    <string name="columbus_setting_action_play_pause_value">multimedia</string>
+    <string name="columbus_setting_action_screenshot_title">Capturar pantalla</string>
+    <string name="columbus_setting_action_screenshot_value">capturas de pantalla</string>
+    <string name="columbus_setting_actions_title">Topa la parte trasera dos veces para</string>
+    <string name="columbus_setting_additional_settings_title">Intensidad del Toque Rápido</string>
+    <string name="columbus_setting_app_selection_help_text">Selecciona una app para abrir con doble toque en la parte trasera. Si desinstalas dicha app, el doble toque se desactivará hasta que selecciones otra app para abrir.</string>
+    <string name="columbus_setting_app_shortcut_selection_help_text">Seleccione lo que sucede cuando abra esta aplicación usando Toque Rápido.</string>
+    <string name="columbus_setting_enable_switch_title">Usar Toque Rápido</string>
+    <string name="columbus_setting_sensitivity_title">Requerir toques más fuertes</string>
     <string name="columbus_summary">%1$s / %2$s</string>
     <!-- Volume key cursor control  -->
-    <string name="volume_key_cursor_control_title">Volume cursor control</string>
+    <string name="volume_key_cursor_control_title">Control del cursor con teclas de volumen</string>
     <string name="volume_key_cursor_control_disabled">Desactivado</string>
-    <string name="volume_key_cursor_control_left">up - left, down - right</string>
-    <string name="volume_key_cursor_control_right">up - right, down - left</string>
+    <string name="volume_key_cursor_control_left">subir - izquierda, bajar - derecha</string>
+    <string name="volume_key_cursor_control_right">subir -´derecha, bajar - izquierda</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
+    <string name="battery_health_title">Salud de la batería</string>
     <!-- QS media player -->
-    <string name="qs_media_controls_title">Media player</string>
-    <string name="qs_media_controls_summary_on">Show media player in QS\nRequires a SystemUI restart</string>
-    <string name="qs_media_controls_summary_off">Show media player as a notification\nRequires a SystemUI restart</string>
+    <string name="qs_media_controls_title">Reproductor multimedia</string>
+    <string name="qs_media_controls_summary_on">Mostrar reproductor multimedia en Ajustes Rápidos\nRequiere reiniciar SystemUI</string>
+    <string name="qs_media_controls_summary_off">Mostrar reproductor multimedia como notificación\nRequiere reiniciar SystemUI</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">Ajustes de rotación</string>
+    <string name="display_rotation_enabled">Rotación automática activada</string>
+    <string name="display_rotation_disabled">Rotación automática desactivada</string>
+    <string name="display_rotation_unit">grados</string>
+    <string name="display_rotation_category_title">Modos de rotación</string>
+    <string name="display_rotation_0_title">0 grados</string>
+    <string name="display_rotation_90_title">90 grados</string>
+    <string name="display_rotation_180_title">180 grados</string>
+    <string name="display_rotation_270_title">270 grados</string>
     <!-- General -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">Copiado en portapapeles</string>
+    <string name="longpress_to_clipboard">Mantener presionado para copiar</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <!-- App lock timeout -->
+    <string name="app_lock_timeout_5secs">5 segundos</string>
+    <string name="app_lock_timeout_10secs">10 segundos</string>
+    <string name="app_lock_timeout_30secs">30 segundos</string>
+    <string name="app_lock_timeout_1min">1 minuto</string>
+    <string name="app_lock_timeout_5mins">5 minutos</string>
+    <string name="app_lock_timeout_10mins">10 minutos</string>
+    <string name="app_lock_timeout_30mins">30 minutos</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
 </resources>

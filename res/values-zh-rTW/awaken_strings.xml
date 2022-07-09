@@ -162,18 +162,17 @@
     <string name="proximity_wake_title">Prevent accidental wake-up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_volume_option_title">鈴聲音量遞增</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">來電震動選項</string>
+    <string name="incall_vibrate_connect_title">接通時震動</string>
+    <string name="incall_vibrate_call_wait_title">等待接聽電話時震動</string>
+    <string name="incall_vibrate_disconnect_title">掛斷時震動</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Clear usage data?</string>
-    <string name="battery_stats_message">Battery usage data will be lost</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <string name="battery_stats_reset">重設統計資料?</string>
+    <string name="battery_stats_message">電池的歷史統計資料將被清除</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
     <string name="torch_power_button_gesture_none">已停用</string>
@@ -186,7 +185,7 @@
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_title">4G 圖示</string>
     <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Small mobile type icon</string>
@@ -215,21 +214,21 @@
     <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
     <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
     <!-- Custom vibration intensity -->
-    <string name="vibration_intensity_title">Vibration Intensity</string>
+    <string name="vibration_intensity_title">震動強度</string>
     <string name="vibration_intensity_summary">Control vibration intensity for different streams</string>
-    <string name="notification_vibration_intensity_title">Notifications</string>
+    <string name="notification_vibration_intensity_title">通知</string>
     <string name="ring_vibration_intensity_title">鈴聲</string>
-    <string name="haptic_feedback_intensity_title">Haptic Feedback</string>
+    <string name="haptic_feedback_intensity_title">觸控震動回饋</string>
     <string name="vibration_intensity_off">已停用</string>
-    <string name="vibration_intensity_low">Low</string>
-    <string name="vibration_intensity_medium">Medium</string>
-    <string name="vibration_intensity_high">High</string>
+    <string name="vibration_intensity_low">低</string>
+    <string name="vibration_intensity_medium">中</string>
+    <string name="vibration_intensity_high">高</string>
     <!-- Annoying Notifications -->
-    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
+    <string name="notification_sound_vib_screen_on_title">額外的通知效果</string>
     <string name="notification_sound_vib_screen_on_summary">螢幕開啟時，通知將會連同音效與震動一併顯示</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">限定通知</string>
-    <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
+    <string name="less_boring_heads_up_title">減少浮動通知</string>
+    <string name="less_boring_heads_up_summary">僅顯示來自電話、簡訊的浮動通知</string>
     <!-- Combined signal icons in status bar -->
     <string name="combined_status_bar_signal_icons">Combined signal icons</string>
     <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nRequires a SystemUI restart</string>
@@ -251,7 +250,7 @@
     <string name="doze_double_tap_title">Double tap to check phone</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Video mode</string>
+    <string name="legacy_wfd_video_mode_title">影像模式</string>
     <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
     <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
     <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
@@ -267,7 +266,7 @@
     <string name="swap_volume_buttons_title">Reorient</string>
     <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_title">觸控震動回饋</string>
     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Show data disabled icon</string>
@@ -278,7 +277,7 @@
     <!-- General strings -->
     <string name="default_string">Default</string>
     <string name="unit_seconds">Second(s)</string>
-    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_milliseconds">毫秒</string>
     <string name="unit_pixels">dp</string>
     <!-- Pulse notifications lightning -->
     <string name="pulse_ambient_light_title">Ambient edge lightning</string>
@@ -296,7 +295,7 @@
     <string name="ambient_notification_light_timeout_forever">Forever</string>
     <string name="ambient_notification_light_timeout_half_minute">30 秒</string>
     <string name="ambient_notification_light_timeout_minute">1 分鐘</string>
-    <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
+    <string name="ambient_notification_light_timeout_three_minutes">3 分鐘</string>
     <string name="ambient_notification_light_timeout_five_minutes">5 分鐘</string>
     <string name="ambient_notification_light_timeout_ten_minutes">10 分鐘</string>
     <string name="set_to_zero">Set repeats to 0 to enable</string>
@@ -317,38 +316,38 @@
     <!-- Heads up -->
     <string name="headsup_category">HeadsUp Settings</string>
     <string name="heads_up_notifications">浮動通知</string>
-    <string name="heads_up_notifications_summary">Customise heads up notifications settings</string>
+    <string name="heads_up_notifications_summary">自訂浮動通知設定</string>
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
     <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="add_heads_up_package">增加應用</string>
+    <string name="add_heads_up_stoplist_summary">在這些應用中禁用浮動通知</string>
+    <string name="add_heads_up_blacklist_summary">禁用來自這些應用的浮動通知</string>
+    <string name="heads_up_stoplist_title">停止列表</string>
+    <string name="heads_up_blacklist_title">黑名單列表</string>
     <string name="profile_choose_app">Choose app</string>
     <string name="dialog_delete_title">刪除</string>
     <string name="dialog_delete_message">Remove selected item?</string>
     <!-- Heads up timeout -->
-    <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_title">持續時間</string>
+    <string name="heads_up_time_out_summary">浮動通知將顯示 <xliff:g id="number">%d</xliff:g> 秒</string>
+    <string name="heads_up_time_out_2sec">2 秒</string>
+    <string name="heads_up_time_out_4sec">4 秒</string>
+    <string name="heads_up_time_out_5sec">5 秒</string>
+    <string name="heads_up_time_out_6sec">6 秒</string>
+    <string name="heads_up_time_out_8sec">8 秒</string>
     <string name="heads_up_time_out_10sec">10 秒</string>
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Snooze timer</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_title">暫停時間</string>
+    <string name="heads_up_snooze_summary_one_minute">向上滑動浮動通知將暫停來自該應用的通知 1 分鐘</string>
+    <string name="heads_up_snooze_summary">向上滑動浮動通知將暫停來自該應用的通知 <xliff:g id="number">%d</xliff:g> 分鐘</string>
+    <string name="heads_up_snooze_disabled_summary">暫停時間已停用</string>
     <string name="heads_up_snooze_1min">1 分鐘</string>
     <string name="heads_up_snooze_5min">5 分鐘</string>
     <string name="heads_up_snooze_10min">10 分鐘</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_15min">15 分鐘</string>
+    <string name="heads_up_snooze_20min">20 分鐘</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_title">鎖定螢幕充電資訊</string>
     <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
     <!-- Network preferences screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
@@ -357,34 +356,34 @@
     <string name="wifi_timeout_summary1">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
     <string name="wifi_timeout_summary2">已停用</string>
     <string name="wifi_timeout_summary_never">Never</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
+    <string name="wifi_timeout_summary_15secs">15 秒</string>
     <string name="wifi_timeout_summary_30secs">30 秒</string>
     <string name="wifi_timeout_summary_1min">1 分鐘</string>
-    <string name="wifi_timeout_summary_2mins">2 minutes</string>
+    <string name="wifi_timeout_summary_2mins">2 分鐘</string>
     <string name="wifi_timeout_summary_5mins">5 分鐘</string>
     <string name="wifi_timeout_summary_10mins">10 分鐘</string>
     <string name="wifi_timeout_summary_30mins">30 分鐘</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary_1hour">1 小時</string>
+    <string name="wifi_timeout_summary_2hours">2 小時</string>
+    <string name="wifi_timeout_summary_4hours">4 小時</string>
+    <string name="wifi_timeout_summary_8hours">8 小時</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">自動關閉藍牙</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
     <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_never">Never</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
+    <string name="bluetooth_timeout_summary2">已禁用</string>
+    <string name="bluetooth_timeout_summary_never">永不關閉</string>
+    <string name="bluetooth_timeout_summary_15secs">15 秒</string>
     <string name="bluetooth_timeout_summary_30secs">30 秒</string>
     <string name="bluetooth_timeout_summary_1min">1 分鐘</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
+    <string name="bluetooth_timeout_summary_2mins">2 分鐘</string>
     <string name="bluetooth_timeout_summary_5mins">5 分鐘</string>
     <string name="bluetooth_timeout_summary_10mins">10 分鐘</string>
     <string name="bluetooth_timeout_summary_30mins">30 分鐘</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary_1hour">1 小時</string>
+    <string name="bluetooth_timeout_summary_2hours">2 小時</string>
+    <string name="bluetooth_timeout_summary_4hours">4 小時</string>
+    <string name="bluetooth_timeout_summary_8hours">8 小時</string>
     <!-- Statusbar net monitor -->
     <string name="statusbar_ntraffic">Network</string>
     <string name="network_traffic_state_title">Network speed</string>
@@ -392,10 +391,10 @@
     <string name="network_traffic_location_title">Location</string>
     <string name="network_traffic_statusbar">Statusbar</string>
     <string name="network_traffic_qs_header">QS header</string>
-    <string name="network_traffic_mode_title">Display mode</string>
-    <string name="network_traffic_dynamic">Dynamic</string>
-    <string name="network_traffic_download">Download</string>
-    <string name="network_traffic_upload">Upload</string>
+    <string name="network_traffic_mode_title">顯示模式</string>
+    <string name="network_traffic_dynamic">動態</string>
+    <string name="network_traffic_download">下載</string>
+    <string name="network_traffic_upload">上傳</string>
     <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
     <string name="network_traffic_refresh_interval_title">Refresh interval</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
@@ -407,35 +406,35 @@
     <string name="disable_qs_title">Hide QS in secure lockscreen</string>
     <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
     <!-- Power menu on lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
+    <string name="lockscreen_power_menu_disabled_title">在鎖定螢幕中停用電源選單</string>
     <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
     <!-- Pulse on music track change -->
     <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
     <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">亂序布局</string>
+    <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 布局</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">快速解鎖</string>
+    <string name="unlock_quick_unlock_control_summary">當正確輸入 PIN 碼/密碼時自動解鎖</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Smart Pause</string>
-    <string name="adaptive_playback_enabled">Use smart pause</string>
+    <string name="adaptive_playback_screen_title">智慧暫停</string>
+    <string name="adaptive_playback_enabled">使用智慧暫停</string>
     <string name="adaptive_playback_disabled_summary">Off</string>
-    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none">No timeout</string>
+    <string name="adaptive_playback_intro_text">靜音後，自適應播放會自動暫停媒體，當音量在設定時間內恢復時會自動恢復播放。</string>
+    <string name="adaptive_playback_timeout_title">逾時時間</string>
+    <string name="adaptive_playback_timeout_none">不限時</string>
     <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
     <string name="adaptive_playback_timeout_30_secs">30 秒</string>
     <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
     <string name="adaptive_playback_timeout_1_min">1 分鐘</string>
     <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_2_min">2 分鐘</string>
+    <string name="adaptive_playback_timeout_2_min_summary">開啟 (2 分鐘)</string>
     <string name="adaptive_playback_timeout_5_min">5 分鐘</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min_summary">開啟 (5分鐘)</string>
     <string name="adaptive_playback_timeout_10_min">10 分鐘</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min_summary">開啟 (10 分鐘)</string>
     <!-- 3-Button navigation settings -->
     <string name="button_settings_activity_title">3-Button Navigation Settings</string>
     <string name="navigation_bar_inverse_title">Inverse Layout</string>
@@ -484,15 +483,15 @@
     <string name="color_mode_balance_blue">Blue strength</string>
     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Charging sound</string>
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_sounds_nos_title">充電音效</string>
+    <string name="charging_vibro_title">充電震動</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_settings">充電指示燈</string>
     <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
-    <string name="battery_light_enable">Enable battery light</string>
-    <string name="battery_full_light_enabled">Battery light when full charged</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+    <string name="battery_light_enable">啟用電池指示燈</string>
+    <string name="battery_full_light_enabled">充電完成時顯示充電指示燈</string>
+    <string name="battery_light_allow_on_dnd_title">零打擾模式下顯示電量指示燈</string>
+    <string name="battery_light_low_blinking_title">低電量時閃爍指示燈</string>
     <string name="battery_light_cat">Battery light color when charging</string>
     <string name="battery_light_low_color">Low battery</string>
     <string name="battery_light_medium_color">Medium battery</string>
@@ -503,9 +502,9 @@
     <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
     <string name="face_redo_confirm_btn">Redo</string>
     <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="face_unlock_method_title">允許在鎖定畫面使用臉部辨識解鎖</string>
+    <string name="face_unlock_method_default">當螢幕開啟時</string>
+    <string name="face_unlock_method_swipe">當滑動鎖定螢幕時</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">About Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
@@ -544,8 +543,8 @@
     <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
     <!-- Per-app volume control -->
     <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <string name="app_volume_title">分應用音量控制</string>
+    <string name="app_volume_summary">允許針對個別應用程式設定音量</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
@@ -553,13 +552,13 @@
     <string name="search_apps">Search apps</string>
     <!-- Headset ringtone audio focus -->
     <string name="ringtone_focus_mode_title">Ringtone focus mode</string>
-    <string name="ringtone_focus_mode_dynamic">Headset (If media is playing)</string>
-    <string name="ringtone_focus_mode_stock">Speaker and headset</string>
+    <string name="ringtone_focus_mode_dynamic">耳機（如果正在播放媒體）</string>
+    <string name="ringtone_focus_mode_stock">揚聲器和耳機</string>
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
     <string name="app_lock_summary_singular">1 application is protected</string>
     <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applications are protected</string>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="app_lock_authentication_dialog_title">解鎖</string>
     <string name="app_lock_packages_title">Protected apps</string>
     <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
     <string name="app_lock_timeout_title">Auto lock timeout</string>
@@ -575,17 +574,17 @@
     <string name="qs_footer_warnings_title">QS footer warnings</string>
     <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
     <!-- Battery Temperature -->
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">電池溫度</string>
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Off</string>
     <string name="greatest_tick_label">Half screen</string>
     <string name="gesture_back_deadzone_label">Dead zone</string>
     <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="min_refresh_rate_title">最低螢幕更新率</string>
+    <string name="max_refresh_rate_title">最高螢幕更新率</string>
+    <string name="battery_saver_refresh_rate_title">降低螢幕更新率</string>
+    <string name="battery_saver_refresh_rate_summary">在省電模式開啟時使用 60 Hz 螢幕更新率以減少電量消耗</string>
     <!-- Monet engine -->
     <string name="monet_engine_settings_title">Monet engine</string>
     <string name="monet_engine_settings_summary"> Adjust accent color, colorfulness and brightness</string>
@@ -602,12 +601,6 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">Hidden apps</string>
     <string name="hidden_apps_summary">Applications that should be hidden from launcher. Requires a launcher restart for changes to take effect</string>
-    <!-- Game -->
-    <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
-    <string name="game_dashboard_always_on_title">Game Dashboard</string>
-    <string name="game_dashboard_dnd_rule_name">Gaming</string>
-    <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
-    <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
     <!-- Columbus -->
     <string name="columbus_title">@string/columbus_name</string>
     <string name="columbus_gesture_detected">Quick Tap detected!</string>
@@ -666,9 +659,9 @@
     <string name="volume_key_cursor_control_left">up - left, down - right</string>
     <string name="volume_key_cursor_control_right">up - right, down - left</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
+    <string name="battery_health_title">電池健康度</string>
     <!-- QS media player -->
-    <string name="qs_media_controls_title">Media player</string>
+    <string name="qs_media_controls_title">媒體播放器</string>
     <string name="qs_media_controls_summary_on">Show media player in QS\nRequires a SystemUI restart</string>
     <string name="qs_media_controls_summary_off">Show media player as a notification\nRequires a SystemUI restart</string>
     <!-- Display : Rotation -->
@@ -676,12 +669,43 @@
     <string name="display_rotation_enabled">Auto-rotation is enabled</string>
     <string name="display_rotation_disabled">Auto-rotation is disabled</string>
     <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_category_title">旋轉模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
     <!-- General -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">已複製到剪貼簿</string>
+    <string name="longpress_to_clipboard">長按複製</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <!-- App lock timeout -->
+    <string name="app_lock_timeout_5secs">5 秒</string>
+    <string name="app_lock_timeout_10secs">10 秒</string>
+    <string name="app_lock_timeout_30secs">30 秒</string>
+    <string name="app_lock_timeout_1min">1 分鐘</string>
+    <string name="app_lock_timeout_5mins">5 分鐘</string>
+    <string name="app_lock_timeout_10mins">10 分鐘</string>
+    <string name="app_lock_timeout_30mins">30 分鐘</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
 </resources>

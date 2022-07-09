@@ -59,7 +59,7 @@
     <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
     <string name="show_dev_already_awaken">ไม่จำเป็น คุณได้เปิดใช้งานการตั้งค่าการพัฒนาแล้ว</string>
     <!-- Awaken version -->
-    <string name="awaken_version">Awaken เวอร์ชั่น</string>
+    <string name="awaken_version">เวอร์ชันของ Awaken</string>
     <string name="awaken_version_default">ไม่ทราบ</string>
     <string name="build_date">วันที่สร้าง</string>
     <!-- Awaken maintainer -->
@@ -156,8 +156,8 @@
     <string name="clock_date_position">ตำแหน่งวันที่</string>
     <string name="status_bar_clock_auto_hide_title">ซ่อนนาฬิกาอัตโนมัติ</string>
     <string name="status_bar_clock_auto_hide_summary">ซ่อนและแสดงนาฬิกาตามช่วงเวลาปกติ</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">ซ่อนระยะเวลา</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">แสดงระยะเวลา</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">ระยะเวลาที่ซ่อน</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">ระยะเวลาที่แสดง</string>
     <!-- Pocket mode -->
     <string name="proximity_wake_title">ป้องกันการปลุกหน้าจอโดยไม่เจตนา</string>
     <string name="proximity_wake_summary">ตรวจสอบเซ็นเซอร์ proximity ก่อนปลุกหน้าจอ</string>
@@ -173,7 +173,6 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">ล้างข้อมูลการใช้งานหรือไม่</string>
     <string name="battery_stats_message">ข้อมูลการใช้งานแบตเตอรี่จะถูกลบ</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">กดไฟฉายเมื่อปิดหน้าจอ</string>
     <string name="torch_power_button_gesture_none">ปิดใช้งาน</string>
@@ -217,9 +216,9 @@
     <!-- Custom vibration intensity -->
     <string name="vibration_intensity_title">ความแรงของการสั่น</string>
     <string name="vibration_intensity_summary">ควบคุมความแรงของการสั่นสำหรับค่าสตรีมต่างๆ</string>
-    <string name="notification_vibration_intensity_title">แจ้งเตือน</string>
-    <string name="ring_vibration_intensity_title">ส่งเสียง</string>
-    <string name="haptic_feedback_intensity_title">การตอบสนองแบบสัมผัส</string>
+    <string name="notification_vibration_intensity_title">การแจ้งเตือน</string>
+    <string name="ring_vibration_intensity_title">เสียงเรียกเข้า</string>
+    <string name="haptic_feedback_intensity_title">การตอบสนองการสัมผัส</string>
     <string name="vibration_intensity_off">ปิดใช้งาน</string>
     <string name="vibration_intensity_low">ต่ำ</string>
     <string name="vibration_intensity_medium">ปานกลาง</string>
@@ -293,7 +292,7 @@
     <string name="ambient_notification_light_repeats_title">เล่นซ้ำ</string>
     <string name="ambient_notification_light_repeats_summary">จำนวนเวลาที่อนิเมชั่นควรแสดง\n0 คือไม่จำกัด</string>
     <string name="ambient_notification_light_timeout_title">หมดเวลา</string>
-    <string name="ambient_notification_light_timeout_forever">ตลอดไป</string>
+    <string name="ambient_notification_light_timeout_forever">ไม่มีหมดเวลา</string>
     <string name="ambient_notification_light_timeout_half_minute">30 วินาที</string>
     <string name="ambient_notification_light_timeout_minute">1 นาที</string>
     <string name="ambient_notification_light_timeout_three_minutes">3 นาที</string>
@@ -353,8 +352,8 @@
     <!-- Network preferences screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">ปิด Wi-Fi อัตโนมัติ</string>
     <!-- Network preferences screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Automatically turn off Wi-Fi after a set amount of time.</string>
-    <string name="wifi_timeout_summary1">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary">ปิด Wi-Fi อัตโนมัติหลังจากเวลาที่ตั้งไว้</string>
+    <string name="wifi_timeout_summary1">WiFi จะถูกปิดหลังจาก <xliff:g id="timeout_description">%1$s</xliff:g> ถ้าไม่มีการเชื่อมต่อเครือข่าย</string>
     <string name="wifi_timeout_summary2">ปิดใช้งาน</string>
     <string name="wifi_timeout_summary_never">ไม่เลย</string>
     <string name="wifi_timeout_summary_15secs">15 วินาที</string>
@@ -457,20 +456,20 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">อนุญาตให้ไคลเอ็นต์ใช้ VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">อนุญาตให้ไคลเอ็นต์ฮอตสปอตใช้การเชื่อมต่อ VPN ของอุปกรณ์นี้\u2019 สำหรับการเชื่อมต่ออัปสตรีม</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
-    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">เครือข่ายที่ซ่อนอยู่</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">ชื่อของฮอตสปอตมือถือของคุณจะไม่ปรากฏในรายการเครือข่าย WLAN ที่พร้อมใช้งาน</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">ไม่มีการปิดฮอตสปอต</string>
+    <string name="wifi_hotspot_client_manager_title">อุปกรณ์ที่เชื่อมต่อ</string>
+    <string name="wifi_hotspot_client_manager_summary">แสดงรายการและจัดการอุปกรณ์ที่เชื่อมต่อกับฮอตสปอต</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">แสดงชื่ออุปกรณ์ที่เชื่อมต่อกับฮอตสปอต</string>
+    <string name="wifi_hotspot_client_limit_title">ขีดจำกัดของอุปกรณ์ที่เชื่อมต่อ</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">อุปกรณ์ที่ถูกบล็อก</string>
+    <string name="wifi_hotspot_connected_clients_list_title">อุปกรณ์ที่เชื่อมต่อ</string>
+    <string name="wifi_hotspot_block_client_dialog_title">บล็อกอุปกรณ์</string>
+    <string name="wifi_hotspot_block_client_dialog_text">การดำเนินการนี้จะตัดการเชื่อมต่อ \"<xliff:g id="device_name">%1$s</xliff:g>\" จากอุปกรณ์นี้และเพิ่มลงในรายการที่ถูกบล็อก</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">เลิกบล็อกอุปกรณ์</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">อุปกรณ์ \"<xliff:g id="device_name">%1$s</xliff:g>\" จะสามารถเชื่อมต่อกับฮอตสปอตนี้ได้</string>
+    <string name="wifi_hotspot_client_manager_footer_text">ไม่มีอุปกรณ์อยู่ในขณะนี้ อุปกรณ์ที่เชื่อมต่อและถูกบล็อกจะแสดงขึ้นที่นี่เมื่อมีให้ใช้งาน</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">ความสว่างอัตโนมัติในครั้งเดียว</string>
     <string name="auto_brightness_one_shot_summary">การปรับความสว่างจะเกิดขึ้นในขณะที่หน้าจอเปิดอยู่เท่านั้น</string>
@@ -529,7 +528,7 @@
     <string name="pulse_solid_units_rounded_summary">เส้นทึบปลายมน</string>
     <string name="pulse_solid_dimen_category">การตั้งค่าโหมดเส้นทึบ</string>
     <string name="pulse_color_mode_title">สี</string>
-    <string name="pulse_color_accent">รูปแบบสี</string>
+    <string name="pulse_color_accent">สีหลัก</string>
     <string name="pulse_color_custom">กำหนดเอง</string>
     <string name="pulse_color_lava_lamp">Lava lamp</string>
     <string name="pulse_color_user_title">เลือกสี</string>
@@ -602,12 +601,6 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">แอปที่ซ่อนไว้</string>
     <string name="hidden_apps_summary">แอปพลิเคชั่นที่ควรซ่อนจาก launcher, ต้องรีสตาร์ท launcher เพื่อให้การเปลี่ยนแปลงมีผล</string>
-    <!-- Game -->
-    <string name="game_dashboard_always_on_summary">แสดงทางลัดเกมแดชบอร์ดในเกม</string>
-    <string name="game_dashboard_always_on_title">เกมแดชบอร์ด</string>
-    <string name="game_dashboard_dnd_rule_name">เกมมิ่ง</string>
-    <string name="game_dashboard_dnd_summary">รับการแจ้งเตือนจากบุคคลและแอปที่สำคัญเมื่อเล่นเกมเท่านั้น</string>
-    <string name="game_dashboard_dnd_title">ห้ามรบกวนสำหรับเกม</string>
     <!-- Columbus -->
     <string name="columbus_title">@string/columbus_name</string>
     <string name="columbus_gesture_detected">ตรวจพบควิกแท็บ!</string>
@@ -682,6 +675,37 @@
     <string name="display_rotation_180_title">180 องศา</string>
     <string name="display_rotation_270_title">270 องศา</string>
     <!-- General -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">คัดลอกไปยังคลิปบอร์ด</string>
+    <string name="longpress_to_clipboard">กดค้างเพื่อคัดลอก</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <!-- App lock timeout -->
+    <string name="app_lock_timeout_5secs">5 วินาที</string>
+    <string name="app_lock_timeout_10secs">10 วินาที</string>
+    <string name="app_lock_timeout_30secs">30 วินาที</string>
+    <string name="app_lock_timeout_1min">1 นาที</string>
+    <string name="app_lock_timeout_5mins">5 นาที</string>
+    <string name="app_lock_timeout_10mins">10 นาที</string>
+    <string name="app_lock_timeout_30mins">30 นาที</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
 </resources>

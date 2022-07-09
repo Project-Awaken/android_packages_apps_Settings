@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Android debugging as root -->
-    <string name="adb_enable_root">Root 调试</string>
+    <string name="adb_enable_root">Root 用户调试</string>
     <string name="adb_enable_summary_root">允许以 Root 身份运行 Android 调试</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">已保存的耳机</string>
@@ -134,554 +134,578 @@
     <string name="status_bar_date_title">日期设置</string>
     <string name="status_bar_am_pm_title">上午 / 下午样式</string>
     <string name="status_bar_am_pm_info">24 小时制时钟已启用</string>
-    <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
-    <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style">Date style</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="clock_date_right">Right of time</string>
-    <string name="clock_date_left">Left of time</string>
-    <string name="clock_date_position">Date position</string>
-    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
+    <string name="status_bar_am_pm_normal">正常</string>
+    <string name="status_bar_am_pm_small">较小</string>
+    <string name="status_bar_am_pm_hidden">隐藏 (默认)</string>
+    <string name="clock_seconds_display">显示秒</string>
+    <string name="clock_date_display">日期</string>
+    <string name="clock_date_display_summary">在时钟前显示自定义日期</string>
+    <string name="clock_date_display_none">不显示</string>
+    <string name="clock_date_display_small">较小字体大小</string>
+    <string name="clock_date_display_normal">正常字体大小</string>
+    <string name="clock_date_style">日期样式</string>
+    <string name="clock_date_style_normal">正常</string>
+    <string name="clock_date_style_lowercase">小写字母</string>
+    <string name="clock_date_style_uppercase">大写字母</string>
+    <string name="clock_date_format_custom">自定义Java格式</string>
+    <string name="clock_date_format">日期格式</string>
+    <string name="clock_date_string_edittext_title">只能填写日期格式 如: MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">输入文本</string>
+    <string name="clock_date_right">时间右侧</string>
+    <string name="clock_date_left">时间左侧</string>
+    <string name="clock_date_position">日期位置</string>
+    <string name="status_bar_clock_auto_hide_title">自动隐藏时间</string>
+    <string name="status_bar_clock_auto_hide_summary">定期隐藏和显示时钟以节省状态栏空间</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">隐藏持续时间</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">显示持续时间</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">防止意外唤醒</string>
+    <string name="proximity_wake_summary">唤醒屏幕前检查距离传感器</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">铃声音量渐强</string>
+    <string name="increasing_ring_min_volume_title">初始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">渐强时间</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibration_category">来电振动</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫保持时振动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Clear usage data?</string>
-    <string name="battery_stats_message">Battery usage data will be lost</string>
-    <string name="battery_stats_clear">@string/proxy_clear_text</string>
+    <string name="battery_stats_reset">重置统计数据？</string>
+    <string name="battery_stats_message">电池的历史统计数据将被重置</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
+    <string name="torch_power_button_gesture_title">关闭屏幕时开启手电筒</string>
     <string name="torch_power_button_gesture_none">已禁用</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_dt">双击电源按钮 (较慢地单击响应)，禁用相机的双击电源</string>
+    <string name="torch_power_button_gesture_lp">长按电源键</string>
     <!-- Radio Info -->
-    <string name="radio_info_title">Radio info</string>
+    <string name="radio_info_title">电台信息</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 minute</string>
+    <string name="duration_less_than_one_minute">少于 1 分钟</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">今天使用了 %1$s</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">4G 图标</string>
+    <string name="show_fourg_icon_summary">在信号图标上显示 4G 以替代 LTE</string>
     <!-- Old mobile type icons -->
-    <string name="use_old_mobiletype_title">Small mobile type icon</string>
-    <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+    <string name="use_old_mobiletype_title">小型移动类型图标</string>
+    <string name="use_old_mobiletype_summary">在信号图标上方显示网络类型</string>
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">漫游标志</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_summary">当漫游时显示漫游标志</string>
     <!-- Battery Styles -->
-    <string name="battery_style_category_title">Battery Customizations</string>
-    <string name="battery_percent_title">Battery percent</string>
+    <string name="battery_style_category_title">电池自定义</string>
+    <string name="battery_percent_title">电量百分比</string>
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_style_title">电池样式</string>
+    <string name="status_bar_battery_style_icon_portrait">竖置图标 (默认)</string>
+    <string name="status_bar_battery_style_circle">环形</string>
+    <string name="status_bar_battery_style_dotted_circle">环形 (虚线)</string>
+    <string name="status_bar_battery_style_filled_circle">圆圈 (实心)</string>
+    <string name="status_bar_battery_style_text">文本</string>
+    <string name="status_bar_battery_style_hidden">隐藏</string>
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_title">电量百分比</string>
+    <string name="status_bar_battery_percentage_default">隐藏 (默认)</string>
+    <string name="status_bar_battery_percentage_text_inside">图标内</string>
+    <string name="status_bar_battery_percentage_text_next">图标旁</string>
     <!-- QS battery estimates -->
-    <string name="qs_show_battery_estimate_title">Battery estimates</string>
-    <string name="qs_show_battery_estimate_summary_on">Show battery estimates in QS</string>
-    <string name="qs_show_battery_estimate_summary_off">Hide battery estimates in QS</string>
+    <string name="qs_show_battery_estimate_title">电量预估</string>
+    <string name="qs_show_battery_estimate_summary_on">在QS面板中显示电池预估剩余时间</string>
+    <string name="qs_show_battery_estimate_summary_off">在QS面板中隐藏电池预估剩余时间</string>
     <!-- Custom vibration intensity -->
-    <string name="vibration_intensity_title">Vibration Intensity</string>
-    <string name="vibration_intensity_summary">Control vibration intensity for different streams</string>
-    <string name="notification_vibration_intensity_title">Notifications</string>
+    <string name="vibration_intensity_title">振动强度</string>
+    <string name="vibration_intensity_summary">控制不同情形下的振动强度</string>
+    <string name="notification_vibration_intensity_title">通知</string>
     <string name="ring_vibration_intensity_title">响铃</string>
-    <string name="haptic_feedback_intensity_title">Haptic Feedback</string>
+    <string name="haptic_feedback_intensity_title">振动反馈</string>
     <string name="vibration_intensity_off">已禁用</string>
-    <string name="vibration_intensity_low">Low</string>
-    <string name="vibration_intensity_medium">Medium</string>
-    <string name="vibration_intensity_high">High</string>
+    <string name="vibration_intensity_low">低</string>
+    <string name="vibration_intensity_medium">中等</string>
+    <string name="vibration_intensity_high">高</string>
     <!-- Annoying Notifications -->
-    <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">额外的通知效果</string>
+    <string name="notification_sound_vib_screen_on_summary">屏幕开启时播放声音和振动通知</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Saner Heads-Up</string>
-    <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
+    <string name="less_boring_heads_up_title">减少浮动通知</string>
+    <string name="less_boring_heads_up_summary">快速禁用除了电话和短信之外的所有应用的浮动通知</string>
     <!-- Combined signal icons in status bar -->
-    <string name="combined_status_bar_signal_icons">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in status bar.\nRequires a SystemUI restart</string>
+    <string name="combined_status_bar_signal_icons">合并信号图标</string>
+    <string name="combined_status_bar_signal_icons_summary">在状态栏启用合并信号图标\n (需要重启系统界面)</string>
     <!-- Fullscreen gestures -->
-    <string name="other_controls_title">Other controls</string>
-    <string name="fullscreen_gestures_title">Fullscreen gestures</string>
-    <string name="fullscreen_gestures_summary">Hide navbar pill and keyboard space</string>
+    <string name="other_controls_title">其他控制</string>
+    <string name="fullscreen_gestures_title">全面屏手势</string>
+    <string name="fullscreen_gestures_summary">隐藏小白条和键盘下方的空白空间</string>
     <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Pill length</string>
-    <string name="short_label">Short</string>
-    <string name="long_label">Long</string>
+    <string name="gesture_navbar_length_title">小白条长度</string>
+    <string name="short_label">短</string>
+    <string name="long_label">长</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">平台</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total available RAM</string>
+    <string name="total_ram">总计可用内存</string>
     <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
+    <string name="double_tap_title">双击</string>
+    <string name="doze_double_tap_title">双击亮屏</string>
+    <string name="doze_double_tap_summary">双击快速显示通知</string>
     <!-- Legacy WFD settings -->
-    <string name="legacy_wfd_video_mode_title">Video mode</string>
-    <string name="legacy_wfd_video_mode_720p_30fps">720p 30fps</string>
-    <string name="legacy_wfd_video_mode_720p_60fps">720p 60fps</string>
-    <string name="legacy_wfd_video_mode_1080p_30fps">1080p 30fps</string>
-    <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
+    <string name="legacy_wfd_video_mode_title">视频模式</string>
+    <string name="legacy_wfd_video_mode_720p_30fps">720P 30FPS</string>
+    <string name="legacy_wfd_video_mode_720p_60fps">720P 60FPS</string>
+    <string name="legacy_wfd_video_mode_1080p_30fps">1080P 30FPS</string>
+    <string name="legacy_wfd_video_mode_1080p_60fps">1080P 60FPS</string>
     <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Brightness slider visibility and settings</string>
-    <string name="qs_brightness_position_bottom_title">Bottom brightness slider</string>
-    <string name="qs_brightness_position_bottom_summary">Show the brightness slider on the bottom of QS</string>
-    <string name="qs_show_auto_brightness_title">Auto brightness icon</string>
-    <string name="qs_show_auto_brightness_summary">Show an auto brightness toggle near the brightness slider</string>
+    <string name="qs_show_brightness_title">亮度条</string>
+    <string name="qs_show_brightness_summary">亮度条的显示和设置</string>
+    <string name="qs_brightness_position_bottom_title">亮度条置低</string>
+    <string name="qs_brightness_position_bottom_summary">在快捷开关面板底部显示亮度滑块</string>
+    <string name="qs_show_auto_brightness_title">自动亮度图标</string>
+    <string name="qs_show_auto_brightness_summary">在亮度条附近显示自动亮度切换</string>
     <!-- Volume swap buttons -->
-    <string name="swap_volume_buttons_title">Reorient</string>
-    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
+    <string name="swap_volume_buttons_title">重新调整</string>
+    <string name="swap_volume_buttons_summary">旋转屏幕时交换音量键的布局</string>
     <!-- Misc gesture settings -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+    <string name="back_gesture_haptic_title">触觉反馈</string>
+    <string name="back_gesture_haptic_summary">启用返回手势的振动效果</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display the exclamation sign next to signal bar when data is disabled</string>
+    <string name="data_disabled_icon_title">显示数据禁用图标</string>
+    <string name="data_disabled_icon_summary">当数据禁用时，显示信号图标旁边的 “×“ 图标</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">充电时始终开启</string>
+    <string name="doze_on_charge_summary">充电时一直开启息屏显示</string>
     <!-- General strings -->
-    <string name="default_string">Default</string>
-    <string name="unit_seconds">Second(s)</string>
-    <string name="unit_milliseconds">milliseconds</string>
+    <string name="default_string">默认</string>
+    <string name="unit_seconds">秒</string>
+    <string name="unit_milliseconds">毫秒</string>
     <string name="unit_pixels">dp</string>
     <!-- Pulse notifications lightning -->
-    <string name="pulse_ambient_light_title">Ambient edge lightning</string>
-    <string name="pulse_ambient_light_summary">Light ambient edges for pulsing notifications</string>
-    <string name="ambient_notification_light_enabled_title">Show on AOD</string>
-    <string name="aod_disabled">AOD is disabled</string>
-    <string name="ambient_notification_light_enabled_summary">Keep showing edge lightning on AOD</string>
-    <string name="ambient_notification_light_hide_aod_title">Hide AOD content</string>
-    <string name="ambient_notification_light_hide_aod_summary">Hide AOD content when edges are lighted</string>
-    <string name="ambient_notification_light_duration_title">Duration</string>
-    <string name="ambient_notification_light_duration_summary">Time it takes for each animation to complete</string>
-    <string name="ambient_notification_light_repeats_title">Repeats</string>
-    <string name="ambient_notification_light_repeats_summary">Amount of times the animation should show\n0 for infinite</string>
-    <string name="ambient_notification_light_timeout_title">Timeout</string>
-    <string name="ambient_notification_light_timeout_forever">Forever</string>
+    <string name="pulse_ambient_light_title">边缘闪光</string>
+    <string name="pulse_ambient_light_summary">当收到通知时在屏幕边缘显示光效</string>
+    <string name="ambient_notification_light_enabled_title">在息屏显示中显示</string>
+    <string name="aod_disabled">息屏显示已停用</string>
+    <string name="ambient_notification_light_enabled_summary">在AOD上显示边缘闪光</string>
+    <string name="ambient_notification_light_hide_aod_title">隐藏AOD内容</string>
+    <string name="ambient_notification_light_hide_aod_summary">边缘闪光开启时隐藏息屏显示内容</string>
+    <string name="ambient_notification_light_duration_title">持续时间</string>
+    <string name="ambient_notification_light_duration_summary">每个动画完成所需的时间</string>
+    <string name="ambient_notification_light_repeats_title">重复</string>
+    <string name="ambient_notification_light_repeats_summary">动画应显示的次数\n0 表示无限</string>
+    <string name="ambient_notification_light_timeout_title">超时</string>
+    <string name="ambient_notification_light_timeout_forever">无限期</string>
     <string name="ambient_notification_light_timeout_half_minute">30 秒</string>
     <string name="ambient_notification_light_timeout_minute">1 分钟</string>
-    <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
+    <string name="ambient_notification_light_timeout_three_minutes">3 分钟</string>
     <string name="ambient_notification_light_timeout_five_minutes">5 分钟</string>
     <string name="ambient_notification_light_timeout_ten_minutes">10 分钟</string>
-    <string name="set_to_zero">Set repeats to 0 to enable</string>
-    <string name="ambient_notification_color_mode_title">Color mode</string>
-    <string name="ambient_notification_color_mode_accent">Accent color</string>
-    <string name="ambient_notification_color_mode_wall">Wallpaper dominant color</string>
-    <string name="ambient_notification_color_mode_notification">Notification icon color</string>
+    <string name="set_to_zero">将重复次数设置为 0 以启用</string>
+    <string name="ambient_notification_color_mode_title">色彩模式</string>
+    <string name="ambient_notification_color_mode_accent">主题色</string>
+    <string name="ambient_notification_color_mode_wall">壁纸主题色</string>
+    <string name="ambient_notification_color_mode_notification">通知图标颜色</string>
     <string name="ambient_notification_color_mode_custom">@string/ambient_notification_light_color_title</string>
-    <string name="ambient_notification_light_color_title">Custom color</string>
-    <string name="pulse_ambient_light_layout_title">Edge light view</string>
-    <string name="pulse_ambient_light_layout_solid">Solid</string>
-    <string name="pulse_ambient_light_layout_faded">Faded</string>
+    <string name="ambient_notification_light_color_title">自定义颜色</string>
+    <string name="pulse_ambient_light_layout_title">边缘闪光</string>
+    <string name="pulse_ambient_light_layout_solid">实心</string>
+    <string name="pulse_ambient_light_layout_faded">淡入</string>
     <!-- Lockscreen media art -->
-    <string name="lockscreen_media_art_category_title">Media art</string>
-    <string name="keygaurd_media_art_title">Show media art</string>
-    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
-    <string name="lockscreen_media_blur_title">Media art blur level</string>
+    <string name="lockscreen_media_art_category_title">专辑封面</string>
+    <string name="keygaurd_media_art_title">显示专辑封面</string>
+    <string name="keygaurd_media_art_summary">显示专辑封面作为锁屏背景</string>
+    <string name="lockscreen_media_blur_title">专辑封面模糊度</string>
     <!-- Heads up -->
-    <string name="headsup_category">HeadsUp Settings</string>
+    <string name="headsup_category">浮动通知设置</string>
     <string name="heads_up_notifications">悬浮通知</string>
-    <string name="heads_up_notifications_summary">Customise heads up notifications settings</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
+    <string name="heads_up_notifications_summary">自定义浮动通知</string>
+    <string name="summary_heads_up_enabled">弹出通知已启用</string>
+    <string name="summary_heads_up_disabled">弹出通知已禁用</string>
+    <string name="add_heads_up_package">添加应用</string>
+    <string name="add_heads_up_stoplist_summary">禁用这些应用程序的浮动通知</string>
+    <string name="add_heads_up_blacklist_summary">禁用这些应用程序</string>
+    <string name="heads_up_stoplist_title">禁用列表</string>
+    <string name="heads_up_blacklist_title">禁用列表</string>
+    <string name="profile_choose_app">选择应用</string>
     <string name="dialog_delete_title">删除</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="dialog_delete_message">移除选中的项目？</string>
     <!-- Heads up timeout -->
-    <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_title">超时</string>
+    <string name="heads_up_time_out_summary">弹出通知显示时间 <xliff:g id="number">%d</xliff:g> 秒</string>
+    <string name="heads_up_time_out_2sec">2 秒</string>
+    <string name="heads_up_time_out_4sec">4 秒</string>
+    <string name="heads_up_time_out_5sec">5 秒</string>
+    <string name="heads_up_time_out_6sec">6 秒</string>
+    <string name="heads_up_time_out_8sec">8 秒</string>
     <string name="heads_up_time_out_10sec">10 秒</string>
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Snooze timer</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_title">暂停计时器</string>
+    <string name="heads_up_snooze_summary_one_minute">向上滑动通知，该应用通知将暂停 1 分钟</string>
+    <string name="heads_up_snooze_summary">上滑浮动通知将使此应用的浮动通知进入暂停状态 <xliff:g id="number">%d</xliff:g> 分钟</string>
+    <string name="heads_up_snooze_disabled_summary">暂停计时器已禁用</string>
     <string name="heads_up_snooze_1min">1 分钟</string>
     <string name="heads_up_snooze_5min">5 分钟</string>
     <string name="heads_up_snooze_10min">10 分钟</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_15min">15 分钟</string>
+    <string name="heads_up_snooze_20min">20 分钟</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">锁屏充电信息</string>
+    <string name="lockscreen_battery_info_summary">充电时在锁屏界面显示电源适配器的最大电流、电压以及电池温度</string>
     <!-- Network preferences screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">自动关闭 Wi-Fi</string>
     <!-- Network preferences screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Automatically turn off Wi-Fi after a set amount of time.</string>
-    <string name="wifi_timeout_summary1">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
+    <string name="wifi_timeout_summary1">如果没有网络连接，则在 <xliff:g id="timeout_description">%1$s</xliff:g> 后关闭 Wi-Fi</string>
     <string name="wifi_timeout_summary2">已禁用</string>
-    <string name="wifi_timeout_summary_never">Never</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
+    <string name="wifi_timeout_summary_never">从不</string>
+    <string name="wifi_timeout_summary_15secs">15 秒</string>
     <string name="wifi_timeout_summary_30secs">30 秒</string>
     <string name="wifi_timeout_summary_1min">1 分钟</string>
-    <string name="wifi_timeout_summary_2mins">2 minutes</string>
+    <string name="wifi_timeout_summary_2mins">2 分钟</string>
     <string name="wifi_timeout_summary_5mins">5 分钟</string>
     <string name="wifi_timeout_summary_10mins">10 分钟</string>
     <string name="wifi_timeout_summary_30mins">30 分钟</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary_1hour">1小时</string>
+    <string name="wifi_timeout_summary_2hours">2 小时</string>
+    <string name="wifi_timeout_summary_4hours">4 小时</string>
+    <string name="wifi_timeout_summary_8hours">8 小时</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">蓝牙超时</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_never">Never</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
+    <string name="bluetooth_timeout_summary">如果没有设备连接，蓝牙将在<xliff:g id="timeout_description">%1$s</xliff:g>后关闭</string>
+    <string name="bluetooth_timeout_summary2">不要自动关闭蓝牙</string>
+    <string name="bluetooth_timeout_summary_never">从不</string>
+    <string name="bluetooth_timeout_summary_15secs">15 秒</string>
     <string name="bluetooth_timeout_summary_30secs">30 秒</string>
     <string name="bluetooth_timeout_summary_1min">1 分钟</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
+    <string name="bluetooth_timeout_summary_2mins">2 分钟</string>
     <string name="bluetooth_timeout_summary_5mins">5 分钟</string>
     <string name="bluetooth_timeout_summary_10mins">10 分钟</string>
     <string name="bluetooth_timeout_summary_30mins">30 分钟</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary_1hour">1小时</string>
+    <string name="bluetooth_timeout_summary_2hours">2 小时</string>
+    <string name="bluetooth_timeout_summary_4hours">4 小时</string>
+    <string name="bluetooth_timeout_summary_8hours">8 小时</string>
     <!-- Statusbar net monitor -->
-    <string name="statusbar_ntraffic">Network</string>
-    <string name="network_traffic_state_title">Network speed</string>
-    <string name="network_traffic_state_summary">Show network speed in the status bar</string>
-    <string name="network_traffic_location_title">Location</string>
-    <string name="network_traffic_statusbar">Statusbar</string>
-    <string name="network_traffic_qs_header">QS header</string>
-    <string name="network_traffic_mode_title">Display mode</string>
-    <string name="network_traffic_dynamic">Dynamic</string>
-    <string name="network_traffic_download">Download</string>
-    <string name="network_traffic_upload">Upload</string>
-    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
-    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="statusbar_ntraffic">网络</string>
+    <string name="network_traffic_state_title">状态栏网速</string>
+    <string name="network_traffic_state_summary">在状态栏显示网络速度</string>
+    <string name="network_traffic_location_title">位置</string>
+    <string name="network_traffic_statusbar">仅在状态栏显示</string>
+    <string name="network_traffic_qs_header">快速设置面板顶部</string>
+    <string name="network_traffic_mode_title">显示模式</string>
+    <string name="network_traffic_dynamic">动态</string>
+    <string name="network_traffic_download">下载</string>
+    <string name="network_traffic_upload">上传</string>
+    <string name="network_traffic_autohide_threshold_title">自动隐藏阈值</string>
+    <string name="network_traffic_refresh_interval_title">刷新间隔</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">点按显示信息</string>
     <!-- QS Tile requires unlocking before being accessible -->
-    <string name="qstile_requires_unlocking_title">Secure QS tiles require unlocking</string>
-    <string name="qstile_requires_unlocking_summary">The following QS tiles require unlocking before you can acccess them from lock screen:\nAirplane, Cellular, Bluetooth, Data saver, Battery saver, Work mode, Rotation, NFC, Hotspot, USB tethering and Location</string>
+    <string name="qstile_requires_unlocking_title">控制中心设置磁贴需要解锁</string>
+    <string name="qstile_requires_unlocking_summary">下面的磁贴需要解锁才能从锁屏界面使用它们：\n飞行模式, 移动数据, 蓝牙, 省流模式, 省电模式, 工作模式, 自动旋转, NFC, 热点, USB 网络共享和位置</string>
     <!-- Disable QS -->
-    <string name="disable_qs_title">Hide QS in secure lockscreen</string>
-    <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
+    <string name="disable_qs_title">锁屏隐藏控制中心</string>
+    <string name="disable_qs_summary">如果设备被锁定，则隐藏控制中心，但不隐藏通知区域</string>
     <!-- Power menu on lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
-    <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
+    <string name="lockscreen_power_menu_disabled_title">禁用锁屏时的电源菜单</string>
+    <string name="lockscreen_power_menu_disabled_summary">这个选项将仅在安全锁屏下禁用电源菜单</string>
     <!-- Pulse on music track change -->
-    <string name="pulse_on_new_tracks_title">Ambient music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show Ambient Display when a new music track is played</string>
+    <string name="pulse_on_new_tracks_title">环境音乐信息</string>
+    <string name="pulse_on_new_tracks_summary">播放新曲目时点亮环境显示</string>
     <!-- Scramble pin -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">乱序布局</string>
+    <string name="unlock_scramble_pin_layout_summary">解锁设备时使用乱序的 PIN 布局</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">当输入正确的 PIN 码或密码后自动解锁</string>
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Smart Pause</string>
-    <string name="adaptive_playback_enabled">Use smart pause</string>
-    <string name="adaptive_playback_disabled_summary">Off</string>
-    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
-    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
-    <string name="adaptive_playback_timeout_none">No timeout</string>
-    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
+    <string name="adaptive_playback_screen_title">智能暂停</string>
+    <string name="adaptive_playback_enabled">使用智能暂停</string>
+    <string name="adaptive_playback_disabled_summary">关闭</string>
+    <string name="adaptive_playback_intro_text">音量静音时自动暂停媒体，并在设定时间内恢复音量时自动恢复</string>
+    <string name="adaptive_playback_timeout_title">超时</string>
+    <string name="adaptive_playback_timeout_none">不限时</string>
+    <string name="adaptive_playback_timeout_none_summary">开启 (永不关闭)</string>
     <string name="adaptive_playback_timeout_30_secs">30 秒</string>
-    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">开启 (30秒)</string>
     <string name="adaptive_playback_timeout_1_min">1 分钟</string>
-    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_1_min_summary">开启 (1 分钟)</string>
+    <string name="adaptive_playback_timeout_2_min">2 分钟</string>
+    <string name="adaptive_playback_timeout_2_min_summary">开启 (2 分钟)</string>
     <string name="adaptive_playback_timeout_5_min">5 分钟</string>
-    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min_summary">开启(5分钟)</string>
     <string name="adaptive_playback_timeout_10_min">10 分钟</string>
-    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min_summary">开启(10分钟)</string>
     <!-- 3-Button navigation settings -->
-    <string name="button_settings_activity_title">3-Button Navigation Settings</string>
-    <string name="navigation_bar_inverse_title">Inverse Layout</string>
-    <string name="navigation_bar_inverse_summary">Swipe positions between back and recents</string>
-    <string name="navbar_layout_title">Layout</string>
-    <string name="navbar_layout_normal">Normal</string>
-    <string name="navbar_layout_compact">Compact</string>
-    <string name="navbar_layout_leftleaning">Left-leaning</string>
-    <string name="navbar_layout_rightleaning">Right-leaning</string>
+    <string name="button_settings_activity_title">三大金刚键设置</string>
+    <string name="navigation_bar_inverse_title">反向布局</string>
+    <string name="navigation_bar_inverse_summary">交换返回和最近任务键</string>
+    <string name="navbar_layout_title">布局</string>
+    <string name="navbar_layout_normal">正常</string>
+    <string name="navbar_layout_compact">紧凑</string>
+    <string name="navbar_layout_leftleaning">居左</string>
+    <string name="navbar_layout_rightleaning">居右</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_title">在触摸时振动</string>
+    <string name="quick_settings_vibrate_summary">触摸快速设置磁贴时振动</string>
     <!-- Privacy Indicator -->
-    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
-    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
-    <string name="location_privacy_indicator_title">Location access indicator</string>
-    <string name="location_privacy_indicator_summary_on">Show location in the privacy chip</string>
-    <string name="location_privacy_indicator_summary_off">Show location in status bar icons</string>
+    <string name="mic_camera_privacy_indicator_title">麦克风和相机隐私指示器</string>
+    <string name="mic_camera_privacy_indicator_summary">当任何应用使用麦克风或相机时显示单独的指示器</string>
+    <string name="location_privacy_indicator_title">位置指示器</string>
+    <string name="location_privacy_indicator_summary_on">在隐私指示器中显示位置图标</string>
+    <string name="location_privacy_indicator_summary_off">在状态栏中显示位置图标</string>
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
-    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
+    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备的 VPN 连接到上游连接</string>
+    <string name="wifi_hotspot_hidden_ssid_title">隐藏网络</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">您的移动热点名称将不会出现在可用的 WLAN 网络列表中。</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">始终不关闭热点</string>
+    <string name="wifi_hotspot_client_manager_title">已连接的设备</string>
+    <string name="wifi_hotspot_client_manager_summary">列出并管理已连接到热点的设备</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出已连接到热点的设备</string>
+    <string name="wifi_hotspot_client_limit_title">已连接设备限制</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">已阻止的设备</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已连接的设备</string>
+    <string name="wifi_hotspot_block_client_dialog_title">阻止设备</string>
+    <string name="wifi_hotspot_block_client_dialog_text">此操作将断开 \"<xliff:g id="device_name">%1$s</xliff:g>\" 与该设备的连接，并将其添加到阻止列表中</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">解除阻止设备</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">该设备 \"<xliff:g id="device_name">%1$s</xliff:g>\" 将能够连接到这个热点</string>
+    <string name="wifi_hotspot_client_manager_footer_text">当前没有可用的客户端。如果可用，将在此处列出已连接和已阻止的设备。</string>
     <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
-    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <string name="auto_brightness_one_shot_title">单次自动调节亮度</string>
+    <string name="auto_brightness_one_shot_summary">仅在点亮屏幕的那一刻调节一次亮度</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
-    <string name="color_mode_balance_category">Color balance</string>
+    <string name="color_mode_balance_category">色彩平衡</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
-    <string name="color_mode_balance_red">Red strength</string>
+    <string name="color_mode_balance_red">红色增强</string>
     <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
-    <string name="color_mode_balance_green">Green strength</string>
+    <string name="color_mode_balance_green">绿色增强</string>
     <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_blue">蓝色增强</string>
+    <string name="keywords_color_balance">颜色、色彩平衡、颜色校正、红色、绿色、蓝色、LiveDisplay</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Charging sound</string>
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_sounds_nos_title">充电提示音</string>
+    <string name="charging_vibro_title">充电时振动</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
-    <string name="battery_light_enable">Enable battery light</string>
-    <string name="battery_full_light_enabled">Battery light when full charged</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_settings">充电指示灯</string>
+    <string name="battery_light_summary">勿扰模式下和低电量时的电量指示灯行为</string>
+    <string name="battery_light_enable">启用电池指示灯</string>
+    <string name="battery_full_light_enabled">充满后的指示灯</string>
+    <string name="battery_light_allow_on_dnd_title">勿扰模式下启用充电指示灯</string>
+    <string name="battery_light_low_blinking_title">低电量时闪烁指示灯</string>
+    <string name="battery_light_cat">充电时指示灯颜色</string>
+    <string name="battery_light_low_color">电池电量低</string>
+    <string name="battery_light_medium_color">中等电量</string>
+    <string name="battery_light_full_color">电量将满</string>
+    <string name="battery_light_reallyfull_color">满电 (100%)</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">删除现有的面部扫描并创建新的扫描</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重新录入人脸数据</string>
+    <string name="face_redo_confirm_btn">重新扫描</string>
+    <string name="face_redo_warning_msg">是否要移除现有的人脸数据并重新录入？</string>
+    <string name="face_unlock_method_title">允许在锁定屏幕上进行面部解锁</string>
+    <string name="face_unlock_method_default">当屏幕开启时</string>
+    <string name="face_unlock_method_swipe">在锁屏界面上滑动时</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_help_policy_notice_title">About Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
-    <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
-    <string name="show_navbar_pulse_title">Navbar Pulse</string>
-    <string name="show_navbar_pulse_summary">Audio graphic equalizer on the navigation bar</string>
-    <string name="show_lockscreen_pulse_title">Lockscreen Pulse</string>
-    <string name="show_lockscreen_pulse_summary">Audio graphic equalizer on the lockscreen</string>
-    <string name="show_ambient_pulse_title">Ambient Pulse</string>
-    <string name="show_ambient_pulse_summary">Audio graphic equalizer on the ambient screen</string>
-    <string name="pulse_render_mode_title">Render mode</string>
-    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
-    <string name="pulse_render_mode_solid_lines">Solid lines</string>
-    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
-    <string name="pulse_custom_fudge_factor">Sanity level</string>
-    <string name="pulse_lavalamp_speed_title">Lava lamp speed</string>
-    <string name="pulse_solid_units_count">Solid lines count</string>
-    <string name="pulse_solid_units_opacity">Solid lines opacity</string>
-    <string name="pulse_solid_units_rounded_title">Rounded corners</string>
-    <string name="pulse_solid_units_rounded_summary">Solid lines with rounded tip</string>
-    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
-    <string name="pulse_color_mode_title">Color</string>
-    <string name="pulse_color_accent">Accent</string>
+    <string name="pulse_help_policy_notice_title">关于脉冲</string>
+    <string name="pulse_help_policy_notice_summary">当音乐在设备上播放时，脉冲是一个优秀的音频图形可视化器</string>
+    <string name="pulse_settings">脉冲</string>
+    <string name="pulse_settings_summary">导航栏和锁屏的音频图形可视化器</string>
+    <string name="show_navbar_pulse_title">导航栏脉冲</string>
+    <string name="show_navbar_pulse_summary">在导航栏上的音频可视化效果</string>
+    <string name="show_lockscreen_pulse_title">锁屏脉冲</string>
+    <string name="show_lockscreen_pulse_summary">在锁屏界面显示音频可视化效果</string>
+    <string name="show_ambient_pulse_title">环境脉冲</string>
+    <string name="show_ambient_pulse_summary">在环境显示界面显示音频可视化效果</string>
+    <string name="pulse_render_mode_title">渲染模式</string>
+    <string name="pulse_render_mode_fading_bars">渐变块</string>
+    <string name="pulse_render_mode_solid_lines">实线</string>
+    <string name="pulse_legacy_mode_advanced_category">渐变块样式设置</string>
+    <string name="pulse_custom_fudge_factor">高度</string>
+    <string name="pulse_lavalamp_speed_title">跑马灯速度</string>
+    <string name="pulse_solid_units_count">实线数量</string>
+    <string name="pulse_solid_units_opacity">实线不透明度</string>
+    <string name="pulse_solid_units_rounded_title">圆角</string>
+    <string name="pulse_solid_units_rounded_summary">顶部为圆角的实线</string>
+    <string name="pulse_solid_dimen_category">实线样式设置</string>
+    <string name="pulse_color_mode_title">颜色</string>
+    <string name="pulse_color_accent">强调色</string>
     <string name="pulse_color_custom">自定义</string>
-    <string name="pulse_color_lava_lamp">Lava lamp</string>
-    <string name="pulse_color_user_title">Choose color</string>
-    <string name="pulse_smoothing_enabled_title">Turn on smoothing</string>
-    <string name="pulse_smoothing_enabled_summary">Each bar is animated more smoothly</string>
-    <string name="pulse_custom_dimen">Bar width</string>
-    <string name="pulse_custom_div">Bar spacing</string>
-    <string name="pulse_filled_block_size">Block size</string>
-    <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_color_lava_lamp">跑马灯</string>
+    <string name="pulse_color_user_title">选择颜色</string>
+    <string name="pulse_smoothing_enabled_title">平滑动画</string>
+    <string name="pulse_smoothing_enabled_summary">每条频谱线动画更平滑</string>
+    <string name="pulse_custom_dimen">脉冲栏宽度</string>
+    <string name="pulse_custom_div">脉冲栏间距</string>
+    <string name="pulse_filled_block_size">方块大小</string>
+    <string name="pulse_empty_block_size">方块间距</string>
     <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
+    <string name="enable_fingerprint_ripple_effect_title">波纹效果</string>
+    <string name="enable_fingerprint_ripple_effect_summary">使用指纹解锁时显示波纹效果</string>
     <!-- Per-app volume control -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <string name="app_volume">应用独立音量</string>
+    <string name="app_volume_title">每个应用的音量单独控制</string>
+    <string name="app_volume_summary">允许为每个应用设置不同的音量级别</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="display_cutout_force_fullscreen_title">应用强制全屏</string>
+    <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海区域</string>
+    <string name="search">搜索</string>
+    <string name="search_apps">搜索应用程序</string>
     <!-- Headset ringtone audio focus -->
-    <string name="ringtone_focus_mode_title">Ringtone focus mode</string>
-    <string name="ringtone_focus_mode_dynamic">Headset (If media is playing)</string>
-    <string name="ringtone_focus_mode_stock">Speaker and headset</string>
+    <string name="ringtone_focus_mode_title">响铃焦点模式</string>
+    <string name="ringtone_focus_mode_dynamic">耳机 (如果正在播放媒体)</string>
+    <string name="ringtone_focus_mode_stock">扬声器和耳机</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
-    <string name="app_lock_summary_singular">1 application is protected</string>
-    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applications are protected</string>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_notifications_title">Collapse notifications</string>
-    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed for selected apps when they are locked.
-          Heads up notifications will be automatically disabled.
+    <string name="app_lock_title">应用锁</string>
+    <string name="app_lock_summary_singular">1 个应用程序受到保护</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> 个应用程序受到保护</string>
+    <string name="app_lock_authentication_dialog_title">解锁</string>
+    <string name="app_lock_packages_title">受保护的应用</string>
+    <string name="app_lock_packages_summary">选择要使用生物识别或设备凭据保护的应用</string>
+    <string name="app_lock_timeout_title">自动锁定超时</string>
+    <string name="app_lock_timeout_summary">一段时间后，后台解锁的应用程序应被锁定</string>
+    <string name="app_lock_notifications_title">折叠通知</string>
+    <string name="app_lock_notifications_summary">锁定选定应用时，通知内容将被隐藏和折叠。
+          浮动通知将被自动禁用。
      </string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="app_lock_notifications_disabled_summary">先选择一个应用保护</string>
+    <string name="app_lock_biometrics_allowed_title">启用生物识别解锁</string>
+    <string name="app_lock_footer_text">气泡将在超时后自动关闭</string>
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">QS footer warnings</string>
-    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+    <string name="qs_footer_warnings_title">快速设面板底部警告</string>
+    <string name="qs_footer_warnings_summary">当网络被 VPN 或者应用程序监测时，在快速设置底部显示一个警告</string>
     <!-- Battery Temperature -->
-    <string name="battery_temp">Battery temperature</string>
+    <string name="battery_temp">电池温度</string>
     <!-- Back Gestures -->
-    <string name="smallest_tick_label">Off</string>
-    <string name="greatest_tick_label">Half screen</string>
-    <string name="gesture_back_deadzone_label">Dead zone</string>
-    <string name="back_sensitivity_dialog_message_cust">Use the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
+    <string name="smallest_tick_label">关闭</string>
+    <string name="greatest_tick_label">半屏</string>
+    <string name="gesture_back_deadzone_label">无效区域</string>
+    <string name="back_sensitivity_dialog_message_cust">使用第一个和第二个滑块来配置返回滑动手势的灵敏度。使用第二个滑块配置屏幕上半部分禁止触发滑动手势的区域，以避免与应用内手势发生冲突。</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
+    <string name="min_refresh_rate_title">最低刷新率</string>
+    <string name="max_refresh_rate_title">最高刷新率</string>
+    <string name="battery_saver_refresh_rate_title">降低刷新率</string>
+    <string name="battery_saver_refresh_rate_summary">在省电模式开启时使用 60 Hz 屏幕刷新率以省电</string>
     <!-- Monet engine -->
-    <string name="monet_engine_settings_title">Monet engine</string>
-    <string name="monet_engine_settings_summary"> Adjust accent color, colorfulness and brightness</string>
-    <string name="accurate_shades_title">Use accurate shades</string>
-    <string name="use_wallpaper_color_title">Use wallpaper color</string>
-    <string name="color_override_title">Accent color picker</string>
-    <string name="color_override_summary">Choose a custom accent color to override the colors chosen by monet engine</string>
-    <string name="chroma_factor_title">Colorfulness</string>
-    <string name="linear_lightness_title">Use a custom lightness scale</string>
-    <string name="white_luminance_title">Brightness</string>
+    <string name="monet_engine_settings_title">Monet 引擎</string>
+    <string name="monet_engine_settings_summary"> 调整强调色、饱和度和亮度</string>
+    <string name="accurate_shades_title">使用精确色调</string>
+    <string name="use_wallpaper_color_title">使用壁纸颜色</string>
+    <string name="color_override_title">颜色选择器</string>
+    <string name="color_override_summary">选择一个自定义的强调色来覆盖由Monet引擎选择的颜色</string>
+    <string name="chroma_factor_title">饱和度</string>
+    <string name="linear_lightness_title">使用自定义亮度等级</string>
+    <string name="white_luminance_title">亮度</string>
     <!-- Quick Settings quick pulldown -->
-    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
-    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <string name="quick_settings_quick_pull_down_title">下拉快速设置</string>
+    <string name="quick_settings_quick_pull_down_summary">从状态栏右侧下拉以展开快速设置面板</string>
     <!-- Hidden apps -->
-    <string name="hidden_apps_title">Hidden apps</string>
-    <string name="hidden_apps_summary">Applications that should be hidden from launcher. Requires a launcher restart for changes to take effect</string>
-    <!-- Game -->
-    <string name="game_dashboard_always_on_summary">Show Game Dashboard shortcut in games</string>
-    <string name="game_dashboard_always_on_title">Game Dashboard</string>
-    <string name="game_dashboard_dnd_rule_name">Gaming</string>
-    <string name="game_dashboard_dnd_summary">Only get notified by important people and apps when playing a game</string>
-    <string name="game_dashboard_dnd_title">Do Not Disturb for games</string>
+    <string name="hidden_apps_title">隐藏应用</string>
+    <string name="hidden_apps_summary">应从启动器隐藏的应用程序，需要启动器重新启动以进行更改生效</string>
     <!-- Columbus -->
     <string name="columbus_title">@string/columbus_name</string>
-    <string name="columbus_gesture_detected">Quick Tap detected!</string>
-    <string name="columbus_gesture_enrollment_complete">Done</string>
-    <string name="columbus_gesture_enrollment_do_it_later">Not now</string>
-    <string name="columbus_gesture_enrollment_settings">Go to Settings</string>
-    <string name="columbus_gesture_enrollment_try_it">Try it</string>
-    <string name="columbus_gesture_training_action_no_selection_error">Please select an action to perform</string>
-    <string name="columbus_gesture_training_action_text">Select what happens when you use Quick Tap. You can change this later in settings.</string>
-    <string name="columbus_gesture_training_action_title">Choose Quick Tap option</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture">… Double-tap 1 out of 2 detected</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture_text">Let’s try that once more. Quickly tap the back of your phone twice.</string>
-    <string name="columbus_gesture_training_enrolling_first_gesture_title">Nice!</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture">… Double-tap 2 out of 2 detected</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture_text">You’re ready to start using Quick Tap</string>
-    <string name="columbus_gesture_training_enrolling_second_gesture_title">You got it!</string>
-    <string name="columbus_gesture_training_enrolling_text">Quickly tap the back of your phone twice.</string>
-    <string name="columbus_gesture_training_enrolling_title">Try Quick Tap</string>
-    <string name="columbus_gesture_training_finished_text">To change the tap strength needed to use Quick Tap, go to Settings.</string>
-    <string name="columbus_gesture_training_finished_title">You’ve set up Quick Tap</string>
-    <string name="columbus_gesture_training_intro_text_accidental">You‘ve just tapped twice on the back of your device, which allows you to use your Assistant on the go. You can customize this gesture in settings.</string>
-    <string name="columbus_gesture_training_intro_text_suw">Take a screenshot, show notifications, or start another action in two taps.</string>
-    <string name="columbus_gesture_training_intro_title">Quick Tap for quick actions</string>
-    <string name="columbus_gesture_training_launch_no_selection_error">Please select an app to open</string>
-    <string name="columbus_gesture_training_launch_text">Select the app you’d like to open when you use Quick Tap.</string>
-    <string name="columbus_gesture_training_launch_title">Choose app to open</string>
-    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s shortcut settings</string>
-    <string name="columbus_launch_settings_activity_title">Quick Tap settings</string>
-    <string name="columbus_name">Quick Tap</string>
-    <string name="columbus_radio_button_extra_widget_a11y_label">%1$s settings</string>
-    <string name="columbus_setting_action_assistant_title">Access your digital assistant</string>
-    <string name="columbus_setting_action_assistant_value">assistant</string>
-    <string name="columbus_setting_action_launch_summary_no_selection">No app selected</string>
-    <string name="columbus_setting_action_launch_summary_not_installed">App not installed</string>
-    <string name="columbus_setting_action_launch_title">Open app</string>
-    <string name="columbus_setting_action_launch_value">launch</string>
-    <string name="columbus_setting_action_notification_title">Show notifications</string>
-    <string name="columbus_setting_action_notification_value">notifications</string>
-    <string name="columbus_setting_action_open_app_title">Open app</string>
-    <string name="columbus_setting_action_overview_title">See recent apps</string>
-    <string name="columbus_setting_action_overview_value">overview</string>
-    <string name="columbus_setting_action_play_pause_title">Play or pause media</string>
-    <string name="columbus_setting_action_play_pause_value">media</string>
-    <string name="columbus_setting_action_screenshot_title">Take screenshot</string>
-    <string name="columbus_setting_action_screenshot_value">screenshot</string>
-    <string name="columbus_setting_actions_title">Tap back of phone twice to</string>
-    <string name="columbus_setting_additional_settings_title">Quick Tap strength</string>
-    <string name="columbus_setting_app_selection_help_text">Select an app to open when you tap the back of your phone twice. If you uninstall the app, Quick Tap turns off until you select a different app.</string>
-    <string name="columbus_setting_app_shortcut_selection_help_text">Select what happens when you open this app using Quick Tap.</string>
-    <string name="columbus_setting_enable_switch_title">Use Quick Tap</string>
-    <string name="columbus_setting_sensitivity_title">Require stronger taps</string>
-    <string name="columbus_summary">%1$s / %2$s</string>
+    <string name="columbus_gesture_detected">检测到快速点击！</string>
+    <string name="columbus_gesture_enrollment_complete">已完成</string>
+    <string name="columbus_gesture_enrollment_do_it_later">稍后</string>
+    <string name="columbus_gesture_enrollment_settings">前往设置</string>
+    <string name="columbus_gesture_enrollment_try_it">试一下</string>
+    <string name="columbus_gesture_training_action_no_selection_error">请选择要执行的操作</string>
+    <string name="columbus_gesture_training_action_text">选择您使用快速点击时发生的事情，您可以稍后在设置中更改它</string>
+    <string name="columbus_gesture_training_action_title">选择快捷操作</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture">…检测到 2 次双击中的 1 次</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_text">让我们再尝试一次，快速点击两次您的手机背部</string>
+    <string name="columbus_gesture_training_enrolling_first_gesture_title">Nice！</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture">…检测到 2 次双击中的 2 次</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_text">您已准备好开始使用快速点击</string>
+    <string name="columbus_gesture_training_enrolling_second_gesture_title">你学会了!</string>
+    <string name="columbus_gesture_training_enrolling_text">快速点击手机背部两次</string>
+    <string name="columbus_gesture_training_enrolling_title">尝试快速点击</string>
+    <string name="columbus_gesture_training_finished_text">要更改使用快速点击所需的点击强度，请前往设置</string>
+    <string name="columbus_gesture_training_finished_title">你已经设置了快速点击</string>
+    <string name="columbus_gesture_training_intro_text_accidental">您只需在设备背部点击两次，即可随时使用您的助手，您可以在设置中自定义此手势</string>
+    <string name="columbus_gesture_training_intro_text_suw">点击两次屏幕截图、显示通知或开始另一个操作</string>
+    <string name="columbus_gesture_training_intro_title">快速点击快速操作</string>
+    <string name="columbus_gesture_training_launch_no_selection_error">请选择要打开的应用程序</string>
+    <string name="columbus_gesture_training_launch_text">选择使用快速点击时要打开的应用程序</string>
+    <string name="columbus_gesture_training_launch_title">选择要打开的应用程序</string>
+    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s快捷方式设置</string>
+    <string name="columbus_launch_settings_activity_title">快速点击设置</string>
+    <string name="columbus_name">快速点击</string>
+    <string name="columbus_radio_button_extra_widget_a11y_label">%1$s 设置</string>
+    <string name="columbus_setting_action_assistant_title">访问您的数字助手</string>
+    <string name="columbus_setting_action_assistant_value">助理</string>
+    <string name="columbus_setting_action_launch_summary_no_selection">未选择任何应用程序！</string>
+    <string name="columbus_setting_action_launch_summary_not_installed">应用程序未安装</string>
+    <string name="columbus_setting_action_launch_title">打开应用</string>
+    <string name="columbus_setting_action_launch_value">启动</string>
+    <string name="columbus_setting_action_notification_title">显示通知</string>
+    <string name="columbus_setting_action_notification_value">通知</string>
+    <string name="columbus_setting_action_open_app_title">打开应用</string>
+    <string name="columbus_setting_action_overview_title">查看最近的应用程序</string>
+    <string name="columbus_setting_action_overview_value">概览</string>
+    <string name="columbus_setting_action_play_pause_title">播放或暂停媒体</string>
+    <string name="columbus_setting_action_play_pause_value">媒体</string>
+    <string name="columbus_setting_action_screenshot_title">屏幕截图</string>
+    <string name="columbus_setting_action_screenshot_value">截屏</string>
+    <string name="columbus_setting_actions_title">轻触手机背部两次</string>
+    <string name="columbus_setting_additional_settings_title">快速点击强度</string>
+    <string name="columbus_setting_app_selection_help_text">当你轻触手机背面两次时，选择要打开的应用程序。如果卸载应用程序，快速点击将关闭，直到您选择其他应用程序</string>
+    <string name="columbus_setting_app_shortcut_selection_help_text">选择使用快速点击打开此应用程序时发生的情况</string>
+    <string name="columbus_setting_enable_switch_title">使用快速点击</string>
+    <string name="columbus_setting_sensitivity_title">需要更强的点击</string>
+    <string name="columbus_summary">%1$s - %2$s</string>
     <!-- Volume key cursor control  -->
-    <string name="volume_key_cursor_control_title">Volume cursor control</string>
+    <string name="volume_key_cursor_control_title">音量键光标控制</string>
     <string name="volume_key_cursor_control_disabled">已禁用</string>
-    <string name="volume_key_cursor_control_left">up - left, down - right</string>
-    <string name="volume_key_cursor_control_right">up - right, down - left</string>
+    <string name="volume_key_cursor_control_left">音量加 — 左，音量减 — 右</string>
+    <string name="volume_key_cursor_control_right">音量加 — 右，音量减 — 左</string>
     <!-- Battery health -->
-    <string name="battery_health_title">Battery health</string>
+    <string name="battery_health_title">电池健康状态</string>
     <!-- QS media player -->
-    <string name="qs_media_controls_title">Media player</string>
-    <string name="qs_media_controls_summary_on">Show media player in QS\nRequires a SystemUI restart</string>
-    <string name="qs_media_controls_summary_off">Show media player as a notification\nRequires a SystemUI restart</string>
+    <string name="qs_media_controls_title">媒体播放器</string>
+    <string name="qs_media_controls_summary_on">在下拉菜单显示媒体播放器.\n需要重新启动系统界面</string>
+    <string name="qs_media_controls_summary_off">将媒体播放器作为通知显示.\n需要重新启动系统界面</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
+    <string name="display_rotation_title">旋转设置</string>
+    <string name="display_rotation_enabled">启用自动旋转</string>
+    <string name="display_rotation_disabled">禁用自动旋转</string>
+    <string name="display_rotation_unit">度</string>
+    <string name="display_rotation_category_title">旋转模式</string>
+    <string name="display_rotation_0_title">0°</string>
+    <string name="display_rotation_90_title">90°</string>
+    <string name="display_rotation_180_title">180°</string>
+    <string name="display_rotation_270_title">270°</string>
     <!-- General -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
+    <string name="longpress_to_clipboard">长按复制</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <!-- App lock timeout -->
+    <string name="app_lock_timeout_5secs">5 秒</string>
+    <string name="app_lock_timeout_10secs">10 秒</string>
+    <string name="app_lock_timeout_30secs">30 秒</string>
+    <string name="app_lock_timeout_1min">1 分钟</string>
+    <string name="app_lock_timeout_5mins">5 分钟</string>
+    <string name="app_lock_timeout_10mins">10 分钟</string>
+    <string name="app_lock_timeout_30mins">30 分钟</string>
+    <!-- Game Space -->
+    <string name="game_space_title">Game Space</string>
+    <string name="game_space_summary">Enhance your gaming experience</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
 </resources>
