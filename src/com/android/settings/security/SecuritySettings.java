@@ -18,6 +18,10 @@ package com.android.settings.security;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
+
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.biometrics.combination.CombinedBiometricStatusPreferenceController;
@@ -45,6 +49,9 @@ public class SecuritySettings extends DashboardFragment {
     public static final int CHANGE_TRUST_AGENT_SETTINGS = 126;
     public static final int UNIFY_LOCK_CONFIRM_PROFILE_REQUEST = 129;
     public static final int UNUNIFY_LOCK_CONFIRM_DEVICE_REQUEST = 130;
+
+    private static final String SECURITY_STATUS_KEY = "security_status";
+    private static final String SECURITY_CATEGORY_KEY = "security_category";
 
     @Override
     public int getMetricsCategory() {
@@ -85,6 +92,21 @@ public class SecuritySettings extends DashboardFragment {
             return;
         }
         super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        super.onCreatePreferences(savedInstanceState, rootKey);
+        final PreferenceScreen preferenceScreen = getPreferenceScreen();
+        for (int i = 0; i < preferenceScreen.getPreferenceCount(); i++) {
+            final Preference pref = preferenceScreen.getPreference(i);
+            if (SECURITY_STATUS_KEY.equals(pref.getKey())) {
+                final Preference nextPref = preferenceScreen.getPreference(i + 1);
+                if (SECURITY_CATEGORY_KEY.equals(nextPref.getKey())) {
+                    preferenceScreen.removePreference(pref);
+                }
+            }
+        }
     }
 
     void startUnification() {
