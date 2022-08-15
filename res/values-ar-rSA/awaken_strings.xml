@@ -463,7 +463,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">السماح للمتصلين بنقطة الاتصال النقالة باستخدام اتصالات VPN لجهاز\u2019 من أجل الإرسال</string>
     <string name="wifi_hotspot_hidden_ssid_title">شبكة مخفية</string>
     <string name="wifi_hotspot_hidden_ssid_summary">لن يظهر اسم نقطة اتصال هاتفك المحمول في قائمة شبكات WLAN المتاحة.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">لا تقم أبدًا بإيقاف تشغيل نقطة الاتصال</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
     <string name="wifi_hotspot_client_manager_title">الأجهزة المتصلة</string>
     <string name="wifi_hotspot_client_manager_summary">قائمة بالأجهزة المتصلة بنقطة الاتصال وإدارتها</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">قائمة بالأجهزة المتصلة بنقطة الاتصال وإدارتها</string>
@@ -510,6 +510,7 @@
     <string name="face_unlock_method_title">فتح القفل باستخدام الوجه</string>
     <string name="face_unlock_method_default">عندما تكون الشاشة مُشغَّلة</string>
     <string name="face_unlock_method_swipe">عند السحب على شاشة القُفْل</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">حول النبض المرئي</string>
     <string name="pulse_help_policy_notice_summary">النبض المرئي هو معادل صوتي ممتاز عند تشغيل الموسيقى على الجهاز</string>
@@ -681,6 +682,10 @@
     <!-- General -->
     <string name="copied_to_clipboard">نسخت إلى الحافظة</string>
     <string name="longpress_to_clipboard">اضغط مطولاً لنسخ</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
+    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
+    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">أختر حجم النقش</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -712,4 +717,10 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">اضغط مطولا على مستشعر البصمة لفتح الهاتف</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">اضغط مطولا على مستشعر البصمة لفتح الهاتف.</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_control_title">Brightness control</string>
+    <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across the status bar</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
 </resources>

@@ -461,7 +461,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">Zezwól urządzeniom, połączonym do udostępnionej sieci, na wysyłanie pakietów, poprzez VPN tego urządzenia</string>
     <string name="wifi_hotspot_hidden_ssid_title">Ukryta sieć</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Nazwa Twojego mobilnego punktu dostępu nie pojawi się na liście dostępnych sieci WLAN.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Nigdy nie wyłączaj punktu dostępu</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
     <string name="wifi_hotspot_client_manager_title">Podłączone urządzenia</string>
     <string name="wifi_hotspot_client_manager_summary">Pokaż i zarządzaj urządzeniami podłączonymi do punktu dostępu</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Pokaż urządzenia podłączone do punktu dostępu</string>
@@ -508,6 +508,7 @@
     <string name="face_unlock_method_title">Zezwól na odblokowywanie twarzą na ekranie blokady</string>
     <string name="face_unlock_method_default">Gdy ekran jest włączony</string>
     <string name="face_unlock_method_swipe">Po przesunięciu na ekranie blokady</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">O funkcji Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse jest znakomitym wizualizatorem graficznym dźwięku, gdy muzyka odtwarza się na urządzeniu</string>
@@ -680,6 +681,10 @@
     <!-- General -->
     <string name="copied_to_clipboard">Skopiowano do schowka</string>
     <string name="longpress_to_clipboard">Przytrzymaj, aby skopiować</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
+    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
+    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -711,4 +716,10 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_control_title">Brightness control</string>
+    <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across the status bar</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
 </resources>

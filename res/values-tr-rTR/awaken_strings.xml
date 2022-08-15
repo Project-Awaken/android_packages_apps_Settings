@@ -506,6 +506,7 @@
     <string name="face_unlock_method_title">Kilit ekranında yüz kilidi açmaya izin ver</string>
     <string name="face_unlock_method_default">Ekran açıldığında</string>
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
+    <string name="skip_biometric_auth_confirmation_title">Manuel onaylamayı atla</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">Pulse hakkında</string>
     <string name="pulse_help_policy_notice_summary">Müzik çalarken kilit ekranında görünen akıllı bir ses grafik görselleştirmesidir</string>
@@ -678,6 +679,10 @@
     <!-- General -->
     <string name="copied_to_clipboard">Panoya kopyalandı</string>
     <string name="longpress_to_clipboard">Kopyalamak için uzun basın</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Kilidi açmak için parmak izine dokunun</string>
+    <string name="fingerprint_wake_unlock_touch">Ekran kapalıyken olayları dinler</string>
+    <string name="fingerprint_wake_unlock_press">Olayları yalnızca ekran açıkken dinler</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Bir desen boyutu seçin</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -709,4 +714,10 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">Cihazın kilidini açmak için parmak izi sensörüne uzun basın</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Ekranınızı uyandırmak ve kilidini açmak için ekranın altındaki parmak izi sensörünüze uzun basın.</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_control_title">Parlaklık kontrolü</string>
+    <string name="status_bar_brightness_control_summary">Durum çubuğunda kaydırarak parlaklığı ayarlayın</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Güvenli pencere bayrağını yoksay</string>
+    <string name="ignore_window_secure_summary">Tüm uygulamalar için ekran görüntüsü ve ekran kaydı sınırlarını kaldırın. Bu bazı durumlarda kullanışlı olabilir ancak gizlilik sızıntılarına neden olabilir.</string>
 </resources>

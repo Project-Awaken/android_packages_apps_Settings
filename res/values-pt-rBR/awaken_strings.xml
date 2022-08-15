@@ -459,7 +459,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes de hotspot usem este dispositivo\u2019 para conexões VPN de alta velocidade</string>
     <string name="wifi_hotspot_hidden_ssid_title">Rede oculta</string>
     <string name="wifi_hotspot_hidden_ssid_summary">O nome do seu ponto de acesso não aparecerá na lista de redes wi-fi disponíveis.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Nunca desativar o ponto de acesso</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nunca desativar hotspot</string>
     <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
     <string name="wifi_hotspot_client_manager_summary">Listar e gerenciar dispositivos conectados ao ponto de acesso</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Listar dispositivos conectados ao ponto de acesso</string>
@@ -506,6 +506,7 @@
     <string name="face_unlock_method_title">Permitir desbloqueio facial na tela de bloqueio</string>
     <string name="face_unlock_method_default">Quando a tela estiver ligada</string>
     <string name="face_unlock_method_swipe">Quando deslizar na tela de bloqueio</string>
+    <string name="skip_biometric_auth_confirmation_title">Ignorar a confirmação manual</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">Sobre o Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse é uma animação gráfica simulando um equalizador de áudio exibido quando uma música é tocada no dispositivo</string>
@@ -678,6 +679,10 @@
     <!-- General -->
     <string name="copied_to_clipboard">Copiado para a área de transferência</string>
     <string name="longpress_to_clipboard">Aperte e segure para copiar</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Toque na impressão digital para desbloquear</string>
+    <string name="fingerprint_wake_unlock_touch">Permitir desbloqueio com a tela desligada</string>
+    <string name="fingerprint_wake_unlock_press">Desbloquear apenas com a tela ligada</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Escolha um tamanho para o padrão</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -709,4 +714,10 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">Pressione e segure o sensor de impressão digital para desbloquear o telefone</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">Para ativar sua tela e desbloquear, pressione e segure o sensor de impressão digital sob a tela.</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_control_title">Controle de brilho</string>
+    <string name="status_bar_brightness_control_summary">Ajuste o brilho deslizando através da barra de status</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignorar sinalizador de janela segura</string>
+    <string name="ignore_window_secure_summary">Remova as restrições de captura e gravação de tela para todos os aplicativos. Isso pode ser conveniente em alguns casos, mas pode facilitar o furto de dados. (Use com cautela).</string>
 </resources>

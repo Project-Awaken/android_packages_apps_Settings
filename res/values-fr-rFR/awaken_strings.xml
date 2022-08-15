@@ -459,7 +459,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">Permet aux clients de point d\'accès d\'utiliser les connexions VPN de cet appareil\u2019 pour la connectivité en amont</string>
     <string name="wifi_hotspot_hidden_ssid_title">Cacher le SSID</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Le nom de votre point d\'accès n\'apparaîtra pas dans la liste des réseaux WLAN disponibles.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Ne jamais désactiver le point d\'accès</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
     <string name="wifi_hotspot_client_manager_title">Appareils connectés</string>
     <string name="wifi_hotspot_client_manager_summary">Lister et gérer les appareils connectés au point d\'accès</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">Lister les appareils connectés au point d\'accès</string>
@@ -506,6 +506,7 @@
     <string name="face_unlock_method_title">Autoriser le déverrouillage facial sur l\'écran de verrouillage</string>
     <string name="face_unlock_method_default">Lorsque l\'écran est allumé</string>
     <string name="face_unlock_method_swipe">Par glisser sur l\'écran de verrouillage</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">À propos de Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse est un égaliseur graphique audio génial lorsque la musique est jouée sur l\'appareil</string>
@@ -678,18 +679,22 @@
     <!-- General -->
     <string name="copied_to_clipboard">Copié dans le presse-papier</string>
     <string name="longpress_to_clipboard">Appui long pour copier</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">Touch fingerprint to unlock</string>
+    <string name="fingerprint_wake_unlock_touch">Listens for events while the screen is off</string>
+    <string name="fingerprint_wake_unlock_press">Only listens for events once the screen is on</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Choisissez une taille de schéma</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Afficher l\'erreur de schéma</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Afficher les points du schéma</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
-    <string name="theme_customization_font_title">Headline / Body font</string>
+    <string name="theme_customization_font_title">Police d\'en-tête / corps de texte</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
-    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_icon_shape_title">Forme de l\'icône</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
-    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <string name="theme_customization_icon_pack_title">Jeu d\'icônes</string>
     <!-- App lock timeout -->
     <string name="app_lock_timeout_5secs">5 secondes</string>
     <string name="app_lock_timeout_10secs">10 secondes</string>
@@ -699,14 +704,20 @@
     <string name="app_lock_timeout_10mins">10 minutes</string>
     <string name="app_lock_timeout_30mins">30 minutes</string>
     <!-- Game Space -->
-    <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <string name="game_space_title">Espace jeux</string>
+    <string name="game_space_summary">Améliore votre expérience de jeu</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">Appui long sur le capteur d\'empreintes pour déverrouiller</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Appui long sur le capteur d\'empreintes pour déverrouiller</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">Appui long sur le capteur d\'empreintes pour déverrouiller</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
+    <string name="ambient_display_screen_off_udfps_summary">Pour réveiller et déverrouiller l\'appareil, appuyez longuement sur le capteur d\'empreintes sous l\'écran.</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_control_title">Brightness control</string>
+    <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across the status bar</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore secure window flag</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
 </resources>

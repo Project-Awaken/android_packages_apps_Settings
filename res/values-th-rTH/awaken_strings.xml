@@ -79,7 +79,7 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">เชื่อมต่อความดังเสียงเรียกเข้า&amp; เสียงแจ้งเตือน</string>
+    <string name="volume_link_notification_title">เชื่อมต่อความดังเสียงเรียกเข้า &amp; เสียงแจ้งเตือน</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">เปิดใช้งานการรีสตาร์ทขึ้นสูง</string>
     <string name="global_actions_advanced_reboot_summary">แสดงตัวเลือกสำหรับโหมดกู้คืนและบูตโหลดเดอร์ในเมนูเปิด/ปิดเครื่อง</string>
@@ -94,7 +94,7 @@
     <string name="statusbar_category_title">ปรับแต่งแถบสถานะ</string>
     <!-- Double Tap to Sleep Lockscreen -->
     <string name="double_tap_sleep_lockscreen_title">แตะหน้าจอสองครั้งเพื่อปิดหน้าจอ</string>
-    <string name="double_tap_sleep_lockscreen_summary">แตะหน้าจอสองครั้งที่ใดก็ได้บนหน้าจอล็อคเพื่อปิดหน้าจอ</string>
+    <string name="double_tap_sleep_lockscreen_summary">แตะหน้าจอสองครั้งที่ใดก็ได้บนหน้าจอล็อกเพื่อปิดหน้าจอ</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">แตะเพื่อปิดจอ</string>
     <string name="double_tap_sleep_gesture_summary">แตะ 2 ครั้งที่ใดก็ได้บนแถบสถานะเพื่อปิดหน้าจออุปกรณ์</string>
@@ -143,7 +143,7 @@
     <string name="clock_date_display_none">ไม่แสดง</string>
     <string name="clock_date_display_small">ขนาดตัวอักษรเล็ก</string>
     <string name="clock_date_display_normal">ขนาดตัวอักษรปกติ</string>
-    <string name="clock_date_style">รูปแบบวันที่</string>
+    <string name="clock_date_style">ขนาดตัวอักษรวันที่</string>
     <string name="clock_date_style_normal">ปกติ</string>
     <string name="clock_date_style_lowercase">ตัวพิมพ์เล็ก</string>
     <string name="clock_date_style_uppercase">ตัวพิมพ์ใหญ่</string>
@@ -174,7 +174,7 @@
     <string name="battery_stats_reset">ล้างข้อมูลการใช้งานหรือไม่</string>
     <string name="battery_stats_message">ข้อมูลการใช้งานแบตเตอรี่จะถูกลบ</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">กดไฟฉายเมื่อปิดหน้าจอ</string>
+    <string name="torch_power_button_gesture_title">เปิดไฟฉายเมื่อปิดหน้าจอ</string>
     <string name="torch_power_button_gesture_none">ปิดใช้งาน</string>
     <string name="torch_power_button_gesture_dt">กดปุ่มเปิด/ปิดสองครั้ง (ตอบสนองการแตะเพียงครั้งเดียวช้าลง) ปิดใช้งานการกดสองครั้งสำหรับกล้อง</string>
     <string name="torch_power_button_gesture_lp">กดปุ่มเปิด/ปิดค้างไว้</string>
@@ -257,7 +257,7 @@
     <string name="legacy_wfd_video_mode_1080p_60fps">1080p 60fps</string>
     <!-- Brightness slider -->
     <string name="qs_show_brightness_title">แถบเลื่อนความสว่าง</string>
-    <string name="qs_show_brightness_summary">การปรากฏของแถบเลื่อนความสว่างและการตั้งค่า</string>
+    <string name="qs_show_brightness_summary">ตำแหน่งของแถบเลื่อนความสว่างและการตั้งค่า</string>
     <string name="qs_brightness_position_bottom_title">แถบเลื่อนความสว่างด้านล่าง</string>
     <string name="qs_brightness_position_bottom_summary">แสดงแถบเลื่อนความสว่างที่ด้านล่างของแถบการตั้งค่าด่วน</string>
     <string name="qs_show_auto_brightness_title">ไอคอนความสว่างอัตโนมัติ</string>
@@ -347,7 +347,7 @@
     <string name="heads_up_snooze_15min">15 นาที</string>
     <string name="heads_up_snooze_20min">20 นาที</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">แสดงข้อมูลการชาร์จในหน้าจอล็อค</string>
+    <string name="lockscreen_battery_info_title">แสดงข้อมูลการชาร์จในหน้าจอล็อก</string>
     <string name="lockscreen_battery_info_summary">แสดงรายละเอียด กระแสสูงสุด แรงดันไฟฟ้าและอุณหภูมิแบตเตอรี่บนหน้าจอล็อกขณะชาร์จ</string>
     <!-- Network preferences screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">ปิด Wi-Fi อัตโนมัติ</string>
@@ -458,7 +458,7 @@
     <string name="tethering_allow_vpn_upstreams_summary">อนุญาตให้ไคลเอ็นต์ฮอตสปอตใช้การเชื่อมต่อ VPN ของอุปกรณ์นี้\u2019 สำหรับการเชื่อมต่ออัปสตรีม</string>
     <string name="wifi_hotspot_hidden_ssid_title">เครือข่ายที่ซ่อนอยู่</string>
     <string name="wifi_hotspot_hidden_ssid_summary">ชื่อของฮอตสปอตมือถือของคุณจะไม่ปรากฏในรายการเครือข่าย WLAN ที่พร้อมใช้งาน</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">ไม่มีการปิดฮอตสปอต</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">ไม่ปิดฮอตสปอตโดยอัตโนมัติ</string>
     <string name="wifi_hotspot_client_manager_title">อุปกรณ์ที่เชื่อมต่อ</string>
     <string name="wifi_hotspot_client_manager_summary">แสดงรายการและจัดการอุปกรณ์ที่เชื่อมต่อกับฮอตสปอต</string>
     <string name="wifi_hotspot_client_manager_list_only_summary">แสดงชื่ออุปกรณ์ที่เชื่อมต่อกับฮอตสปอต</string>
@@ -502,9 +502,10 @@
     <string name="security_settings_face_unlock_redo_face_scan_title">สแกนใบหน้าซ้ำ</string>
     <string name="face_redo_confirm_btn">ทำใหม่</string>
     <string name="face_redo_warning_msg">คุณต้องการลบการสแกนใบหน้าที่มีอยู่แล้วสร้างอันใหม่ใช่หรือไม่</string>
-    <string name="face_unlock_method_title">ยอมให้ปลดล็อกด้วยใบหน้าในขณะที่หน้าจอถูกล็อค</string>
+    <string name="face_unlock_method_title">ยอมให้ปลดล็อกด้วยใบหน้าในขณะที่หน้าจอถูกล็อก</string>
     <string name="face_unlock_method_default">เมื่อเปิดหน้าจอ</string>
     <string name="face_unlock_method_swipe">เมื่อปัดบนหน้าจอล็อก</string>
+    <string name="skip_biometric_auth_confirmation_title">ข้ามการยืนยันด้วยตนเอง</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">เกี่ยวกับ pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse เป็นอีควอไลเซอร์กราฟิกเสียงที่ยอดเยี่ยมเมื่อเล่นเพลงบนอุปกรณ์</string>
@@ -579,7 +580,7 @@
     <string name="smallest_tick_label">ปิด</string>
     <string name="greatest_tick_label">ครึ่งจอ</string>
     <string name="gesture_back_deadzone_label">การจำกัดพื้นที่</string>
-    <string name="back_sensitivity_dialog_message_cust">ใช้แถบค้นหาตัวแรกและตัวที่สองเพื่อกำหนดค่าความไวในการปัดกลับ ให้แถบค้นหาสุดท้ายกำหนดพื้นที่ที่จำกัดที่ด้านบนของหน้าจอที่ไม่สามารถเรียกใช้การปัด เพื่อหลีกเลี่ยงความขัดแย้งกับท่าทางสัมผัสในแอป</string>
+    <string name="back_sensitivity_dialog_message_cust">ใช้ seekbar ตัวแรกและตัวที่สองเพื่อกำหนดค่าความไวในการปัดกลับและใช้ seekbar ล่าสุดตั้งพื้นที่จำกัดด้านบนของหน้าจอที่ไม่สามารถใช้การปัดได้ เพื่อหลีกเลี่ยงความขัดแย้งกับท่าทางสัมผัสในแอป</string>
     <!-- Refresh rate -->
     <string name="min_refresh_rate_title">อัตรารีเฟรชต่ำสุด</string>
     <string name="max_refresh_rate_title">อัตรารีเฟรชสูงสุด</string>
@@ -600,7 +601,7 @@
     <string name="quick_settings_quick_pull_down_summary">ดึงแถบสถานะจากด้านขวาเพื่อขยายการตั้งค่าด่วน</string>
     <!-- Hidden apps -->
     <string name="hidden_apps_title">แอปที่ซ่อนไว้</string>
-    <string name="hidden_apps_summary">แอปพลิเคชั่นที่ควรซ่อนจาก launcher, ต้องรีสตาร์ท launcher เพื่อให้การเปลี่ยนแปลงมีผล</string>
+    <string name="hidden_apps_summary">แอปพลิเคชั่นที่ถูกซ่อนจาก launcher จำเป็นต้องรีสตาร์ท launcher เพื่อให้การเปลี่ยนแปลงมีผล</string>
     <!-- Columbus -->
     <string name="columbus_title">@string/columbus_name</string>
     <string name="columbus_gesture_detected">ตรวจพบควิกแท็บ!</string>
@@ -677,18 +678,22 @@
     <!-- General -->
     <string name="copied_to_clipboard">คัดลอกไปยังคลิปบอร์ด</string>
     <string name="longpress_to_clipboard">กดค้างเพื่อคัดลอก</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">สแกนลายนิ้วมือเพื่อปลดล็อก</string>
+    <string name="fingerprint_wake_unlock_touch">ฟังอีเวนต์ต่าง ๆ ขณะปิดหน้าจอ</string>
+    <string name="fingerprint_wake_unlock_press">ฟังอีเวนต์ต่าง ๆ เฉพาะตอนเปิดหน้าจอ</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">เลือกขนาดรูปแบบ</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">แสดงการลากที่ผิดพลาด</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">แสดงจุดที่ลากผ่าน</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
-    <string name="theme_customization_font_title">Headline / Body font</string>
+    <string name="theme_customization_font_title">เฮดไลน์ / บอดี้ฟอนต์</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
-    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <string name="theme_customization_icon_shape_title">รูปร่างไอคอน</string>
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
-    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <string name="theme_customization_icon_pack_title">ชุดไอคอน</string>
     <!-- App lock timeout -->
     <string name="app_lock_timeout_5secs">5 วินาที</string>
     <string name="app_lock_timeout_10secs">10 วินาที</string>
@@ -699,13 +704,19 @@
     <string name="app_lock_timeout_30mins">30 นาที</string>
     <!-- Game Space -->
     <string name="game_space_title">Game Space</string>
-    <string name="game_space_summary">Enhance your gaming experience</string>
+    <string name="game_space_summary">ปรับปรุงประสบการณ์การเล่นเกมของคุณ</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
+    <string name="ambient_display_screen_off_udfps_title" product="default">กดเซ็นเซอร์ลายนิ้วมือค้างไว้เพื่อปลดล็อกโทรศัพท์</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">กดเซ็นเซอร์ลายนิ้วมือค้างไว้เพื่อปลดล็อกแท็บเล็ต</string>
     <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
-    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
+    <string name="ambient_display_screen_off_udfps_title" product="device">กดเซ็นเซอร์ลายนิ้วมือค้างไว้เพื่อปลดล็อกโทรศัพท์</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
-    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
+    <string name="ambient_display_screen_off_udfps_summary">หากต้องการปลุกหน้าจอและปลดล็อก ให้กดเซ็นเซอร์ลายนิ้วมือใต้หน้าจอค้างไว้</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_control_title">ควบคุมความสว่าง</string>
+    <string name="status_bar_brightness_control_summary">ปรับความสว่างหน้าจอโดยการเลื่อนแถบสถานะ</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">เมินเฉยหน้าต่างความปลอดภัย</string>
+    <string name="ignore_window_secure_summary">ลบล้างข้อจำกัดในการบันทึกภาพหน้าจอและอัดหน้าจอสำหรับแอปทั้งหมด วิธีนี้สะดวกในบางกรณีแต่อาจนำไปสู่การรั่วไหลของความเป็นส่วนตัว</string>
 </resources>

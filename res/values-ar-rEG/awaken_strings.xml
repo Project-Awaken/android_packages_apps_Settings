@@ -75,7 +75,7 @@
     <string name="selinux_status_permissive">الصلاحية</string>
     <string name="selinux_status_enforcing">فرض</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">مرر لالتقاط الشاشة</string>
+    <string name="three_finger_gesture">مرر لالتقاط صورة للشاشة</string>
     <string name="three_finger_gesture_summary">السحب لأسفل بثلاث أصابع لأخذ لقطة شاشة</string>
     <!-- Density category -->
     <string name="density_category">خيارات الكثافة</string>
@@ -87,7 +87,7 @@
     <string name="volume_link_notification_title">ربط مستوى الرنين &amp; مع الاشعارات</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">تفعيل اعادة التشغيل المتقدم</string>
-    <string name="global_actions_advanced_reboot_summary">إظهار خيار Recovery و Bootloader في قائمة التشغيل</string>
+    <string name="global_actions_advanced_reboot_summary">إظهار خيار الريكفرى و البوت لودر في قائمة التشغيل</string>
     <!-- Customization category -->
     <string name="ambientsettings_category_title">تخصيصات الإعدادات المحيطة</string>
     <string name="clocksettings_category_title">تخصيصات الساعة</string>
@@ -232,7 +232,7 @@
     <string name="notification_sound_vib_screen_on_title">الاشعارات المزعجة</string>
     <string name="notification_sound_vib_screen_on_summary">تشغيل الصوت والاهتزاز للإشعارات عند تشغيل الشاشة</string>
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">تنبيه سانر</string>
+    <string name="less_boring_heads_up_title">اسكات التنبيهات العلوية</string>
     <string name="less_boring_heads_up_summary">تعطيل التنبيهات العلوية لجميع التطبيقات بسرعة ولكن إبقائها مفعلة لتطبيقات الاتصال والرسائل</string>
     <!-- Combined signal icons in status bar -->
     <string name="combined_status_bar_signal_icons">دمج أيقونات الإشارات</string>
@@ -319,14 +319,14 @@
     <string name="keygaurd_media_art_summary">شاشة رسم الوسائط خلفية لقفل الشاشة</string>
     <string name="lockscreen_media_blur_title">مستوى ضبابية الصور الفنية للوسائط</string>
     <!-- Heads up -->
-    <string name="headsup_category">إعدادات الإشعارات العلوية</string>
-    <string name="heads_up_notifications">وضع الانتباه</string>
-    <string name="heads_up_notifications_summary">تخصيص إعدادات الإشعارات العلوية</string>
+    <string name="headsup_category">إعدادات التنبيهات العلوية</string>
+    <string name="heads_up_notifications">التنبيهات العلوية</string>
+    <string name="heads_up_notifications_summary">تخصيص إعدادات التنبيهات العلوية</string>
     <string name="summary_heads_up_enabled">الاشعارات المنبثقة مفعّلة</string>
     <string name="summary_heads_up_disabled">الإشعارات المنبثقة معطلة</string>
     <string name="add_heads_up_package">أضف تطبيق</string>
-    <string name="add_heads_up_stoplist_summary">تعطيل الاشعارات العائمة في هذه التطبيقات</string>
-    <string name="add_heads_up_blacklist_summary">تعطيل الاشعارات العائمة من هذه التطبيقات</string>
+    <string name="add_heads_up_stoplist_summary">تعطيل التنبيهات العلوية في هذه التطبيقات</string>
+    <string name="add_heads_up_blacklist_summary">تعطيل التنبيهات العلوية في هذه التطبيقات</string>
     <string name="heads_up_stoplist_title">الممنوعين</string>
     <string name="heads_up_blacklist_title">قائمة الحظر</string>
     <string name="profile_choose_app">اختر التطبيق</string>
@@ -510,6 +510,7 @@
     <string name="face_unlock_method_title">فتح القفل باستخدام الوجه</string>
     <string name="face_unlock_method_default">عندما تكون الشاشة مُشغَّلة</string>
     <string name="face_unlock_method_swipe">عند السحب على شاشة القُفْل</string>
+    <string name="skip_biometric_auth_confirmation_title">تخطي تأكيد يدويا</string>
     <!-- Pulse music visualizer -->
     <string name="pulse_help_policy_notice_title">حول النبض المرئي</string>
     <string name="pulse_help_policy_notice_summary">النبض المرئي هو معادل صوتي ممتاز عند تشغيل الموسيقى على الجهاز</string>
@@ -606,7 +607,7 @@
     <string name="hidden_apps_title">التطبيقات المخفية</string>
     <string name="hidden_apps_summary">التطبيقات التي يجب أن تكون مخفية عن المشغل. يتطلب إعادة تشغيل المشغل حتى تصبح التغييرات سارية المفعول</string>
     <!-- Columbus -->
-    <string name="columbus_title">\@ string / columbus_name</string>
+    <string name="columbus_title">Quick Tap</string>
     <string name="columbus_gesture_detected">تم اكتشاف نقرًا مزدوج!</string>
     <string name="columbus_gesture_enrollment_complete">تم</string>
     <string name="columbus_gesture_enrollment_do_it_later">ليس الآن</string>
@@ -681,6 +682,10 @@
     <!-- General -->
     <string name="copied_to_clipboard">نسخت إلى الحافظة</string>
     <string name="longpress_to_clipboard">اضغط مطولاً لنسخ</string>
+    <!-- Fingerprint wake-and-unlock -->
+    <string name="fingerprint_wake_unlock_title">المس البصمة لالغاء القفل</string>
+    <string name="fingerprint_wake_unlock_touch">استمع للاحداث فى حاله الشاسه المغلقه</string>
+    <string name="fingerprint_wake_unlock_press">استمع للحداث فى حاله الشاشه المضائه</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">اختر حجم النمط</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -712,4 +717,10 @@
     <string name="ambient_display_screen_off_udfps_title" product="device">اضغط مطولا على مستشعر البصمة لفتح الهاتف</string>
     <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
     <string name="ambient_display_screen_off_udfps_summary">اضغط مطولا على مستشعر البصمة لفتح الهاتف.</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_control_title">التحكم بالإضاءة</string>
+    <string name="status_bar_brightness_control_summary">التحكم بالإضاءة عن طريق التمرير على شريط الحاله</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">تجاهل الحمايه على الشاشة </string>
+    <string name="ignore_window_secure_summary">ازاله الحدود لاخذ لقطه او تسجيل للشاشه من كل التطبيقات غير مرشح وقد يؤدى لتسريبات الحماية.</string>
 </resources>
