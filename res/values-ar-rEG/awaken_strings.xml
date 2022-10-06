@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-2022 The AwakenOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">تصحيح بالروت</string>
+    <string name="adb_enable_summary_root">السماح بتشغيل مصحح أخطاء أندرويد بصلاحية رووت</string>
+    <!-- Backup Transport selection settings menu and activity title -->
+    <string name="backup_transport_setting_label">تغيير خدمة النسخ الاحتياطى</string>
+    <string name="backup_transport_title">اختر موزع خدمة النسخ الاحتياطى</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <plurals name="show_dev_countdown_awaken">
+        <item quantity="zero">أنت الآن على بُعد <xliff:g id="step_count">%1$d</xliff:g> خطوة من تمكين خيارات المطور.</item>
+        <item quantity="one">انت الان تبعد <xliff:g id="step_count">%1$d</xliff:g> خطوات عن تفعيل أعدادات المطور.</item>
+        <item quantity="two">أنت الآن على بُعد <xliff:g id="step_count">%1$d</xliff:g> خطوة من تمكين خيارات المطور.</item>
+        <item quantity="few">أنت الآن على بُعد <xliff:g id="step_count">%1$d</xliff:g> خطوة من تمكين خيارات المطور.</item>
+        <item quantity="many">أنت الآن على بُعد <xliff:g id="step_count">%1$d</xliff:g> خطوة من تمكين خيارات المطور.</item>
+        <item quantity="other">أنت الآن على بُعد <xliff:g id="step_count">%1$d</xliff:g> خطوة من تمكين خيارات المطور.</item>
+    </plurals>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_awaken">تم تفعيل خيارات المطور!</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_awaken">لا تحتاج لفعل هذا, لقد فعلت أعدادات المطور من قبل.</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">زيادة مستوى صوت الرنين</string>
+    <string name="increasing_ring_min_volume_title">بداية مستوى الصوت</string>
+    <string name="increasing_ring_ramp_up_time_title">زمن التدرج</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">ربط مستوى الرنين &amp; مع الاشعارات</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">تاريخ الإصدار</string>
+    <!-- Awaken version -->
+    <string name="awaken_version">إصدار Awaken</string>
+    <string name="awaken_version_default">غير معروف</string>
+    <!-- Awaken maintainer -->
+    <string name="maintainer">المشرف</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">‏حالة SELinux</string>
+    <string name="selinux_status_disabled">معطَّل</string>
+    <string name="selinux_status_permissive">الصلاحية</string>
+    <string name="selinux_status_enforcing">فرض</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">حزم الإيقونات</string>
+    <string name="icon_manager_summary">التحكم فى رؤية ايقونات شريط الحالة</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">توازن اللون</string>
+    <string name="color_mode_balance_red">شدة الاحمر</string>
+    <string name="color_mode_balance_green">شدة الأخضر</string>
+    <string name="color_mode_balance_blue">شدة الأزرق</string>
+    <string name="keywords_color_balance">اللون ، توازن اللون ، تصحيح اللون ، الأحمر ، الأخضر ، الأزرق ، الشاشة الحية</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">معلومات الراديو</string>
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">مرر لالتقاط صورة للشاشة</string>
+    <string name="swipe_to_screenshot_summary">السحب لأسفل بثلاث أصابع لأخذ لقطة شاشة</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">تفعيل اعادة التشغيل المتقدم</string>
+    <string name="global_actions_advanced_reboot_summary">إظهار خيار الريكفرى و البوت لودر في قائمة التشغيل</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">الاشعارات المزعجة</string>
+    <string name="notification_sound_vib_screen_on_summary">تشغيل الصوت والاهتزاز للإشعارات عند تشغيل الشاشة</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">خيارات الاهتزاز أثناء الإتصال</string>
+    <string name="incall_vibrate_connect_title">إهتزاز عند الإتصال</string>
+    <string name="incall_vibrate_call_wait_title">الاهتزاز أثناء انتظار المكالمة</string>
+    <string name="incall_vibrate_disconnect_title">الإهتزاز عند قطع الإتصال</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s </xliff:g></string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">صوت لقطة الشاشة</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">عكس ازرار شريط التنقل</string>
+    <string name="navbar_invert_info">بدل زر الرجوع للخلف مع زر التطبيقات الاخيرة فى شريط التنقل</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">الإضاءه السريعه</string>
+    <string name="power_button_torch_summary">عند إيقاف تشغيل الشاشة، الضغط المطول على ازرار الصوت سيفعل الفلاش</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">تحكمات أخرى</string>
+    <string name="fullscreen_gestures_title">إيماءات ملء الشاشة</string>
+    <string name="fullscreen_gestures_summary">إخفاء شريط التنقل والمساحة تحت لوحة المفاتيح</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">طول التعبئة</string>
+    <string name="short_label">قصير</string>
+    <string name="long_label">طويل</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">إيقاف</string>
+    <string name="greatest_tick_label">نصف شاشة</string>
+    <string name="gesture_back_deadzone_label">المنطقة الميتة</string>
+    <string name="back_sensitivity_dialog_message_cust">\nاستخدم شريط البحث الأول والثاني لتكوين حساسية السحب مرة أخرى، شريط البحث الأخير لتعيين منطقة ميتة على أعلى الشاشة حيث لا يمكن تشغيل السحب لتجنب التعارض مع الإيماءات داخل التطبيق.</string>
+    <!-- Haptic feedback -->
+    <string name="back_gesture_haptic_title">الإستجابة الإهتزازية</string>
+    <string name="back_gesture_haptic_summary">تفعيل الإهتزاز عند إيماء الرجوع</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">المبادلة بين الأوضاع</string>
+    <string name="prevent_ringing_option_cycle_summary">المبادلة بين الأوضاع مفعلة</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">أقل من دقيقة</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s اليوم</string>
+    <!-- Density category -->
+    <string name="density_category">خيارات الكثافة</string>
+    <!-- Customization category -->
+    <string name="customization_category_title">التخصيصات</string>
+    <string name="display_customization_title">تخصيصات العرض</string>
+    <string name="display_customization_summary">ضبط شريط الحالة والإعدادات السريعة</string>
+    <string name="lockscreen_tweaks_category_title">تخصيصات قفل الشاشة</string>
+    <string name="quicksettings_category_title">تخصيصات الإعدادات المحيطة</string>
+    <string name="statusbar_category_title">تخصيص شريط الحالة</string>
+    <!-- Double Tap to Sleep Lockscreen -->
+    <string name="double_tap_sleep_lockscreen_title">ضغطتين لقفل الجهاز</string>
+    <string name="double_tap_sleep_lockscreen_summary">ظغطتين في أي مكان على شاشة القفل للإطفاء</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">النقر للإطفاء</string>
+    <string name="double_tap_sleep_gesture_summary">الضغط مرتين على شريط الحالة لقفل الجهاز</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">نقر مزدوج</string>
+    <string name="doze_double_tap_title">النقر مرّتين للاطّلاع على الهاتف</string>
+    <string name="doze_double_tap_summary">التنبيهات النبضية بنقرة مزدوجة</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">أيقونة 4G</string>
+    <string name="show_fourg_icon_summary">عرض أيقونة 4G على أيقونة الإشارة بدلاً من LTE</string>
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">ايقونة نو الهاتف الصغير</string>
+    <string name="use_old_mobiletype_summary">إظهار رمز نوع الهاتف المحمول أعلى مؤشر الإشارة</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">مؤشر التجوال</string>
+    <string name="roaming_indicator_icon_summary">عرض مؤشر التجوال في رمز الإشارة عندما يكون في وضع التجوال</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">لم يتم تحديد شهادة. لن يكون اتصالك مشفر.</string>
+    <!-- Brightness slider -->
+    <string name="qs_show_brightness_title">شريط السطوع</string>
+    <string name="qs_show_brightness_summary">رؤية شريط السطوع والإعدادات</string>
+    <string name="qs_brightness_position_bottom_title">شريط السطوع السفلي</string>
+    <string name="qs_brightness_position_bottom_summary">إظهار شريط السطوع في الجزء السفلي من لوحة الإعدادات السريعة</string>
+    <string name="qs_show_auto_brightness_title">أيقونة السطوع التلقائي</string>
+    <string name="qs_show_auto_brightness_summary">إظهار تبديل السطوع التلقائي بالقرب من شريط تمرير</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">السطوع التلقائي لقطة واحدة</string>
+    <string name="auto_brightness_one_shot_summary">سيتم تعديل السطوع فقط في اللحظة التي يتم فيها تشغيل الشاشة</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">منع الاستيقاظ بالخطأ</string>
+    <string name="proximity_wake_summary">التحقق من مستشعر القرب قبل إيقاظ الشاشة</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">انقر لعرض المعلومات</string>
+    <!-- Lockscreen media art -->
+    <string name="lockscreen_media_art_category_title">لون الوسائط</string>
+    <string name="keygaurd_media_art_title">إظهار صورة الوسائط</string>
+    <string name="keygaurd_media_art_summary">إظهار غلاف الالبوم للوسائط الحالية في شاشة القفل</string>
+    <string name="lockscreen_media_blur_title">مستوى ضبابية الصور الفنية للوسائط</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">السماح للمتصلين باستخدام VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">السماح للمتصلين بنقطة الاتصال النقالة باستخدام اتصالات VPN لجهاز\u2019 من أجل الإرسال</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">ترتيب عشوائي</string>
+    <string name="unlock_scramble_pin_layout_summary">ترتيب أزرار الأرقام لرمز PIN بصورة عشوائية عند فك قفل الجهاز</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">الحد الأدنى من الوقت بين أصوات الإشعارات</string>
+    <string name="app_notification_sound_timeout_summary_template">السماح بالصوت أو الاهتزاز ليس لأكثر من مرة واحدة كل <xliff:g id="duration">%1$s </xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">لا توجد قيود</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 ثوانٍ</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 ثانية</string>
+    <string name="app_notification_sound_timeout_value_1_minute">دقيقة واحدة</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 دقائق</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 دقائق</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 دقيقة</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">تطبيقات الشاشة الكاملة</string>
+    <string name="display_cutout_force_fullscreen_summary">إجبار التطبيقات على تجاهل مساحة مكان قطع الشاشة</string>
+    <string name="search">البحث</string>
+    <string name="search_apps">البحث عن التطبيقات</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">حدد موقع مستشعر البصمة في مقدمة جهازك اللوحي.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">حدد موقع مستشعر بصمة الإصبع في واجهة جهازك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">حدد موقع حساس البصمة في مقدمة هاتفك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">حدد موقع مستشعر بصمة الإصبع على ظهر جهازك اللوحي.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">حدد موقع مستشعر بصمة الإصبع على الجزء الخلفي من جهازك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">حدد موقع مستشعر بصمة الإصبع على ظهر هاتفك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">حدد موقع مستشعر بصمة الإصبع على جانب جهازك اللوحي.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">حدد موقع مستشعر بصمة الإصبع على جانب جهازك.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">حدد موقع مستشعر بصمة الإصبع على جانب هاتفك.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">المس مستشعر البصمة في الجزء الأمامي من الجهاز اللوحي.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">المس مستشعر بصمة الإصبع في الجزء الأمامي من جهازك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">المس مستشعر بصمة الإصبع في الجزء الأمامي من هاتفك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">المس مستشعر البصمة في الجزء الخلفي من الجهاز اللوحي.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">المس مستشعر البصمة في الجزء الخلفي من جهازك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">المس مستشعر البصمة على الجزء الخلفي من هاتفك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">المس مستشعر البصمة في الجزء الجانبي من الجهاز اللوحي.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">المس مستشعر البصمة في الجزء الجانبي من جهازك.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">المس مستشعر البصمة على الجزء الجانبي من هاتفك.</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">الحد لمعدل تحديث الشاشة</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">معدل تحديث الشاشة الأدنى</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">اضغط مطولا على مستشعر البصمة لفتح الهاتف</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">اضغط مطولا على مستشعر البصمة لفتح الجهاز اللوحى</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">اضغط مطولا على مستشعر البصمة لفتح الهاتف</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">اضغط مطولا على مستشعر البصمة لفتح الهاتف.</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">اسود غامق</string>
+    <string name="berry_black_theme_summary">نظام التشغيل الغامق يمتلك خلفية سوداء</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">تخصيص مؤشر البطارية فى شريط الحالة</string>
+    <string name="battery_percent_summary">تخصيص ايقونه وشكل مؤشر البطارية فى شريط الحالة</string>
+    <string name="status_bar_battery_style_title">شكل حالة البطارية</string>
+    <string name="status_bar_battery_style_icon_portrait">أيقونة رأسية (إفتراضي)</string>
+    <string name="status_bar_battery_style_circle">دائرة</string>
+    <string name="status_bar_battery_style_dotted_circle">دائرة منقطة</string>
+    <string name="status_bar_battery_style_filled_circle">دائرة ممتلئة</string>
+    <string name="status_bar_battery_style_text">النص</string>
+    <string name="status_bar_battery_style_hidden">مخفي</string>
+    <string name="status_bar_battery_percentage_title">النسبة المئوية للبطارية</string>
+    <string name="status_bar_battery_percentage_default">مخفي</string>
+    <string name="status_bar_battery_percentage_text_inside">داخل الأيقونة</string>
+    <string name="status_bar_battery_percentage_text_next">بجانب الأيقونة</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">ضوء شحن البطارية</string>
+    <string name="battery_light_summary">اضائة البطارية المنخفضة أثناء وضع عدم الإزعاج،البطارية منخفضة</string>
+    <string name="battery_light_enable">تفعيل ضوء البطارية</string>
+    <string name="battery_full_light_enabled">ضوء البطارية عند الشحن الكامل</string>
+    <string name="battery_light_allow_on_dnd_title">ضوء البطارية أثناء وضع عدم الإزعاج</string>
+    <string name="battery_light_low_blinking_title">وميض الضوء عند إنخفاض البطارية</string>
+    <!-- Battery Temperature -->
+    <string name="battery_temp">درجة حرارة البطارية</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">سلامة البطارية</string>
+    <!-- Brightness control -->
+    <string name="status_bar_brightness_control_title">التحكم بالإضاءة</string>
+    <string name="status_bar_brightness_control_summary">التحكم بالإضاءة عن طريق التمرير على شريط الحاله</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">تحذير: هذا الاختيار قد لايعمل جيدا او قد يؤدى لفقدان البيانات ولذلك غير مرشح!</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">التحكم في الموسيقى</string>
+    <string name="volume_button_music_control_summary">عند إيقاف تشغيل الشاشة، الضغط المطول على ازرار الصوت سيغير مسار الموسيقى</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">تجاهل الحمايه على لقطة الشاشة</string>
+    <string name="ignore_window_secure_summary">ازاله الحدود لاخذ لقطه او تسجيل للشاشه من كل التطبيقات غير مرشح وقد يؤدى لتسريبات الحماية.</string>
+</resources>
