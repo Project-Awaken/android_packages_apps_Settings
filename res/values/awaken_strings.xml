@@ -215,6 +215,10 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- Separate signal icons -->
+    <string name="separate_signal_icons_title">Separate signal icons</string>
+    <string name="separate_signal_icons_summary">Show signal and WiFi separately\nRequires a SystemUI restart</string>
+
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Icon manager</string>
     <string name="icon_manager_summary">Control visibility of status bar icons</string>
