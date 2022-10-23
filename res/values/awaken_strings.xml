@@ -184,6 +184,10 @@
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Less than 1 minute</string>
 
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
 
