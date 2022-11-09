@@ -118,6 +118,7 @@
 
     <!-- Customization category -->
     <string name="customization_category_title">Customization</string>
+    <string name="clocksettings_category_title">Clock Customizations</string>
     <string name="display_customization_title">Display Customizations</string>
     <string name="display_customization_summary">Adjust statusbar and quick settings</string>
     <string name="lockscreen_tweaks_category_title">Lockscreen Customizations</string>
@@ -343,6 +344,17 @@
 
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
+
+    <!-- Statusbar clock -->
+    <string name="status_bar_clock_position_title">Clock position</string>
+    <string name="status_bar_clock_position_left">Left</string>
+    <string name="status_bar_clock_position_right">Right</string>
+    <string name="status_bar_clock_position_center">Center</string>
+    <string name="status_bar_am_pm_title">Clock AM/PM style</string>
+    <string name="status_bar_am_pm_disabled">24-hour clock is enabled</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Small</string>
+    <string name="status_bar_am_pm_hidden">Hidden</string>
 
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>

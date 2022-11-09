@@ -19,8 +19,15 @@ package com.android.settings.awaken.fragments;
 import android.app.Activity;
 import android.content.Context;
 import android.content.ContentResolver;
+import android.graphics.Point;
+import android.graphics.Rect;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.text.format.DateFormat;
+import android.view.Display;
+import android.view.DisplayCutout;
+import android.view.Surface;
+import android.view.View;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
@@ -33,6 +40,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.awaken.support.preferences.SecureSettingMasterSwitchPreference;
+import com.awaken.support.preferences.SecureSettingListPreference;
 
 public class DisplayCustomizations extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -40,8 +48,12 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     private static final String TAG = "Display Customizations";
     private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
     private static final String KEY_BATTERY_CHARGING_LIGHT = "battery_charging_light";
+    private static final String KEY_CLOCK_POSITION = "status_bar_clock_position";
+    private static final String KEY_CLOCK_AM_PM = "status_bar_am_pm";
 
     private SecureSettingMasterSwitchPreference mBrightnessSlider;
+    private SecureSettingListPreference mClockPositionPref;
+    private SecureSettingListPreference mAmPmPref;
     Preference mBatteryLightPref;
 
     @Override
@@ -66,6 +78,29 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
 				prefSet.removePreference(mBatteryLightPref);
 			}
         }
+
+        mClockPositionPref = (SecureSettingListPreference) findPreference(KEY_CLOCK_POSITION);
+        mAmPmPref = (SecureSettingListPreference) findPreference(KEY_CLOCK_AM_PM);
+
+        boolean hasNotch = hasCenteredCutout(getActivity());
+        boolean isRtl = getResources().getConfiguration().getLayoutDirection()
+                == View.LAYOUT_DIRECTION_RTL;
+
+        // Adjust clock position pref for RTL and center notch
+        int entries = hasNotch ? R.array.status_bar_clock_position_entries_notch
+                : R.array.status_bar_clock_position_entries;
+        int values = hasNotch ? (isRtl ? R.array.status_bar_clock_position_values_notch_rtl
+                : R.array.status_bar_clock_position_values_notch)
+                : (isRtl ? R.array.status_bar_clock_position_values_rtl
+                : R.array.status_bar_clock_position_values);
+        mClockPositionPref.setEntries(entries);
+        mClockPositionPref.setEntryValues(values);
+
+        // Disable AM/PM for 24-hour format
+        if (DateFormat.is24HourFormat(getActivity())) {
+            mAmPmPref.setEnabled(false);
+            mAmPmPref.setSummary(R.string.status_bar_am_pm_disabled);
+        }
     }
 
     @Override
@@ -83,5 +118,35 @@ public class DisplayCustomizations extends SettingsPreferenceFragment
     @Override
     public int getMetricsCategory() {
        return MetricsProto.MetricsEvent.AWAKEN;
+    }
+
+    /* returns whether the device has a centered display cutout or not. */
+    private static boolean hasCenteredCutout(Context context) {
+        Display display = context.getDisplay();
+        DisplayCutout cutout = display.getCutout();
+        if (cutout != null) {
+            Point realSize = new Point();
+            display.getRealSize(realSize);
+
+            switch (display.getRotation()) {
+                case Surface.ROTATION_0: {
+                    Rect rect = cutout.getBoundingRectTop();
+                    return !(rect.left <= 0 || rect.right >= realSize.x);
+                }
+                case Surface.ROTATION_90: {
+                    Rect rect = cutout.getBoundingRectLeft();
+                    return !(rect.top <= 0 || rect.bottom >= realSize.y);
+                }
+                case Surface.ROTATION_180: {
+                    Rect rect = cutout.getBoundingRectBottom();
+                    return !(rect.left <= 0 || rect.right >= realSize.x);
+                }
+                case Surface.ROTATION_270: {
+                    Rect rect = cutout.getBoundingRectRight();
+                    return !(rect.top <= 0 || rect.bottom >= realSize.y);
+                }
+            }
+        }
+        return false;
     }
 }
