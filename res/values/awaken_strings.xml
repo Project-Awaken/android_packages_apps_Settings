@@ -304,6 +304,9 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total available RAM</string>
 
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">In-call notifications</string>
+
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration</string>
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
