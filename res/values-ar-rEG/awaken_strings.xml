@@ -124,25 +124,25 @@
     <string name="qs_show_auto_brightness_title">أيقونة السطوع التلقائي</string>
     <string name="qs_show_auto_brightness_summary">إظهار تبديل السطوع التلقائي بالقرب من شريط تمرير</string>
     <!-- Charging vibration -->
-    <string name="charging_sounds_nos_title">Charging sound</string>
-    <string name="charging_vibro_title">Charging vibration</string>
+    <string name="charging_sounds_nos_title">صوت الشحن</string>
+    <string name="charging_vibro_title">إهتزاز عند الشحن</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">مهلة البلوتوث</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_never">Never</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
+    <string name="bluetooth_timeout_summary">سيتم إيقاف تشغيل البلوتوث بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يكن هناك جهاز متصل</string>
+    <string name="bluetooth_timeout_summary2">عدم إطفاء البلوتوث تلقائياً</string>
+    <string name="bluetooth_timeout_summary_never">أبداً</string>
+    <string name="bluetooth_timeout_summary_15secs">15 ثانية</string>
     <string name="bluetooth_timeout_summary_30secs">30 ثانية</string>
     <string name="bluetooth_timeout_summary_1min">دقيقة واحدة</string>
     <string name="bluetooth_timeout_summary_2mins">دقيقتان</string>
     <string name="bluetooth_timeout_summary_5mins">5 دقائق</string>
     <string name="bluetooth_timeout_summary_10mins">10 دقائق</string>
     <string name="bluetooth_timeout_summary_30mins">30 دقيقة</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary_1hour">ساعة واحدة</string>
+    <string name="bluetooth_timeout_summary_2hours">2 ساعة</string>
+    <string name="bluetooth_timeout_summary_4hours">٤ ساعات</string>
+    <string name="bluetooth_timeout_summary_8hours">٨ ساعات</string>
     <!-- Customization category -->
     <string name="customization_category_title">التخصيصات</string>
     <string name="clocksettings_category_title">تخصيصات الساعة</string>
@@ -202,24 +202,23 @@
     <string name="data_disabled_icon_summary">عرض إشارة ضرب بجانب أيقونة الإشارة عندما تكون البيانات معطلة</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">أقل من دقيقة</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">اظهار نظام النسخ</string>
+    <string name="show_clipboard_overlay_summary">اظهار نافذة فى اسفل يسار الشاشه فى حاله نسخ اى شيء للحافظة</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s اليوم</string>
     <!-- Density category -->
     <string name="density_category">خيارات الكثافة</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Rotation settings</string>
-    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
-    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
-    <string name="display_rotation_unit">degrees</string>
-    <string name="display_rotation_category_title">Rotation modes</string>
-    <string name="display_rotation_0_title">0 degrees</string>
-    <string name="display_rotation_90_title">90 degrees</string>
-    <string name="display_rotation_180_title">180 degrees</string>
-    <string name="display_rotation_270_title">270 degrees</string>
-    <!-- Display settings screen, increased touch sensitivity settings title [CHAR LIMIT=30] -->
-    <string name="touch_sensitivity_title">Increase touch sensitivity</string>
-    <!-- Display settings screen, increased touch sensitivity settings summary [CHAR LIMIT=NONE] -->
-    <string name="touch_sensitivity_summary">Improves touch when using screen protectors</string>
+    <string name="display_rotation_title">إعدادات التدوير</string>
+    <string name="display_rotation_enabled">التدوير التلقائي مُفعل</string>
+    <string name="display_rotation_disabled">التدوير التلقائي مُعطل</string>
+    <string name="display_rotation_unit">درجات</string>
+    <string name="display_rotation_category_title">أوضاع تدوير الشاشة</string>
+    <string name="display_rotation_0_title">0 درجة</string>
+    <string name="display_rotation_90_title">٩٠ درجة</string>
+    <string name="display_rotation_180_title">١٨٠ درجة</string>
+    <string name="display_rotation_270_title">٢٧٠ درجة</string>
     <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
     <string name="peak_refresh_rate_summary_custom">ارفع معدل تحديث الشاشة من ٦٠ الى %1$d هرتز لبعض المحتوى. يزيد استهلاك البطارية.</string>
     <!-- Double Tap to Sleep Lockscreen -->
@@ -302,8 +301,8 @@
     <string name="fullscreen_gestures_title">إيماءات ملء الشاشة</string>
     <string name="fullscreen_gestures_summary">إخفاء شريط التنقل والمساحة تحت لوحة المفاتيح</string>
     <!-- General -->
-    <string name="copied_to_clipboard">Copied to clipboard</string>
-    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <string name="copied_to_clipboard">نسخت إلى الحافظة</string>
+    <string name="longpress_to_clipboard">اضغط مطولاً لنسخ</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">طول التعبئة</string>
     <string name="short_label">قصير</string>
@@ -318,32 +317,46 @@
     <string name="hidden_apps_title">التطبيقات المخفية</string>
     <string name="hidden_apps_summary">التطبيقات التي يجب أن تكون مخفية عن المشغل. يتطلب إعادة تشغيل المشغل حتى تصبح التغييرات سارية المفعول</string>
     <!-- High touch polling rate -->
-    <string name="high_touch_polling_rate_title">High touch polling rate</string>
-    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <string name="high_touch_polling_rate_title">حساسية اللمس العالية</string>
+    <string name="high_touch_polling_rate_summary">زيادة حساسية لمس الشاشة</string>
     <!-- High touch sensitivity -->
-    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
-    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+    <string name="high_touch_sensitivity_title">حساسية اللمس العالية</string>
+    <string name="high_touch_sensitivity_summary">زيادة حساسيه اللمس فى حاله الاستخدام مرتديا واقى اليد</string>
     <!-- Horizon Light -->
-    <string name="keywords_pulse_ambient_light_display">notification, notifications, edge, light, colour, color</string>
-    <string name="pulse_ambient_light_text">Edge lighting makes your screen glow when you receive a notification. This makes it easier to figure when you get a pulse while the phone is doze mode.</string>
-    <string name="pulse_ambient_light_title">Edge lighting</string>
-    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
-    <string name="ambient_notification_light_accent_title">System accent color</string>
-    <string name="ambient_notification_light_color_automatic_title">Notification color</string>
-    <string name="pulse_ambient_light_color">When pulsing, use</string>
+    <string name="keywords_pulse_ambient_light_display">الاشعارات, الاشعارات, الحافة, الاضائة, اللون, اللون</string>
+    <string name="pulse_ambient_light_text">اضائة الحافة تجعل الشاشة تضيء عند استلام الاشعارات هذا يجعل من السهل معرفة عندما تحصل على اشعار نبض عندما يكون الهاتف في وضع الغفوة.</string>
+    <string name="pulse_ambient_light_title">إضاءة حافة الشاشة</string>
+    <string name="pulse_ambient_light_summary">حواف محيطة مضيئة للإشعارات النابضة</string>
+    <string name="ambient_notification_light_accent_title">لون المظهر</string>
+    <string name="ambient_notification_light_color_automatic_title">لون ايقونة الاشعار</string>
+    <string name="pulse_ambient_light_color">استخدم عند النبض</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">السماح للمتصلين باستخدام VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">السماح للمتصلين بنقطة الاتصال النقالة باستخدام اتصالات VPN لجهاز\u2019 من أجل الإرسال</string>
+    <string name="wifi_hotspot_hidden_ssid_title">شبكة مخفية</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">لن يظهر اسم نقطة اتصال هاتفك المحمول في قائمة شبكات WLAN المتاحة.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">لا تقم أبدًا بإيقاف تشغيل نقطة الاتصال</string>
+    <string name="wifi_hotspot_client_manager_title">الأجهزة المتصلة</string>
+    <string name="wifi_hotspot_client_manager_summary">قائمة بالأجهزة المتصلة بنقطة الاتصال وإدارتها</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">قائمة بالأجهزة المتصلة بنقطة الاتصال</string>
+    <string name="wifi_hotspot_client_limit_title">حد الأجهزة المتصلة</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">الاجهزة المحظورة</string>
+    <string name="wifi_hotspot_connected_clients_list_title">الأجهزة المتّصلة</string>
+    <string name="wifi_hotspot_block_client_dialog_title">حظر الجهاز</string>
+    <string name="wifi_hotspot_block_client_dialog_text">سيؤدي هذا الإجراء إلى قطع اتصال \"<xliff:g id="device_name">%1$s</xliff:g>\"من هذا الجهاز وإضافته إلى قائمة الحظر</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">إلغاء حظر الجهاز</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">هذا الجهاز\"<xliff:g id="device_name">%1$s</xliff:g>\" سيكون قادرا على الاتصال بنقطة الاتصال هذه</string>
+    <string name="wifi_hotspot_client_manager_footer_text">لا يوجد عملاء متوفرين حاليا. سيتم إدراج الأجهزة الموصولة والمحظورة هنا عندما تكون متاحة.</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">المنصة</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">الإجمالي المتاح من الذاكرة المؤقتة</string>
     <!-- IME button space -->
-    <string name="navigation_bar_ime_space_title">Hide IME button space</string>
-    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
+    <string name="navigation_bar_ime_space_title">اخفاء الحافه السفلية من لوحة المفاتيح</string>
+    <string name="navigation_bar_ime_space_summary">اخفاء الحافه السفلية اسفل لوحة المفاتيح</string>
     <!-- In-call notifications -->
-    <string name="in_call_notifications_title">In-call notifications</string>
+    <string name="in_call_notifications_title">الاشعارات بداخل المكالمات</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">خيارات الاهتزاز أثناء الإتصال</string>
     <string name="incall_vibrate_connect_title">إهتزاز عند الإتصال</string>
@@ -422,22 +435,22 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">المس مستشعر البصمة في الجزء الجانبي من جهازك.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">المس مستشعر البصمة على الجزء الجانبي من هاتفك.</string>
     <!-- Network preferences screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">‏تفعيل اتّصال Wi‑Fi تلقائيًا</string>
     <!-- Network preferences screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary">سيتم إيقاف تشغيل WiFi بعد <xliff:g id="timeout_description">%1$s</xliff:g> إذا لم يتم توصيل أي شبكة</string>
     <string name="wifi_timeout_summary2">معطَّل</string>
-    <string name="wifi_timeout_summary_never">Never</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
+    <string name="wifi_timeout_summary_never">أبداً</string>
+    <string name="wifi_timeout_summary_15secs">15 ثانية</string>
     <string name="wifi_timeout_summary_30secs">30 ثانية</string>
     <string name="wifi_timeout_summary_1min">دقيقة واحدة</string>
     <string name="wifi_timeout_summary_2mins">دقيقتان</string>
     <string name="wifi_timeout_summary_5mins">5 دقائق</string>
     <string name="wifi_timeout_summary_10mins">10 دقائق</string>
     <string name="wifi_timeout_summary_30mins">30 دقيقة</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary_1hour">ساعة واحدة</string>
+    <string name="wifi_timeout_summary_2hours">2 ساعة</string>
+    <string name="wifi_timeout_summary_4hours">٤ ساعات</string>
+    <string name="wifi_timeout_summary_8hours">٨ ساعات</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">تطبيقات الشاشة الكاملة</string>
     <string name="display_cutout_force_fullscreen_summary">إجبار التطبيقات على تجاهل مساحة مكان قطع الشاشة</string>
@@ -475,14 +488,17 @@
     <string name="proximity_wake_title">منع الاستيقاظ بالخطأ</string>
     <string name="proximity_wake_summary">التحقق من مستشعر القرب قبل إيقاظ الشاشة</string>
     <!-- QS footer data usage -->
-    <string name="qs_show_data_usage_title">Show data usage</string>
-    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+    <string name="qs_show_data_usage_title">اظهار البيانات المستخدمة</string>
+    <string name="qs_show_data_usage_summary">اظهار البيانات المستخدمة اليومية اسفل قائمة الاعدادات السريعة</string>
     <!-- QS Tile requires unlocking before being accessible -->
     <string name="qstile_requires_unlocking_title">تأمين شاشة الإعدادات السريعة، تتطلب فتح القُفْل</string>
     <string name="qstile_requires_unlocking_summary">تتطلب شاشة الإعدادات السريعة التالية إلغاء القُفْل قبل أن تتمكن من الوصول إليها من شاشة القُفْل:\n Airplane و Cellular و NFC و Hotspot و USB Tethering والموقع</string>
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_title">الاهتزاز عند اللمس</string>
+    <string name="quick_settings_vibrate_summary">الإهتزاز عند لمس مربعات الإعدادات السريعة</string>
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">السحب السريع لأسفل</string>
+    <string name="quick_settings_quick_pull_down_summary">اسحب شريط الحالة لأسفل من الجانب الأيمن لتوسيع الإعدادات السريعة</string>
     <!-- Disable QS -->
     <string name="disable_qs_title">إخفاء الإعدادات السريعة على شاشة القُفْل</string>
     <string name="disable_qs_summary">إخفاء قائمه الإعدادات السريعة إذا كان الجاز مغلق. لا تعطل الإشعارات</string>
@@ -498,11 +514,11 @@
     <string name="power_button_torch_title">الإضاءه السريعه</string>
     <string name="power_button_torch_summary">عند إيقاف تشغيل الشاشة، الضغط المطول على ازرار الصوت سيفعل الفلاش</string>
     <!-- Touchscreen hovering -->
-    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
-    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
+    <string name="touchscreen_hovering_title">زيادة حساسية لمس الشاشة</string>
+    <string name="touchscreen_hovering_summary">يسمح لك بالمرور على الشاشة مثل الماوس في متصفحات الويب ، وأسطح المكتب البعيدة ، وما إلى ذلك</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">نمط اهتزاز نغمة الرنين</string>
-    <string name="notification_vibration_pattern_title">Notification vibration pattern</string>
+    <string name="notification_vibration_pattern_title">نمط اهتزاز نغمة الاشعارات</string>
     <string name="pattern_dzzz_dzzz">دززز-دززز</string>
     <string name="pattern_dzzz_da">دززز-دا</string>
     <string name="pattern_mm_mm_mm">مم-مم-مم</string>
