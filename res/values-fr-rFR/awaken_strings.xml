@@ -356,7 +356,7 @@
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">In-call notifications</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Options de vibration pendant l\'appel</string>
+    <string name="incall_vibration_category">In-call vibrations</string>
     <string name="incall_vibrate_connect_title">Vibrer lors de la connexion</string>
     <string name="incall_vibrate_call_wait_title">Vibrer sur un appel en attente</string>
     <string name="incall_vibrate_disconnect_title">Vibrer lors de la déconnexion</string>

@@ -355,7 +355,7 @@
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">In-call notifications</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">来电振动</string>
+    <string name="incall_vibration_category">In-call vibrations</string>
     <string name="incall_vibrate_connect_title">接通时振动</string>
     <string name="incall_vibrate_call_wait_title">呼叫保持时振动</string>
     <string name="incall_vibrate_disconnect_title">挂断时振动</string>

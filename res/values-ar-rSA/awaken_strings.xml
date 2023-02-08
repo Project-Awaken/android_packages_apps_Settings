@@ -360,7 +360,7 @@
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">In-call notifications</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">خيارات الاهتزاز أثناء الإتصال</string>
+    <string name="incall_vibration_category">In-call vibrations</string>
     <string name="incall_vibrate_connect_title">إهتزاز عند الإتصال</string>
     <string name="incall_vibrate_call_wait_title">الاهتزاز أثناء انتظار المكالمة</string>
     <string name="incall_vibrate_disconnect_title">الإهتزاز عند قطع الإتصال</string>

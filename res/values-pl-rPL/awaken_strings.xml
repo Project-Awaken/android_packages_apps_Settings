@@ -203,8 +203,8 @@
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Poniżej 1 minuty</string>
     <!-- Show clipboard overlay -->
-    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
-    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <string name="show_clipboard_overlay_title">Pokaż nakładkę schowka</string>
+    <string name="show_clipboard_overlay_summary">Pokaż nakładkę w lewym dolnym rogu ekranu, kiedy zawartość zostanie skopiowana do schowka</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s dzisiaj</string>
     <!-- Density category -->
@@ -331,20 +331,20 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Zezwól połączonym urządzeniom na korzystanie z VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Zezwól urządzeniom, połączonym do udostępnionej sieci, na wysyłanie pakietów, poprzez VPN tego urządzenia</string>
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
-    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Ukryta sieć</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Nazwa Twojego mobilnego punktu dostępu nie pojawi się na liście dostępnych sieci WLAN.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nigdy nie wyłączaj hotspotu</string>
+    <string name="wifi_hotspot_client_manager_title">Połączone urządzenia</string>
+    <string name="wifi_hotspot_client_manager_summary">Pokaż i zarządzaj urządzeniami połączonymi z punktem dostępu</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Pokaż i zarządzaj urządzeniami połączonymi z punktem dostępu</string>
+    <string name="wifi_hotspot_client_limit_title">Maksymalna liczba połączonych urządzeń</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Zablokowane urządzenia</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Połączone urządzenia</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Zablokuj urządzenie</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Ta czynność rozłączy \"<xliff:g id="device_name">%1$s</xliff:g>\" z tego urządzenia i doda go do listy zablokowanych</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Odblokuj urządzenie</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Urządzenie \"<xliff:g id="device_name">%1$s</xliff:g>\" będzie mogło się połączyć do tego punktu dostępu</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Aktualnie brak dostępnych urządzeń. Połączone i zablokowane urządzenia zostaną wyświetlone tutaj, jeśli będą dostępne.</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Platforma</string>
@@ -356,7 +356,7 @@
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Powiadomienie o połączeniach</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Opcje wibracji podczas połączenia</string>
+    <string name="incall_vibration_category">In-call vibrations</string>
     <string name="incall_vibrate_connect_title">Wibracje przy połączeniu</string>
     <string name="incall_vibrate_call_wait_title">Wibracje podczas oczekiwania na połączenie</string>
     <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
@@ -495,8 +495,8 @@
     <string name="quick_settings_vibrate_title">Wibracja przy dotknięciu</string>
     <string name="quick_settings_vibrate_summary">Wibracje przy dotknięciu kafelków szybkich ustawień</string>
     <!-- Quick Settings quick pulldown -->
-    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
-    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <string name="quick_settings_quick_pull_down_title">Szybkie rozwijanie Szybkich ustawień</string>
+    <string name="quick_settings_quick_pull_down_summary">Przeciągnij pasek stanu w dół z prawej strony ekranu, aby rozwinąć szybkie ustawienia</string>
     <!-- Disable QS -->
     <string name="disable_qs_title">Ukryj szybkie ustawienia z poziomu blokady ekranu</string>
     <string name="disable_qs_summary">Ukrywa szybkie ustawiania, gdy urządzenie zablokowane. Nie ukrywa panelu powiadomień</string>

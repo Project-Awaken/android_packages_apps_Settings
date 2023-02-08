@@ -355,7 +355,7 @@
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">In-call notifications</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">ตัวเลือกการสั่นเมื่อมีการโทรเข้า</string>
+    <string name="incall_vibration_category">In-call vibrations</string>
     <string name="incall_vibrate_connect_title">สั่นเมื่อเชื่อมต่อ</string>
     <string name="incall_vibrate_call_wait_title">สั่นเมื่อรอสาย</string>
     <string name="incall_vibrate_disconnect_title">สั่นเมื่อวางสาย</string>

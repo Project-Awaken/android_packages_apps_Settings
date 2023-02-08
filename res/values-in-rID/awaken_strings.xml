@@ -355,7 +355,7 @@
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Notifikasi dalam panggilan</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Opsi getar dalam panggilan</string>
+    <string name="incall_vibration_category">In-call vibrations</string>
     <string name="incall_vibrate_connect_title">Getar saat terhubung</string>
     <string name="incall_vibrate_call_wait_title">Getar saat menunggu panggilan</string>
     <string name="incall_vibrate_disconnect_title">Getar saat terputus</string>

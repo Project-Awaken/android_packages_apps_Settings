@@ -355,7 +355,7 @@
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">Arama içi bildirimleri</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Arama titreşimi seçenekleri</string>
+    <string name="incall_vibration_category">In-call vibrations</string>
     <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
     <string name="incall_vibrate_call_wait_title">Arama bekletildiğinde titret</string>
     <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
