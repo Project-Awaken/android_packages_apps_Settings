@@ -18,6 +18,7 @@ package com.android.settings.bluetooth;
 
 import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
+import android.os.UserManager;
 import android.provider.Settings;
 import android.util.Log;
 
@@ -51,7 +52,10 @@ public class BluetoothTimeoutPreferenceController extends BasePreferenceControll
 
     @Override
     public int getAvailabilityStatus() {
-        return mBluetoothAdapter != null ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+        if (mBluetoothAdapter != null) {
+            return UserManager.get(mContext).isAdminUser() ? AVAILABLE : DISABLED_FOR_USER;
+        }
+        return UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
