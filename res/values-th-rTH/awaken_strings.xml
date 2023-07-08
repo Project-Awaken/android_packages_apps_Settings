@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-2023 The AwakenOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">วันที่สร้าง</string>
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Smart Pause</string>
+    <string name="adaptive_playback_enabled">Use smart pause</string>
+    <string name="adaptive_playback_disabled_summary">ปิด</string>
+    <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
+    <string name="adaptive_playback_timeout_title">Use a timeout of</string>
+    <string name="adaptive_playback_timeout_none">No timeout</string>
+    <string name="adaptive_playback_timeout_none_summary">On (no timeout)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">On (30 seconds)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minute</string>
+    <string name="adaptive_playback_timeout_1_min_summary">On (1 minute)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min_summary">On (2 minutes)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
+    <!-- Annoying Notifications -->
+    <string name="notification_sound_vib_screen_on_title">การแจ้งเตือนที่รบกวน</string>
+    <string name="notification_sound_vib_screen_on_summary">เล่นเสียงและการสั่นเพื่อแจ้งเตือนเมื่อเปิดหน้าจอ</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- App lock -->
+    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_authentication_dialog_title">Unlock</string>
+    <string name="enable_debugging">Enable debugging</string>
+    <string name="disable_debugging">Disable debugging</string>
+    <string name="app_lock_packages_title">Protected apps</string>
+    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
+    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
+    <string name="app_lock_timeout_5secs">5 seconds</string>
+    <string name="app_lock_timeout_10secs">10 seconds</string>
+    <string name="app_lock_timeout_30secs">30 seconds</string>
+    <string name="app_lock_timeout_1min">1 minute</string>
+    <string name="app_lock_timeout_5mins">5 minutes</string>
+    <string name="app_lock_timeout_10mins">10 minutes</string>
+    <string name="app_lock_timeout_30mins">30 minutes</string>
+    <string name="app_lock_notifications_title">Redact notifications</string>
+    <string name="app_lock_notifications_summary">          Notification content will be hidden and collapsed when app is locked out.
+          Existing notifications as well as new notifications will be redacted.
+          Heads up notifications will be automatically disabled.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
+    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="enable_protection">Enable protection</string>
+    <string name="hide_from_launcher_title">Hide from launcher</string>
+    <string name="hide_from_launcher_summary">        Prevent this application from showing up in launcher. Requires a launcher restart for changes to take effect.
+    </string>
+    <!-- Awaken version -->
+    <string name="awaken_version">เวอร์ชันของ Awaken</string>
+    <string name="awaken_version_default">ไม่ทราบ</string>
+    <!-- Awaken maintainer -->
+    <string name="maintainer">ผู้ดูแล</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">การดีบักแบบรูท</string>
+    <string name="adb_enable_summary_root">อนุญาตการดีบัก Android ในฐานะรูท</string>
+    <!-- Back Gestures -->
+    <string name="smallest_tick_label">ปิด</string>
+    <string name="greatest_tick_label">ครึ่งจอ</string>
+    <string name="gesture_back_deadzone_label">การจำกัดพื้นที่</string>
+    <string name="back_sensitivity_dialog_message_cust">ใช้ seekbar ตัวแรกและตัวที่สองเพื่อกำหนดค่าความไวในการปัดกลับและใช้ seekbar ล่าสุดตั้งพื้นที่จำกัดด้านบนของหน้าจอที่ไม่สามารถใช้การปัดได้ เพื่อหลีกเลี่ยงความขัดแย้งกับท่าทางสัมผัสในแอป</string>
+    <!-- Battery health -->
+    <string name="battery_health_title">Battery health</string>
+    <!-- Battery light -->
+    <string name="battery_light_settings">Battery charging light</string>
+    <string name="battery_light_summary">Battery light behaviour while on DND, low battery</string>
+    <string name="battery_light_enable">Enable battery light</string>
+    <string name="battery_full_light_enabled">Battery light when full charged</string>
+    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
+    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Statusbar battery indicator</string>
+    <string name="battery_percent_summary">Configure icon and text styles for the statusbar battery indicator</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
+    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <!-- Battery Temperature -->
+    <string name="battery_temp">Battery temperature</string>
+    <!-- Black theme for dark mode -->
+    <string name="berry_black_theme_title">Pure black</string>
+    <string name="berry_black_theme_summary">Pure black background for dark theme</string>
+    <!-- Brightness slider -->
+    <string name="qs_show_brightness_title">แถบเลื่อนความสว่าง</string>
+    <string name="qs_show_brightness_summary">ตำแหน่งของแถบเลื่อนความสว่างและการตั้งค่า</string>
+    <string name="qs_brightness_position_bottom_title">แถบเลื่อนความสว่างด้านล่าง</string>
+    <string name="qs_brightness_position_bottom_summary">แสดงแถบเลื่อนความสว่างที่ด้านล่างของแถบการตั้งค่าด่วน</string>
+    <string name="qs_show_auto_brightness_title">ไอคอนความสว่างอัตโนมัติ</string>
+    <string name="qs_show_auto_brightness_summary">แสดงการสลับความสว่างอัตโนมัติใกล้กับแถบเลื่อนความสว่าง</string>
+    <!-- Charging vibration -->
+    <string name="charging_sounds_nos_title">Charging sound</string>
+    <string name="charging_vibro_title">Charging vibration</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
+    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Never</string>
+    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
+    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
+    <string name="bluetooth_timeout_summary_1min">1 minute</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
+    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
+    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
+    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
+    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <!-- Customization category -->
+    <string name="customization_category_title">การปรับแต่ง</string>
+    <string name="clocksettings_category_title">Clock Customizations</string>
+    <string name="display_customization_title">ปรับแต่งหน้าจอ</string>
+    <string name="display_customization_summary">ปรับแถบสถานะและการตั้งค่าด่วน</string>
+    <string name="lockscreen_tweaks_category_title">ปรับแต่งหน้าจอล็อก</string>
+    <string name="quicksettings_category_title">ปรับแต่งการตั้งค่าด่วน</string>
+    <string name="statusbar_category_title">ปรับแต่งแถบสถานะ</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">หมุนเวียนผ่านโหมดต่างๆ</string>
+    <string name="prevent_ringing_option_cycle_summary">เปิด (หมุนเวียนผ่านโหมดต่างๆ)</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduces eye strain in low light conditions by minimizing screen flicker. May result in reduced image quality and poor color production, or higher power consumption.</string>
+    <string name="dc_dimming_main_switch_title">Use DC Dimming</string>
+    <string name="keywords_display_dc_dimming">dc dimming, anti, flicker, eye, strain</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the exclamation sign next to signal bar when data is disabled</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">น้อยกว่า 1 นาที</string>
+    <!-- Separate ring & notification toggle -->
+    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
+    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
+    <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
+    <!-- Smart 5G -->
+    <string name="smart_5g_title">Smart 5G</string>
+    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s วันนี้</string>
+    <!-- Density category -->
+    <string name="density_category">ตัวเลือกความหนาแน่น</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation settings</string>
+    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
+    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+    <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
+    <string name="color_mode_balance_category">บาลานซ์สี</string>
+    <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_red">สีแดง</string>
+    <!-- Display settings screen, green color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_green">สีเขียว</string>
+    <!-- Display settings screen, blue color balance setting slider [CHAR LIMIT=NONE] -->
+    <string name="color_mode_balance_blue">สีน้ำเงิน</string>
+    <string name="keywords_color_balance">สี สมดุลสี การแก้ไขสี สีแดง สีเขียว สีน้ำเงิน ไลฟ์ดิสเพลย์</string>
+    <!-- Display settings screen, peak refresh rate settings summary [CHAR LIMIT=NONE] -->
+    <string name="peak_refresh_rate_summary_custom">Automatically raises the refresh rate from 60 to %1$d Hz for some content. Increases battery usage.</string>
+    <!-- Double Tap to Sleep Lockscreen -->
+    <string name="double_tap_sleep_lockscreen_title">แตะหน้าจอสองครั้งเพื่อปิดหน้าจอ</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to sleep</string>
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">แตะเพื่อปิดจอ</string>
+    <string name="double_tap_sleep_gesture_summary">แตะ 2 ครั้งที่ใดก็ได้บนแถบสถานะเพื่อปิดหน้าจออุปกรณ์</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">แตะสองครั้ง</string>
+    <string name="doze_double_tap_title">แตะสองครั้งเพื่อตรวจสอบโทรศัพท์</string>
+    <string name="doze_double_tap_summary">ตรวจสอบการแจ้งเตือนด้วยการแตะสองครั้ง</string>
+    <!-- 3-Button navigation settings -->
+    <string name="button_settings_activity_title">3-Button Navigation Settings</string>
+    <string name="navigation_bar_inverse_title">Inverse Layout</string>
+    <string name="navigation_bar_inverse_summary">Swipe positions between back and recents</string>
+    <string name="navbar_layout_title">Layout</string>
+    <string name="navbar_layout_normal">Normal</string>
+    <string name="navbar_layout_compact">Compact</string>
+    <string name="navbar_layout_leftleaning">Left-leaning</string>
+    <string name="navbar_layout_rightleaning">Right-leaning</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">เสียงถ่ายภาพหน้าจอ</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">สถานะ SELinux</string>
+    <string name="selinux_status_disabled">ปิดใช้งาน</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Separate signal icons -->
+    <string name="separate_signal_icons_title">Separate signal icons</string>
+    <string name="separate_signal_icons_summary">Show signal and WiFi separately\nRequires a SystemUI restart</string>
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">ตัวจัดการไอคอน</string>
+    <string name="icon_manager_summary">ปรับแต่งไอคอนบนแถบสถานะ</string>
+    <!-- Statusbar net monitor -->
+    <string name="statusbar_ntraffic">Network</string>
+    <string name="network_traffic_state_title">Network speed</string>
+    <string name="network_traffic_state_summary">Show network speed in the status bar</string>
+    <string name="network_traffic_location_title">Location</string>
+    <string name="network_traffic_statusbar">Statusbar</string>
+    <string name="network_traffic_qs_header">QS header</string>
+    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_dynamic">Dynamic</string>
+    <string name="network_traffic_download">Download</string>
+    <string name="network_traffic_upload">Upload</string>
+    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
+    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Tap to show info</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
+    <plurals name="show_dev_countdown_awaken">
+        <item quantity="other">คุณเหลืออีก <xliff:g id="step_count">%1$d</xliff:g> ขั้นก่อนจะสามารถเปิดใช้งานการตั้งค่าการพัฒนา</item>
+    </plurals>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Confirmation that developer settings are enabled -->
+    <string name="show_dev_on_awaken">คุณเปิดใช้งานการตั้งค่าการพัฒนาแล้ว!</string>
+    <!-- [CHAR LIMIT=NONE] Device Info screen. Okay we get it, stop pressing, you already have it on -->
+    <string name="show_dev_already_awaken">ไม่จำเป็น คุณได้เปิดใช้งานการตั้งค่าการพัฒนาแล้ว</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize headline and body fonts. -->
+    <string name="theme_customization_font_title">Headline / Body font</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the adaptive icon shape (e.g. launcher and quick settings icons). -->
+    <string name="theme_customization_icon_shape_title">Icon shape</string>
+    <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the setting which enables overlays to customize the system wide icon pack. -->
+    <string name="theme_customization_icon_pack_title">Icon pack</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
+    <string name="face_redo_confirm_btn">Redo</string>
+    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
+    <!-- Fullscreen gestures -->
+    <string name="other_controls_title">ส่วนควบคุมอื่นๆ</string>
+    <string name="fullscreen_gestures_title">ท่าทางเต็มหน้าจอ</string>
+    <string name="fullscreen_gestures_summary">ซ่อนแถบนำทางและพื้นที่ว่างข้างล่างคีย์บอร์ด</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="longpress_to_clipboard">Long-press to copy</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">ขนาดแถบนำทาง</string>
+    <string name="short_label">สั้น</string>
+    <string name="long_label">ยาว</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">เปิดใช้งานการรีสตาร์ทขึ้นสูง</string>
+    <string name="global_actions_advanced_reboot_summary">แสดงตัวเลือกสำหรับโหมดกู้คืนและบูตโหลดเดอร์ในเมนูเปิด/ปิดเครื่อง</string>
+    <!-- Haptic feedback -->
+    <string name="back_gesture_haptic_title">สั่นเมื่อแตะ</string>
+    <string name="back_gesture_haptic_summary">เปิดใช้งานการตอบสนองแบบสัมผัสในท่าทางย้อนกลับ</string>
+    <!-- High touch polling rate -->
+    <string name="high_touch_polling_rate_title">High touch polling rate</string>
+    <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">High touch sensitivity</string>
+    <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+    <!-- Horizon Light -->
+    <string name="keywords_pulse_ambient_light_display">notification, notifications, edge, light, colour, color</string>
+    <string name="pulse_ambient_light_text">Edge lighting makes your screen glow when you receive a notification. This makes it easier to figure when you get a pulse while the phone is doze mode.</string>
+    <string name="pulse_ambient_light_title">Edge lighting</string>
+    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="ambient_notification_light_accent_title">System accent color</string>
+    <string name="ambient_notification_light_color_automatic_title">Notification color</string>
+    <string name="pulse_ambient_light_color">When pulsing, use</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotspot</string>
+    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
+    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">The device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when available.</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total available RAM</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">Hide IME button space</string>
+    <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">In-call notifications</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibrations</string>
+    <string name="incall_vibrate_connect_title">สั่นเมื่อเชื่อมต่อ</string>
+    <string name="incall_vibrate_call_wait_title">สั่นเมื่อรอสาย</string>
+    <string name="incall_vibrate_disconnect_title">สั่นเมื่อวางสาย</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">การเพิ่มเสียงเรียกเข้า</string>
+    <string name="increasing_ring_min_volume_title">ระดับเสียงเริ่มต้น</string>
+    <string name="increasing_ring_ramp_up_time_title">ระยะเวลาที่ความดังเพิ่มขึ้น</string>
+    <!-- Ignore window secure -->
+    <string name="ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
+    <!-- Less boring heads up -->
+    <string name="less_boring_heads_up_title">Saner Heads-Up</string>
+    <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
+    <!-- Heads up -->
+    <string name="headsup_category">HeadsUp Settings</string>
+    <string name="heads_up_notifications">การแจ้งเตือนด้านบน</string>
+    <string name="heads_up_notifications_summary">Customise heads up notifications settings</string>
+    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+    <string name="add_heads_up_package">Add app</string>
+    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
+    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
+    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="profile_choose_app">Choose app</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_2sec">2 seconds</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_5sec">5 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Snooze timer</string>
+    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
+    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_1min">1 minute</string>
+    <string name="heads_up_snooze_5min">5 minutes</string>
+    <string name="heads_up_snooze_10min">10 minutes</string>
+    <string name="heads_up_snooze_15min">15 minutes</string>
+    <string name="heads_up_snooze_20min">20 minutes</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
+    <!-- Lockscreen media art -->
+    <string name="lockscreen_media_art_category_title">Media art</string>
+    <string name="keygaurd_media_art_title">Display media cover art</string>
+    <string name="keygaurd_media_art_summary">Show current playing media\'s album art on lockscreen</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
+    <!-- Max refresh rate -->
+    <string name="max_refresh_rate_title">Peak refresh rate</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Locate the fingerprint sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Locate the fingerprint sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Locate the fingerprint sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Locate the fingerprint sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Locate the fingerprint sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Locate the fingerprint sensor on the side of your phone.</string>
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Touch the sensor on the front of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Touch the sensor on the front of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Touch the sensor on the front of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Touch the sensor on the back of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Touch the sensor on the back of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Touch the sensor on the back of your phone.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Touch the sensor on the side of your tablet.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Touch the sensor on the side of your device.</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Touch the sensor on the side of your phone.</string>
+    <!-- Network preferences screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <!-- Network preferences screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
+    <string name="wifi_timeout_summary2">ปิดใช้งาน</string>
+    <string name="wifi_timeout_summary_never">Never</string>
+    <string name="wifi_timeout_summary_15secs">15 seconds</string>
+    <string name="wifi_timeout_summary_30secs">30 seconds</string>
+    <string name="wifi_timeout_summary_1min">1 minute</string>
+    <string name="wifi_timeout_summary_2mins">2 minutes</string>
+    <string name="wifi_timeout_summary_5mins">5 minutes</string>
+    <string name="wifi_timeout_summary_10mins">10 minutes</string>
+    <string name="wifi_timeout_summary_30mins">30 minutes</string>
+    <string name="wifi_timeout_summary_1hour">1 hour</string>
+    <string name="wifi_timeout_summary_2hours">2 hours</string>
+    <string name="wifi_timeout_summary_4hours">4 hours</string>
+    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="search">ค้นหา</string>
+    <string name="search_apps">Search apps</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
+    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">No restriction</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <!-- Old mobile type icons -->
+    <string name="use_old_mobiletype_title">ไอคอนประเภทมือถือขนาดเล็ก</string>
+    <string name="use_old_mobiletype_summary">แสดงไอคอนประเภทมือถือที่ด้านบนของตัวบ่งชี้สัญญาณ</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">ความสว่างอัตโนมัติในครั้งเดียว</string>
+    <string name="auto_brightness_one_shot_summary">การปรับความสว่างจะเกิดขึ้นในขณะที่หน้าจอเปิดอยู่เท่านั้น</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS (phone) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="default">Long press on fingerprint sensor to unlock phone</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (tablet) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="tablet">Long press on fingerprint sensor to unlock tablet</string>
+    <!-- Preference and settings suggestion title text for screen off UDFPS  (device) [CHAR LIMIT=60]-->
+    <string name="ambient_display_screen_off_udfps_title" product="device">Long press on fingerprint sensor to unlock device</string>
+    <!-- Summary text for screen off UDFPS [CHAR LIMIT=NONE]-->
+    <string name="ambient_display_screen_off_udfps_summary">To wake up your screen and unlock, long press your under-display fingerprint sensor.</string>
+    <!-- Per-app volume control -->
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Allow to set different volume levels for each app</string>
+    <!-- Per-channel vibration pattern -->
+    <string name="notification_custom_vibrate_title">Custom vibration pattern</string>
+    <string name="notification_custom_vibrate_summary">Replaces the default pattern only\nApp set pattern takes precedence</string>
+    <string name="notification_custom_vibrate_slider1">Vibrate for</string>
+    <string name="notification_custom_vibrate_slider2">Pause for</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">ป้องกันการปลุกหน้าจอโดยไม่เจตนา</string>
+    <string name="proximity_wake_summary">ตรวจสอบเซ็นเซอร์ proximity ก่อนปลุกหน้าจอ</string>
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrate on touch</string>
+    <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <!-- Quick Settings quick pulldown -->
+    <string name="quick_settings_quick_pull_down_title">Quick QS pulldown</string>
+    <string name="quick_settings_quick_pull_down_summary">Pull down statusbar from right side to expand quick settings</string>
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide on lock screen</string>
+    <string name="power_menu_hide_on_secure_summary">Hide the power menu while on a secure lock screen</string>
+    <!-- Private DNS -->
+    <!-- Alternative: 1dot1dot1dot1.cloudflare-dns.com -->
+    <!-- QS footer data usage -->
+    <string name="qs_show_data_usage_title">Show data usage</string>
+    <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
+    <!-- Radio Info -->
+    <string name="radio_info_title">ข้อมูลวิทยุ</string>
+    <!-- Statusbar clock -->
+    <string name="status_bar_clock_position_title">Clock position</string>
+    <string name="status_bar_clock_position_left">Left</string>
+    <string name="status_bar_clock_position_right">Right</string>
+    <string name="status_bar_clock_position_center">Center</string>
+    <string name="status_bar_am_pm_title">AM/PM style</string>
+    <string name="status_bar_am_pm_disabled">24-hour clock is enabled</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Small</string>
+    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">เปิดไฟฉายด่วน</string>
+    <string name="power_button_torch_summary">กดปุ่มเปิด-ปิดค้างไว้เมื่อปิดหน้าจอเพื่อเปิดใช้ไฟฉาย</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Touchscreen hovering</string>
+    <string name="touchscreen_hovering_summary">Allows you to hover the screen like a mouse in web browsers, remote desktops, etc</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="notification_vibration_pattern_title">Notification vibration pattern</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Custom</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
+    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Playback control</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <!-- Warning message for the sd card setup -->
+    <string name="storage_warning_internal">Warning: This option may not work properly or lead to data loss and is therefore not recommended!</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">ไม่ได้ระบุใบรับรอง การเชื่อมต่อของคุณจะไม่เป็นส่วนตัว</string>
+    <!-- Location settings screen, setting summary for Assisted GPS switch -->
+    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Show 4G icon</string>
+    <string name="show_fourg_icon_summary">แสดงไอคอน 4G ในไอคอนสัญญาณแทนไอคอน LTE</string>
+</resources>
