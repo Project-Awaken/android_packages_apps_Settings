@@ -44,6 +44,21 @@
         <intent android:action="android.intent.action.REVIEW_ACCESSIBILITY_SERVICES"/>
     </Preference>
 
+    <!-- Location indicators -->
+    <SwitchPreference
+        android:key="location_indicator_settings"
+        android:title="@string/location_indicator_settings_title"
+        android:summary="@string/location_indicator_settings_description"
+        android:defaultValue="true"
+        settings:controller="com.android.settings.location.LocationIndicatorsPreferenceController"/>
+
+    <!-- Show passwords -->
+    <SwitchPreference
+        android:key="show_password"
+        android:title="@string/show_password"
+        android:summary="@string/show_password_summary"
+        settings:controller="com.android.settings.security.ShowPasswordPreferenceController"/>
+
     <!-- On lock screen notifications -->
     <com.android.settings.RestrictedListPreference
         android:key="privacy_lock_screen_notifications"
@@ -58,6 +73,13 @@
         android:summary="@string/media_controls_lockscreen_description"
         settings:controller=
             "com.android.settings.sound.MediaControlsLockScreenPreferenceController" />
+
+    <!-- Ignore secure window feature  -->
+    <com.awaken.support.preferences.SecureSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false"/>
 
     <!-- Privacy Service -->
     <PreferenceCategory
