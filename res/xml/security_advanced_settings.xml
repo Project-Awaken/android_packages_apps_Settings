@@ -68,6 +68,13 @@
     </PreferenceCategory>
 
     <Preference
+        android:order="230"
+        android:key="screen_lock_settings"
+        android:title="@string/screen_lock_settings_title"
+        android:summary="@string/screen_lock_settings_summary"
+        android:fragment="com.android.settings.security.screenlock.ScreenLockSettings" />
+
+    <Preference
         android:order="250"
         android:key="sim_lock_settings"
         android:title="@string/sim_lock_settings_category"
