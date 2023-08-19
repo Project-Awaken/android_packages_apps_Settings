@@ -157,15 +157,18 @@
     <string name="data_disabled_icon_summary">Εμφανίστε το θαυμαστικό δίπλα στη γραμμή σήματος όταν τα δεδομένα είναι απενεργοποιημένα</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Λιγότερο από 1 λεπτό</string>
+    <!-- Screen lock settings -->
+    <string name="screen_lock_settings_title">Screen lock security settings</string>
+    <string name="screen_lock_settings_summary">Customize your screen lock security</string>
     <!-- Separate ring & notification toggle -->
-    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
-    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
+    <string name="volume_separate_notification_title">Διαχωρισμένο Κουδούνισμα και Ειδοποίηση</string>
+    <string name="volume_separate_notification_summary">Επιτρέψτε τον έλεγχο κάθε ροής ξεχωριστά</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Εμφάνιση επικάλυψης πρόχειρου</string>
     <string name="show_clipboard_overlay_summary">Εμφάνιση επικάλυψης στην κάτω αριστερή γωνία της οθόνης όταν κάτι αντιγράφεται στο πρόχειρο</string>
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="smart_5g_title">Έξυπνο 5G</string>
+    <string name="smart_5g_summary">Αυτόματη εναλλαγή μεταξύ 5G και 4G για μείωση της κατανάλωσης μπαταρίας</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s σήμερα</string>
     <!-- Density category -->
@@ -193,7 +196,7 @@
     <string name="peak_refresh_rate_summary_custom">Αυξάνει αυτόματα τον ρυθμό ανανέωσης από 60 σε %1$d Hz για κάποιο περιεχόμενο. Αυξάνει τη χρήση της μπαταρίας.</string>
     <!-- Double Tap to Sleep Lockscreen -->
     <string name="double_tap_sleep_lockscreen_title">Διπλό πάτημα για αναστολή</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Πατήστε δύο φορές οπουδήποτε στην οθόνη κλειδώματος για αναστολή</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Πατήστε για ύπνο</string>
     <string name="double_tap_sleep_gesture_summary">Πατήστε δύο φορές οπουδήποτε στη γραμμή κατάστασης για να θέσετε τη συσκευή σε κατάσταση αναστολής λειτουργίας</string>
@@ -515,7 +518,7 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Δεν έχει καθοριστεί πιστοποιητικό. Η σύνδεσή σας δεν θα είναι ιδιωτική.</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Κατεβάστε δεδομένα δορυφορικής βοήθειας από το Διαδίκτυο, τα οποία μπορούν να βελτιώσουν σημαντικά την απόδοση εκκίνησης του GPS. Για κλήσεις έκτακτης ανάγκης, επιτρέπεται πάντα το υποβοηθούμενο GPS.</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Εμφάνιση εικονιδίου 4G</string>
     <string name="show_fourg_icon_summary">Εμφάνιση εικονιδίου 4G στο εικονίδιο σήματος αντί LTE</string>

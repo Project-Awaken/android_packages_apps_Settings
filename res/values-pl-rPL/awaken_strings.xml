@@ -155,15 +155,18 @@
     <string name="data_disabled_icon_summary">Wyświetl znak krzyża na ikonie sygnału, gdy dane mobilne są wyłączone</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Poniżej 1 minuty</string>
+    <!-- Screen lock settings -->
+    <string name="screen_lock_settings_title">Screen lock security settings</string>
+    <string name="screen_lock_settings_summary">Customize your screen lock security</string>
     <!-- Separate ring & notification toggle -->
-    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
-    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
+    <string name="volume_separate_notification_title">Oddzielnie dzwonek telefonu i powiadomienia</string>
+    <string name="volume_separate_notification_summary">Pozwól kontrolować każdy strumień oddzielnie</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Pokaż nakładkę schowka</string>
     <string name="show_clipboard_overlay_summary">Pokaż nakładkę w lewym dolnym rogu ekranu, kiedy zawartość zostanie skopiowana do schowka</string>
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="smart_5g_title">Inteligentne 5G</string>
+    <string name="smart_5g_summary">Automatycznie przełącza między 5G i 4G, aby zredukować zużycie baterii</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s dzisiaj</string>
     <!-- Density category -->
@@ -191,7 +194,7 @@
     <string name="peak_refresh_rate_summary_custom">W przypadku niektórych treści automatycznie podwyższa częstotliwość odświeżania z 60 na %1$d Hz. Zwiększa zużycie baterii.</string>
     <!-- Double Tap to Sleep Lockscreen -->
     <string name="double_tap_sleep_lockscreen_title">Dwuktrotne stuknięcie, aby uśpić urządzenie</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Dwukrotnie dotknij na ekranie blokady, aby uśpić urządzenie</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Dwukrotne stuknięcie, aby uśpić urządzenie</string>
     <string name="double_tap_sleep_gesture_summary">Dwukrotnie stuknij pasek stanu, aby uśpić urządzenie</string>
@@ -515,7 +518,7 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Nie określono certyfikatu. Twoje połączenie nie będzie prywatne.</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Pobierz dane pomocy satelitarnej z Internetu, co może znacznie poprawić wydajność uruchamiania GPS. W przypadku połączeń alarmowych wspomagany GPS jest zawsze dozwolony.</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Pokaż ikonę 4G zamiast LTE</string>
     <string name="show_fourg_icon_summary">Wyświetl ikonę 4G zamiast ikony LTE</string>

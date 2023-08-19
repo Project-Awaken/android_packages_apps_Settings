@@ -156,6 +156,9 @@
     <string name="data_disabled_icon_summary">Mostrar el signo de exclamación junto a la barra de señal cuando los datos móviles estén desactivados</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Menos de 1 minuto</string>
+    <!-- Screen lock settings -->
+    <string name="screen_lock_settings_title">Screen lock security settings</string>
+    <string name="screen_lock_settings_summary">Customize your screen lock security</string>
     <!-- Separate ring & notification toggle -->
     <string name="volume_separate_notification_title">Separated Ring and Notification</string>
     <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>

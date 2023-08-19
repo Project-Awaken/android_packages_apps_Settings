@@ -157,15 +157,18 @@
     <string name="data_disabled_icon_summary">Показывать восклицательный знак у значка сети, когда передача данных отключена</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Менее минуты</string>
+    <!-- Screen lock settings -->
+    <string name="screen_lock_settings_title">Screen lock security settings</string>
+    <string name="screen_lock_settings_summary">Customize your screen lock security</string>
     <!-- Separate ring & notification toggle -->
-    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
-    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
+    <string name="volume_separate_notification_title">Раздельно Звонок и Уведомление</string>
+    <string name="volume_separate_notification_summary">Разрешить управление каждым потоком по отдельности</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Показать наложение буфера обмена</string>
     <string name="show_clipboard_overlay_summary">Показывать содержимое буфера обмена в левом нижнем углу экрана, когда что-то копируется в буфер</string>
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="smart_5g_title">Умный 5G</string>
+    <string name="smart_5g_summary">Автоматическое переключение между 5G и 4G для снижения расхода батареи</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s сегодня</string>
     <!-- Density category -->
@@ -193,7 +196,7 @@
     <string name="peak_refresh_rate_summary_custom">Автоматически увеличивать частоту обновления экрана с 60 до %1$d Гц для некоторых типов контента. Это увеличит разряд батареи.</string>
     <!-- Double Tap to Sleep Lockscreen -->
     <string name="double_tap_sleep_lockscreen_title">Двойное нажатие для сна</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Дважды нажмите в любом месте экрана блокировки, чтобы перейти в спящий режим</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Коснитесь для сна</string>
     <string name="double_tap_sleep_gesture_summary">Дважды коснитесь строки состояния, чтобы заблокировать устройство</string>
@@ -517,7 +520,7 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Ваше соединение не будет защищено.</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">Загружать вспомогательные данные спутников из Интернета, которые могут значительно повысить скорость подключения к GPS при запуске. Для экстренных вызовов использование вспомогательных данных GPS всегда разрешено.</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Отображать значок 4G</string>
     <string name="show_fourg_icon_summary">Показывать иконку 4G вместо LTE</string>

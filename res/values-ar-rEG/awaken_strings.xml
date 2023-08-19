@@ -154,6 +154,9 @@
     <string name="data_disabled_icon_summary">عرض إشارة ضرب بجانب أيقونة الإشارة عندما تكون البيانات معطلة</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">أقل من دقيقة</string>
+    <!-- Screen lock settings -->
+    <string name="screen_lock_settings_title">Screen lock security settings</string>
+    <string name="screen_lock_settings_summary">Customize your screen lock security</string>
     <!-- Separate ring & notification toggle -->
     <string name="volume_separate_notification_title">فصل صوت الرنين والاشعارات</string>
     <string name="volume_separate_notification_summary">السماح بالتحكم بكل منفذ فرادى</string>
