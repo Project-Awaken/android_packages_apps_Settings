@@ -156,8 +156,8 @@
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Poniżej 1 minuty</string>
     <!-- Screen lock settings -->
-    <string name="screen_lock_settings_title">Screen lock security settings</string>
-    <string name="screen_lock_settings_summary">Customize your screen lock security</string>
+    <string name="screen_lock_settings_title">Ustawienia zabezpieczeń blokady ekranu</string>
+    <string name="screen_lock_settings_summary">Dostosuj zabezpieczenia blokady ekranu</string>
     <!-- Separate ring & notification toggle -->
     <string name="volume_separate_notification_title">Oddzielnie dzwonek telefonu i powiadomienia</string>
     <string name="volume_separate_notification_summary">Pozwól kontrolować każdy strumień oddzielnie</string>

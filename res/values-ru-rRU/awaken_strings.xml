@@ -158,8 +158,8 @@
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Менее минуты</string>
     <!-- Screen lock settings -->
-    <string name="screen_lock_settings_title">Screen lock security settings</string>
-    <string name="screen_lock_settings_summary">Customize your screen lock security</string>
+    <string name="screen_lock_settings_title">Настройки безопасности блокировки экрана</string>
+    <string name="screen_lock_settings_summary">Настройка безопасности блокировки экрана</string>
     <!-- Separate ring & notification toggle -->
     <string name="volume_separate_notification_title">Раздельно Звонок и Уведомление</string>
     <string name="volume_separate_notification_summary">Разрешить управление каждым потоком по отдельности</string>

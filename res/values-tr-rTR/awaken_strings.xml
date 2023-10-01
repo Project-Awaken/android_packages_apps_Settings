@@ -156,17 +156,17 @@
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">1 dakikadan az</string>
     <!-- Screen lock settings -->
-    <string name="screen_lock_settings_title">Screen lock security settings</string>
-    <string name="screen_lock_settings_summary">Customize your screen lock security</string>
+    <string name="screen_lock_settings_title">Ekran kilidi güvenlik ayarları</string>
+    <string name="screen_lock_settings_summary">Ekran kilidi güvenliğinizi özelleştirin</string>
     <!-- Separate ring & notification toggle -->
-    <string name="volume_separate_notification_title">Separated Ring and Notification</string>
-    <string name="volume_separate_notification_summary">Allow controlling each stream individually</string>
+    <string name="volume_separate_notification_title">Ayrılmış Zil ve Bildirim sesi</string>
+    <string name="volume_separate_notification_summary">Her akışı ayrı ayrı kontrol etmeye izin ver</string>
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Pano yer paylaşımını göster</string>
     <string name="show_clipboard_overlay_summary">Panoya bir şey kopyalandığında ekranın sol alt köşesinde bir kaplama göster</string>
     <!-- Smart 5G -->
-    <string name="smart_5g_title">Smart 5G</string>
-    <string name="smart_5g_summary">Automatically switch between 5G and 4G to reduce battery consumption</string>
+    <string name="smart_5g_title">Akıllı 5G</string>
+    <string name="smart_5g_summary">Pil tüketimini azaltmak için 5G ve 4G arasında otomatik olarak geçiş yapın</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">bugün %1$s</string>
     <!-- Density category -->
@@ -194,7 +194,7 @@
     <string name="peak_refresh_rate_summary_custom">Bazı içerikler için yenileme hızını otomatik olarak 60 Hz\'den %1$d Hz\'e yükseltir. Pil kullanımını artırır.</string>
     <!-- Double Tap to Sleep Lockscreen -->
     <string name="double_tap_sleep_lockscreen_title">Çift dokunuşla uyutma</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Uyumak için kilit ekranında herhangi bir yere çift dokunun</string>
     <!-- Double Tap to Sleep Statusbar -->
     <string name="double_tap_sleep_gesture_title">Çift dokunuşla uyutma</string>
     <string name="double_tap_sleep_gesture_summary">Cihazı uyutmak için durum çubuğunun herhangi bir yerine çift dokunun</string>
@@ -516,7 +516,7 @@
     <!-- Warning message displayed if user choses not to validate the EAP server -->
     <string name="wifi_do_not_validate_eap_server_warning">Belirtilen sertifika yok. Bağlantınız özel olmayacak.</string>
     <!-- Location settings screen, setting summary for Assisted GPS switch -->
-    <string name="assisted_gps_summary">Download satellite assistance data from the internet which can greatly improve the GPS startup performance. For emergency calls, assisted GPS is always allowed.</string>
+    <string name="assisted_gps_summary">GPS başlatma performansını büyük ölçüde artırabilecek uydu yardım verilerini internetten indirin. Acil aramalar için destekli GPS\'e her zaman izin verilir.</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G simgesini göster</string>
     <string name="show_fourg_icon_summary">LTE yerine 4G simgesini görüntüle</string>
