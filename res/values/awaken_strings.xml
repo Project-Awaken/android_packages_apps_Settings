@@ -205,6 +205,10 @@
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Less than 1 minute</string>
 
+    <!-- Enforce DNS for VPN -->
+    <string name="vpn_enforce_dns_title">Disable for VPN</string>
+    <string name="vpn_enforce_dns_summary">Disable the private DNS when connected to a VPN\nWill restore upon disconnecting</string>
+
     <!-- Screen lock settings -->
     <string name="screen_lock_settings_title">Screen lock security settings</string>
     <string name="screen_lock_settings_summary">Customize your screen lock security</string>
