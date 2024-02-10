@@ -186,6 +186,16 @@
     <string name="screen_time_summary_usage_today">%1$s วันนี้</string>
     <!-- Density category -->
     <string name="density_category">ตัวเลือกความหนาแน่น</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation settings</string>
+    <string name="display_rotation_enabled">Auto-rotation is enabled</string>
+    <string name="display_rotation_disabled">Auto-rotation is disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
     <!-- Display settings screen, color balance category title [CHAR LIMIT=30] -->
     <string name="color_mode_balance_category">บาลานซ์สี</string>
     <!-- Display settings screen, red color balance setting slider [CHAR LIMIT=NONE] -->
@@ -250,6 +260,12 @@
     <string name="theme_customization_icon_pack_title">Icon pack</string>
     <!-- Face Unlock -->
     <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
+    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_default">When the screen is turned on</string>
+    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
+    <!-- General -->
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="longpress_to_clipboard">Long-press to copy</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">ขนาดแถบนำทาง</string>
     <string name="short_label">สั้น</string>
@@ -260,12 +276,23 @@
     <!-- Haptic feedback -->
     <string name="back_gesture_haptic_title">สั่นเมื่อแตะ</string>
     <string name="back_gesture_haptic_summary">เปิดใช้งานการตอบสนองแบบสัมผัสในท่าทางย้อนกลับ</string>
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Hide developer status</string>
+    <string name="hide_developer_status_summary">Hide developer status from apps</string>
     <!-- High touch polling rate -->
     <string name="high_touch_polling_rate_title">High touch polling rate</string>
     <string name="high_touch_polling_rate_summary">Increase touchscreen polling rate</string>
     <!-- High touch sensitivity -->
     <string name="high_touch_sensitivity_title">High touch sensitivity</string>
     <string name="high_touch_sensitivity_summary">Increase touchscreen sensitivity so it can be used while wearing gloves</string>
+    <!-- Horizon Light -->
+    <string name="keywords_pulse_ambient_light_display">notification, notifications, edge, light, colour, color</string>
+    <string name="pulse_ambient_light_text">Horizon lighting makes your screen glow when you receive a notification. This makes it easier to figure when you get a pulse while the phone is doze mode.</string>
+    <string name="pulse_ambient_light_title">Horizon lighting</string>
+    <string name="pulse_ambient_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="ambient_notification_light_accent_title">System accent color</string>
+    <string name="ambient_notification_light_color_automatic_title">Notification color</string>
+    <string name="pulse_ambient_light_color">When pulsing, use</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
@@ -274,6 +301,9 @@
     <string name="platform_revision">Platform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Total available RAM</string>
+    <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
+    <string name="enable_blurs_on_windows_title">Enable blurs</string>
+    <string name="enable_blurs_on_windows_summary">Enables blur effect in some UI elements</string>
     <!-- In-call notifications -->
     <string name="in_call_notifications_title">In-call notifications</string>
     <!-- Incall vibrate options -->
